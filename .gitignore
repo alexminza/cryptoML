@@ -1,0 +1,14 @@
+# Ignore test folder
+test/
+
+# Ignore binance_data folder
+binance_data/
+
+# Ignore data folder
+data/
+
+# Ignore logs folder
+logs/
+
+# Ignore environment files
+.env
