@@ -5,6 +5,7 @@ from binance.client import Client
 from binance.enums import *
 import ta
 import time
+import math
 from datetime import datetime, timedelta
 import threading
 from dotenv import load_dotenv
@@ -26,22 +27,58 @@ if 'orders_config' not in st.session_state:
 if 'valid_symbols' not in st.session_state:
     st.session_state.valid_symbols = set()
 
+def round_down_step_size(quantity: float, step_size: float) -> float:
+    """Round down quantity to step size precision"""
+    precision = int(round(-math.log(step_size, 10)))
+    return math.floor(quantity * (1 / step_size)) / (1 / step_size)
+
+def round_price_precision(price: float, tick_size: float) -> float:
+    """Round price to tick size precision"""
+    precision = int(round(-math.log(tick_size, 10)))
+    return float(round(price * (1 / tick_size)) / (1 / tick_size))
+
 def initialize_binance():
     api_key = os.getenv('BINANCE_API_KEY')
     api_secret = os.getenv('BINANCE_API_SECRET')
     
-    if api_key and api_secret:
-        client = Client(api_key, api_secret)
-        # Cache valid trading pairs
-        try:
-            exchange_info = client.get_exchange_info()
-            st.session_state.valid_symbols = {s['symbol'] for s in exchange_info['symbols'] if s['status'] == 'TRADING'}
-        except Exception as e:
-            st.error(f"Error fetching exchange info: {str(e)}")
-        return client
-    else:
+    if not api_key or not api_secret:
         st.error("API credentials not found in .env file")
-    return None
+        return None
+        
+    client = Client(api_key, api_secret)
+    
+    # Test API permissions
+    try:
+        # Test account access
+        client.get_account()
+        
+        # Cache valid trading pairs
+        exchange_info = client.get_exchange_info()
+        st.session_state.valid_symbols = {s['symbol'] for s in exchange_info['symbols'] if s['status'] == 'TRADING'}
+        
+        # Test order creation permission with a fake order
+        try:
+            client.create_test_order(
+                symbol='BTCUSDT',
+                side=SIDE_BUY,
+                type=ORDER_TYPE_LIMIT,
+                timeInForce=TIME_IN_FORCE_GTC,
+                quantity=0.001,
+                price='1.0'
+            )
+        except Exception as e:
+            if 'APIError(code=-2015)' in str(e):
+                st.error("⚠️ API Key does not have trading permissions. Please enable Spot & Margin Trading in your Binance API settings.")
+                return None
+            
+        return client
+        
+    except Exception as e:
+        if 'APIError(code=-2015)' in str(e):
+            st.error("⚠️ Invalid API key or insufficient permissions. Please check your API key settings in Binance.")
+        else:
+            st.error(f"Error initializing Binance client: {str(e)}")
+        return None
 
 def is_valid_symbol(symbol):
     return symbol in st.session_state.valid_symbols
@@ -112,21 +149,73 @@ def get_symbol_info(client, symbol):
     try:
         symbol_info = client.get_symbol_info(symbol)
         if symbol_info:
+            filters = {f['filterType']: f for f in symbol_info['filters']}
+            
+            # Get price filter
+            price_filter = filters.get('PRICE_FILTER', {})
+            tick_size = float(price_filter.get('tickSize', 0.00000001))
+            
+            # Get lot size filter
+            lot_filter = filters.get('LOT_SIZE', {})
+            step_size = float(lot_filter.get('stepSize', 0.00000001))
+            
             return {
                 'baseAssetPrecision': symbol_info['baseAssetPrecision'],
                 'quotePrecision': symbol_info['quotePrecision'],
-                'filters': {f['filterType']: f for f in symbol_info['filters']}
+                'filters': filters,
+                'tick_size': tick_size,
+                'step_size': step_size
             }
         return None
     except Exception as e:
         st.error(f"Error getting symbol info for {symbol}: {str(e)}")
         return None
 
+def round_step_size(quantity: float, step_size: float) -> float:
+    """Round quantity to step size precision"""
+    precision = int(round(-math.log(step_size, 10)))
+    return float(round(quantity * (1 / step_size)) / (1 / step_size))
+
+def round_price_precision(price: float, tick_size: float) -> float:
+    """Round price to tick size precision"""
+    precision = int(round(-math.log(tick_size, 10)))
+    return float(round(price * (1 / tick_size)) / (1 / tick_size))
+
+def validate_and_format_order(symbol_info, quantity, price):
+    """Validate and format order quantity and price according to symbol rules"""
+    if not symbol_info:
+        raise ValueError("Symbol info not available")
+        
+    # Round quantity to valid step size
+    formatted_quantity = round_step_size(quantity, symbol_info['step_size'])
+    
+    # Round price to valid tick size
+    formatted_price = round_price_precision(price, symbol_info['tick_size'])
+    
+    # Get price filter
+    price_filter = symbol_info['filters'].get('PRICE_FILTER', {})
+    min_price = float(price_filter.get('minPrice', 0))
+    max_price = float(price_filter.get('maxPrice', float('inf')))
+    
+    # Get lot size filter
+    lot_filter = symbol_info['filters'].get('LOT_SIZE', {})
+    min_qty = float(lot_filter.get('minQty', 0))
+    max_qty = float(lot_filter.get('maxQty', float('inf')))
+    
+    # Validate price
+    if formatted_price < min_price or formatted_price > max_price:
+        raise ValueError(f"Price {formatted_price} is outside allowed range [{min_price}, {max_price}]")
+    
+    # Validate quantity
+    if formatted_quantity < min_qty or formatted_quantity > max_qty:
+        raise ValueError(f"Quantity {formatted_quantity} is outside allowed range [{min_qty}, {max_qty}]")
+        
+    return formatted_quantity, formatted_price
+
 def monitor_positions(client):
     while not st.session_state.stop_monitoring:
         try:
             positions = get_positions(client)
-            open_orders = get_open_orders(client)
             
             for position in positions:
                 symbol = position['symbol']
@@ -134,26 +223,28 @@ def monitor_positions(client):
                     continue
                     
                 config = st.session_state.orders_config.get(symbol, {})
-                
-                if config.get('stop_loss_price'):
+                if config and config.get('order_type') == 'TAKE_PROFIT':
                     current_price = position['current_price']
-                    stop_loss_price = config['stop_loss_price']
+                    stop_loss_price = config.get('stop_loss_price')
                     
                     if current_price <= stop_loss_price:
                         try:
-                            # First cancel existing sell limit order
-                            if config.get('sell_order_id'):
-                                client.cancel_order(
-                                    symbol=symbol,
-                                    orderId=config['sell_order_id']
-                                )
+                            # First cancel the take profit order
+                            client.cancel_order(
+                                symbol=symbol,
+                                orderId=config['sell_order_id']
+                            )
                             
-                            # Then execute market sell for stop loss
-                            quantity = config.get('position_quantity', position['free'])
+                            # Get latest symbol info for precision
                             symbol_info = get_symbol_info(client, symbol)
                             if symbol_info:
-                                quantity = round(float(quantity), symbol_info['baseAssetPrecision'])
+                                quantity, _ = validate_and_format_order(
+                                    symbol_info,
+                                    position['free'],
+                                    current_price  # Price not used for market order
+                                )
                                 
+                                # Execute market sell for stop loss
                                 if quantity > 0:
                                     client.create_order(
                                         symbol=symbol,
@@ -161,34 +252,11 @@ def monitor_positions(client):
                                         type=ORDER_TYPE_MARKET,
                                         quantity=quantity
                                     )
-                                    # Clear the configuration after stop loss
                                     st.session_state.orders_config.pop(symbol, None)
                                     st.error(f"Stop loss triggered for {symbol} at {current_price}")
+                                    
                         except Exception as e:
                             st.error(f"Error executing stop loss for {symbol}: {str(e)}")
-            
-            # Check for completed buy orders and place sell orders
-            for order in open_orders:
-                if order['side'] == 'BUY' and order['executed'] > 0:
-                    config = st.session_state.orders_config.get(order['symbol'], {})
-                    if config.get('sell_price') and not config.get('sell_order_placed'):
-                        try:
-                            symbol_info = get_symbol_info(client, order['symbol'])
-                            if symbol_info:
-                                quantity = round(order['executed'], symbol_info['baseAssetPrecision'])
-                                
-                                if quantity > 0:
-                                    client.create_order(
-                                        symbol=order['symbol'],
-                                        side=SIDE_SELL,
-                                        type=ORDER_TYPE_LIMIT,
-                                        timeInForce=TIME_IN_FORCE_GTC,
-                                        quantity=quantity,
-                                        price=str(config['sell_price'])
-                                    )
-                                    st.session_state.orders_config[order['symbol']]['sell_order_placed'] = True
-                        except Exception as e:
-                            st.error(f"Error placing sell order for {order['symbol']}: {str(e)}")
             
         except Exception as e:
             st.error(f"Error in monitor thread: {str(e)}")
@@ -266,28 +334,52 @@ def main():
                                     # Get symbol info for precision
                                     symbol_info = get_symbol_info(client, position['symbol'])
                                     if symbol_info:
-                                        quantity = round(position['free'], symbol_info['baseAssetPrecision'])
+                                        # Round down the available quantity according to LOT_SIZE
+                                        available_quantity = float(position['free'])
+                                        quantity = round_down_step_size(available_quantity, symbol_info['step_size'])
                                         
-                                        # Place sell limit order immediately
+                                        if quantity <= 0:
+                                            st.error(f"Order quantity too small for {position['symbol']}")
+                                            return
+
+                                        # Format the price according to rules
+                                        formatted_price = round_price_precision(sell_price, symbol_info['tick_size'])
+                                            
+                                        # Log the order details for debugging
+                                        st.info(f"Attempting to place order: Quantity={quantity} (Original: {available_quantity}), Price={formatted_price}")
+                                        
+                                        # Place only the take profit limit order
                                         sell_order = client.create_order(
                                             symbol=position['symbol'],
                                             side=SIDE_SELL,
                                             type=ORDER_TYPE_LIMIT,
                                             timeInForce=TIME_IN_FORCE_GTC,
                                             quantity=quantity,
-                                            price=str(sell_price)
+                                            price=str(formatted_price)
                                         )
                                         
+                                        # Calculate stop loss price (but don't place order)
                                         stop_loss_price = position['current_price'] * (1 - stop_loss_percent / 100)
+                                        stop_loss_price = round_price_precision(stop_loss_price, symbol_info['tick_size'])
+                                        
                                         st.session_state.orders_config[position['symbol']] = {
-                                            'sell_price': sell_price,
+                                            'sell_price': formatted_price,
                                             'stop_loss_price': stop_loss_price,
                                             'sell_order_id': sell_order['orderId'],
-                                            'position_quantity': quantity
+                                            'position_quantity': quantity,
+                                            'order_type': 'TAKE_PROFIT'  # Track order type
                                         }
-                                        st.success(f"Sell limit order placed for {position['symbol']}")
+                                        st.success(f"Take profit order placed for {position['symbol']} at {formatted_price}")
+                                        st.info(f"Stop loss will trigger at {stop_loss_price} (actively monitoring)")
+                                except ValueError as ve:
+                                    st.error(f"Order validation error: {str(ve)}")
                                 except Exception as e:
                                     st.error(f"Error placing sell order: {str(e)}")
+                                    
+                                    # Show detailed symbol information for debugging
+                                    if symbol_info and symbol_info.get('lot_filter'):
+                                        lot_filter = symbol_info['lot_filter']
+                                        st.error(f"LOT_SIZE filter - Min: {lot_filter['minQty']}, Max: {lot_filter['maxQty']}, Step: {lot_filter['stepSize']}")
                         
                         with col2:
                             # Show current configuration if exists

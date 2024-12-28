@@ -1,162 +1,140 @@
-# Binance Data Collector
+# Neural Network-Powered Trading Agent
 
-A robust, asynchronous Python script for collecting historical cryptocurrency trading data from Binance. This script fetches detailed market data including price history, order book information, and trading metrics for all USDT trading pairs.
+A sophisticated trading agent that uses deep learning to generate short-term trading signals for cryptocurrency markets. The project consists of three main components: data collection, model training, and trading execution.
 
-## Features
+## Project Structure
 
-- Asynchronous data collection using `aiohttp`
-- Intelligent rate limiting to prevent API bans
-- Comprehensive error handling and retry logic
-- Memory-efficient chunked data processing
-- Detailed logging system with rotating file handlers
-- Checkpoint system for resume capability
-- Progress tracking with real-time statistics
-- Automatic cleanup of old files
+```
+├── binance_data_detailed.py  # Data collection and preprocessing
+├── models_components.py      # Model training and signal generation
+├── binance_trading_bot.py    # Trading UI and execution
+└── .env                      # Environment variables for API keys
+```
 
-## Prerequisites
+## Features and Strategy
 
-- Python 3.7+
-- Binance API credentials
+### Feature Engineering
 
-## Required Python Packages
+The model uses a comprehensive set of features designed to capture different aspects of market behavior:
 
+1. **Market Structure Features**
+   - Depth imbalance (bid/ask ratio)
+   - Total liquidity (logarithmic scale)
+   - Order book depth analysis
+
+2. **Market Dynamics**
+   - 15-minute volatility
+   - Volume momentum (normalized against 24h average)
+   - Price returns (clipped to handle outliers)
+
+3. **Price Action Indicators**
+   - VWAP deviation
+   - 15-minute price momentum
+   - Bollinger Band position
+
+4. **Technical Indicators**
+   - RSI (Relative Strength Index)
+   - MACD (Moving Average Convergence Divergence)
+   - Bollinger Bands analysis
+
+### Trading Strategy Triggers
+
+The strategy employs a multi-factor approach for trade signals:
+
+1. **Entry Conditions**
+   - Model confidence > 0.6
+   - Volume momentum > 0.8
+   - RSI < 75 (not overbought)
+   - Price position within Bollinger Bands < 0.85
+
+2. **Risk Management**
+   - Dynamic stop-loss based on volatility
+   - Take-profit targets at 1.5% gain
+   - Position sizing based on account risk parameters
+
+## Components
+
+### 1. Data Collection (binance_data_detailed.py)
+
+A robust data collection system that:
+- Fetches historical and real-time market data from Binance
+- Implements intelligent rate limiting and error handling
+- Processes and stores data efficiently with automated cleanup
+- Features include:
+  - Async processing for improved performance
+  - Atomic file operations for data integrity
+  - Automated memory management
+  - Detailed logging system
+
+### 2. Model Training (models_components.py)
+
+Advanced neural network architecture with:
+- Adaptive model complexity based on asset type
+- Robust feature scaling and preprocessing
+- Enhanced training process with:
+  - Dynamic learning rate scheduling
+  - Early stopping with patience
+  - Class imbalance handling
+  - Cross-validation for stability
+
+### 3. Trading UI (binance_trading_bot.py)
+
+Streamlit-based interface providing:
+- Real-time position monitoring
+- Order management system
+- Risk management tools
+- Performance analytics
+
+## Setup and Installation
+
+1. **Environment Setup**
 ```bash
-pip install python-binance
-pandas
-python-dotenv
-aiohttp
-tqdm
-psutil
+python -m venv venv
+source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+pip install -r requirements.txt
 ```
 
-## Setup
+2. **Configuration**
+Create a `.env` file with your Binance API credentials:
+```
+BINANCE_API_KEY=your_api_key
+BINANCE_API_SECRET=your_api_secret
+```
 
-1. Create a `.env` file in the project root with your Binance API credentials:
-```
-BINANCE_API_KEY=your_api_key_here
-BINANCE_API_SECRET=your_api_secret_here
-```
+## Future Development
 
-2. Create the following directory structure:
-```
-project_root/
-├── data/
-│   ├── symbols/
-│   └── chunks/
-└── logs/
-```
+- Migration to FastAPI for improved scalability
+- Enhanced backtesting capabilities
+- Additional feature engineering
+- Portfolio management optimization
+- Real-time market analysis dashboard
+
+## Note
+
+This project is currently a work in progress. While the core functionality is implemented, some features are under development and optimization is ongoing.
+
+## Requirements
+- Python 3.8+
+- Binance account with API access
+- Required packages listed in requirements.txt
 
 ## Usage
 
-Run the script using:
+1. **Data Collection**
 ```bash
-python script_name.py
+python binance_data_detailed.py
 ```
 
-## Data Collection Process
-
-1. **Initialization**
-   - Sets up logging system
-   - Creates necessary directories
-   - Loads API credentials
-   - Fetches list of USDT trading pairs
-
-2. **For Each Trading Pair**
-   - Collects daily kline data
-   - Fetches 15-minute interval data
-   - Retrieves order book information
-   - Calculates additional metrics
-   - Stores data in chunks for memory efficiency
-
-3. **Data Processing**
-   - Processes data in monthly chunks
-   - Combines daily and 15-minute data
-   - Calculates various trading metrics
-   - Saves data in JSON format
-
-## Output Data Structure
-
-The script generates JSON files with the following structure for each symbol:
-
-```json
-{
-    "date": "YYYY-MM-DD",
-    "pair": "SYMBOL",
-    "high": float,
-    "low": float,
-    "open": float,
-    "close": float,
-    "volume_usdt": float,
-    "trades_count": integer,
-    "prices_15min": [
-        {
-            "timestamp": "YYYY-MM-DD HH:MM",
-            "open": float,
-            "high": float,
-            "low": float,
-            "close": float,
-            "volume": float,
-            "quote_volume": float
-        }
-    ],
-    "liquidity": {
-        "bid_liquidity": float,
-        "ask_liquidity": float,
-        "total_liquidity": float,
-        "spread": float,
-        "spread_percentage": float,
-        "best_bid": float,
-        "best_ask": float,
-        "bid_depth": integer,
-        "ask_depth": integer
-    },
-    "additional_metrics": {
-        "volatility": float,
-        "taker_buy_ratio": float,
-        "average_trade_size": float,
-        "price_change": float,
-        "volume_weighted_average_price": float,
-        "high_low_range": float
-    }
-}
+2. **Model Training**
+```bash
+python models_components.py
 ```
 
-## Error Handling
+3. **Trading Interface**
+```bash
+streamlit run binance_trading_bot.py
+```
 
-- Implements exponential backoff for failed requests
-- Handles rate limiting with smart delays
-- Logs all errors with detailed information
-- Maintains checkpoints for recovery
+## Warning
 
-## Memory Management
-
-- Processes data in chunks to minimize memory usage
-- Implements garbage collection after processing chunks
-- Monitors and logs memory usage
-- Cleans up temporary files automatically
-
-## Logging
-
-The script maintains three types of logs:
-- Detailed debug logs: `logs/crypto_data_YYYYMMDD_HHMMSS.log`
-- Error logs: `logs/errors_YYYYMMDD_HHMMSS.log`
-- Console output for important information
-
-## Performance Considerations
-
-- Uses asynchronous requests for improved throughput
-- Implements rate limiting to prevent API bans
-- Processes data in chunks to manage memory usage
-- Includes automatic cleanup of old files
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-This project is open-source and available under the MIT License.
-
-## Disclaimer
-
-This script is for educational purposes only. Please ensure you comply with Binance's terms of service and API usage guidelines when using this script.
+Trading cryptocurrencies involves significant risk of loss and is not suitable for all investors. This software is for educational purposes only and does not constitute financial advice.
