@@ -12,3 +12,11 @@ logs/
 
 # Ignore environment files
 .env
+
+# Ignore operational files
+crypto*.json
+opportunities*.json
+
+.streamlit/
+
+models/
