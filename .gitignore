@@ -16,7 +16,5 @@ logs/
 # Ignore operational files
 crypto*.json
 opportunities*.json
-
 .streamlit/
-
 models/

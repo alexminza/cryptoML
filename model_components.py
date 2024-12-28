@@ -549,7 +549,7 @@ class MultiPairTrader:
         for symbol in self.symbols:
             # Try both date formats
             file_path = None
-            for date_suffix in ['20241226', '20241227']:
+            for date_suffix in ['20241226', '20241227','20241228']:
                 temp_path = Path(f'./data/symbols/{symbol}_{date_suffix}.json')
                 if temp_path.exists():
                     file_path = temp_path
@@ -781,9 +781,47 @@ def main():
             else:
                 print(f"\n❌ Could not analyze market conditions for {symbol}")
         
-        print(f"\nSummary:")
-        print(f"Total pairs analyzed: {analyzed_pairs}")
-        print(f"Strong signals found: {found_signals}")
+        print(f"\n=== Trading Summary ===")
+        print(f"Total Pairs Analyzed: {analyzed_pairs}")
+        print(f"Strong Signals Found: {found_signals}")
+        
+        if found_signals > 0:
+            print("\n=== Tradable Pairs Details ===")
+            for symbol in trader.symbols:
+                individual_signal = individual_signals.get(symbol, {})
+                if not individual_signal:
+                    continue
+                
+                individual_confidence = individual_signal.get('prediction', 0)
+                
+                if individual_confidence > 0.6:
+                    market_conditions = individual_signal.get('market_conditions', {})
+                    
+                    print(f"\n{symbol} - Trading Opportunity")
+                    print("-" * 40)
+                    print(f"🔍 Market Conditions:")
+                    conditions_met = 0
+                    total_conditions = 0
+                    for condition, details in market_conditions.items():
+                        total_conditions += 1
+                        status = "✅" if details.get('met', False) else "❌"
+                        conditions_met += details.get('met', False)
+                        print(f"   {condition.replace('_', ' ').title()}: {status}")
+                        print(f"     Value: {details.get('value', 'N/A'):.4f}")
+                        print(f"     Threshold: {details.get('threshold', 'N/A')}")
+                        print(f"     Description: {details.get('description', 'N/A')}")
+                    
+                    print(f"\n📊 Trading Performance:")
+                    print(f"   Conditions Met: {conditions_met}/{total_conditions}")
+                    
+                    print(f"\n💹 Trading Parameters:")
+                    print(f"   Current Price: ${individual_signal['current_price']:.2f}")
+                    print(f"   Entry Price (Limit): ${individual_signal['entry_price']:.2f}")
+                    print(f"   Target Exit Price: ${individual_signal['target_price']:.2f}")
+                    print(f"   Stop Loss Price: ${individual_signal['stop_price']:.2f}")
+                    
+                    print(f"\n🧠 Model Insights:")
+                    print(f"   Market Entry Signal: {'Positive' if individual_confidence > 0.6 else 'Negative'}")
     
     except Exception as e:
         print(f"\n❌ Error during market analysis: {str(e)}")
