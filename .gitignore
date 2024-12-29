@@ -1,5 +1,6 @@
 # Ignore test folder
 test/
+backups/
 
 # Ignore binance_data folder
 binance_data/
@@ -17,4 +18,3 @@ logs/
 crypto*.json
 opportunities*.json
 .streamlit/
-models/

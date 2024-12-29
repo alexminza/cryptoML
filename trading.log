@@ -1,0 +1,1926 @@
+2024-12-29 15:26:44,160 - INFO - Initializing traders...
+2024-12-29 15:26:44,194 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RVNUSDT_model.pth
+2024-12-29 15:26:44,194 - INFO - ✅ Successfully initialized RVNUSDT trader
+2024-12-29 15:26:44,198 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALGOUSDT_model.pth
+2024-12-29 15:26:44,198 - INFO - ✅ Successfully initialized ALGOUSDT trader
+2024-12-29 15:26:44,201 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STXUSDT_model.pth
+2024-12-29 15:26:44,201 - INFO - ✅ Successfully initialized STXUSDT trader
+2024-12-29 15:26:44,204 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SXPUSDT_model.pth
+2024-12-29 15:26:44,204 - INFO - ✅ Successfully initialized SXPUSDT trader
+2024-12-29 15:26:44,208 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ROSEUSDT_model.pth
+2024-12-29 15:26:44,208 - INFO - ✅ Successfully initialized ROSEUSDT trader
+2024-12-29 15:26:44,211 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOTUSDT_model.pth
+2024-12-29 15:26:44,211 - INFO - ✅ Successfully initialized DOTUSDT trader
+2024-12-29 15:26:44,214 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XTZUSDT_model.pth
+2024-12-29 15:26:44,214 - INFO - ✅ Successfully initialized XTZUSDT trader
+2024-12-29 15:26:44,217 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OGNUSDT_model.pth
+2024-12-29 15:26:44,217 - INFO - ✅ Successfully initialized OGNUSDT trader
+2024-12-29 15:26:44,220 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ADAUSDT_model.pth
+2024-12-29 15:26:44,220 - INFO - ✅ Successfully initialized ADAUSDT trader
+2024-12-29 15:26:44,223 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUNUSDT_model.pth
+2024-12-29 15:26:44,223 - INFO - ✅ Successfully initialized SUNUSDT trader
+2024-12-29 15:26:44,226 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FUNUSDT_model.pth
+2024-12-29 15:26:44,226 - INFO - ✅ Successfully initialized FUNUSDT trader
+2024-12-29 15:26:44,229 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KMDUSDT_model.pth
+2024-12-29 15:26:44,229 - INFO - ✅ Successfully initialized KMDUSDT trader
+2024-12-29 15:26:44,231 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MBLUSDT_model.pth
+2024-12-29 15:26:44,231 - INFO - ✅ Successfully initialized MBLUSDT trader
+2024-12-29 15:26:44,234 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/JSTUSDT_model.pth
+2024-12-29 15:26:44,234 - INFO - ✅ Successfully initialized JSTUSDT trader
+2024-12-29 15:26:44,234 - WARNING - No trained model found for DODOUSDT
+2024-12-29 15:26:44,236 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONEUSDT_model.pth
+2024-12-29 15:26:44,236 - INFO - ✅ Successfully initialized ONEUSDT trader
+2024-12-29 15:26:44,239 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DASHUSDT_model.pth
+2024-12-29 15:26:44,239 - INFO - ✅ Successfully initialized DASHUSDT trader
+2024-12-29 15:26:44,241 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MDTUSDT_model.pth
+2024-12-29 15:26:44,241 - INFO - ✅ Successfully initialized MDTUSDT trader
+2024-12-29 15:26:44,241 - WARNING - No trained model found for OGUSDT
+2024-12-29 15:26:44,244 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FILUSDT_model.pth
+2024-12-29 15:26:44,244 - INFO - ✅ Successfully initialized FILUSDT trader
+2024-12-29 15:26:44,246 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XVSUSDT_model.pth
+2024-12-29 15:26:44,246 - INFO - ✅ Successfully initialized XVSUSDT trader
+2024-12-29 15:26:44,248 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WANUSDT_model.pth
+2024-12-29 15:26:44,249 - INFO - ✅ Successfully initialized WANUSDT trader
+2024-12-29 15:26:44,249 - WARNING - No trained model found for ASRUSDT
+2024-12-29 15:26:44,249 - WARNING - No trained model found for JUVUSDT
+2024-12-29 15:26:44,251 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/THETAUSDT_model.pth
+2024-12-29 15:26:44,251 - INFO - ✅ Successfully initialized THETAUSDT trader
+2024-12-29 15:26:44,251 - WARNING - No trained model found for LITUSDT
+2024-12-29 15:26:44,253 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEOUSDT_model.pth
+2024-12-29 15:26:44,253 - INFO - ✅ Successfully initialized NEOUSDT trader
+2024-12-29 15:26:44,255 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HIVEUSDT_model.pth
+2024-12-29 15:26:44,255 - INFO - ✅ Successfully initialized HIVEUSDT trader
+2024-12-29 15:26:44,258 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARDRUSDT_model.pth
+2024-12-29 15:26:44,258 - INFO - ✅ Successfully initialized ARDRUSDT trader
+2024-12-29 15:26:44,261 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHZUSDT_model.pth
+2024-12-29 15:26:44,261 - INFO - ✅ Successfully initialized CHZUSDT trader
+2024-12-29 15:26:44,263 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XRPUSDT_model.pth
+2024-12-29 15:26:44,263 - INFO - ✅ Successfully initialized XRPUSDT trader
+2024-12-29 15:26:44,265 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LRCUSDT_model.pth
+2024-12-29 15:26:44,265 - INFO - ✅ Successfully initialized LRCUSDT trader
+2024-12-29 15:26:44,268 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LSKUSDT_model.pth
+2024-12-29 15:26:44,268 - INFO - ✅ Successfully initialized LSKUSDT trader
+2024-12-29 15:26:44,270 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SNXUSDT_model.pth
+2024-12-29 15:26:44,270 - INFO - ✅ Successfully initialized SNXUSDT trader
+2024-12-29 15:26:44,272 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RSRUSDT_model.pth
+2024-12-29 15:26:44,272 - INFO - ✅ Successfully initialized RSRUSDT trader
+2024-12-29 15:26:44,275 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZECUSDT_model.pth
+2024-12-29 15:26:44,275 - INFO - ✅ Successfully initialized ZECUSDT trader
+2024-12-29 15:26:44,277 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COMPUSDT_model.pth
+2024-12-29 15:26:44,277 - INFO - ✅ Successfully initialized COMPUSDT trader
+2024-12-29 15:26:44,279 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BATUSDT_model.pth
+2024-12-29 15:26:44,279 - INFO - ✅ Successfully initialized BATUSDT trader
+2024-12-29 15:26:44,281 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EURUSDT_model.pth
+2024-12-29 15:26:44,281 - INFO - ✅ Successfully initialized EURUSDT trader
+2024-12-29 15:26:44,283 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OXTUSDT_model.pth
+2024-12-29 15:26:44,283 - INFO - ✅ Successfully initialized OXTUSDT trader
+2024-12-29 15:26:44,286 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRBUSDT_model.pth
+2024-12-29 15:26:44,286 - INFO - ✅ Successfully initialized TRBUSDT trader
+2024-12-29 15:26:44,288 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KSMUSDT_model.pth
+2024-12-29 15:26:44,288 - INFO - ✅ Successfully initialized KSMUSDT trader
+2024-12-29 15:26:44,290 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALPHAUSDT_model.pth
+2024-12-29 15:26:44,290 - INFO - ✅ Successfully initialized ALPHAUSDT trader
+2024-12-29 15:26:44,293 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETHUSDT_model.pth
+2024-12-29 15:26:44,293 - INFO - ✅ Successfully initialized ETHUSDT trader
+2024-12-29 15:26:44,293 - WARNING - No trained model found for 1INCHUSDT
+2024-12-29 15:26:44,293 - WARNING - No trained model found for CKBUSDT
+2024-12-29 15:26:44,295 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ATOMUSDT_model.pth
+2024-12-29 15:26:44,295 - INFO - ✅ Successfully initialized ATOMUSDT trader
+2024-12-29 15:26:44,298 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VETUSDT_model.pth
+2024-12-29 15:26:44,298 - INFO - ✅ Successfully initialized VETUSDT trader
+2024-12-29 15:26:44,303 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DUSKUSDT_model.pth
+2024-12-29 15:26:44,303 - INFO - ✅ Successfully initialized DUSKUSDT trader
+2024-12-29 15:26:44,306 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FETUSDT_model.pth
+2024-12-29 15:26:44,306 - INFO - ✅ Successfully initialized FETUSDT trader
+2024-12-29 15:26:44,308 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONGUSDT_model.pth
+2024-12-29 15:26:44,308 - INFO - ✅ Successfully initialized ONGUSDT trader
+2024-12-29 15:26:44,310 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTXCUSDT_model.pth
+2024-12-29 15:26:44,310 - INFO - ✅ Successfully initialized CTXCUSDT trader
+2024-12-29 15:26:44,312 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SCUSDT_model.pth
+2024-12-29 15:26:44,312 - INFO - ✅ Successfully initialized SCUSDT trader
+2024-12-29 15:26:44,315 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COSUSDT_model.pth
+2024-12-29 15:26:44,315 - INFO - ✅ Successfully initialized COSUSDT trader
+2024-12-29 15:26:44,317 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COTIUSDT_model.pth
+2024-12-29 15:26:44,317 - INFO - ✅ Successfully initialized COTIUSDT trader
+2024-12-29 15:26:44,320 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VTHOUSDT_model.pth
+2024-12-29 15:26:44,320 - INFO - ✅ Successfully initialized VTHOUSDT trader
+2024-12-29 15:26:44,371 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UMAUSDT_model.pth
+2024-12-29 15:26:44,372 - INFO - ✅ Successfully initialized UMAUSDT trader
+2024-12-29 15:26:44,372 - WARNING - No trained model found for FIROUSDT
+2024-12-29 15:26:44,374 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEARUSDT_model.pth
+2024-12-29 15:26:44,374 - INFO - ✅ Successfully initialized NEARUSDT trader
+2024-12-29 15:26:44,376 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINUSDT_model.pth
+2024-12-29 15:26:44,376 - INFO - ✅ Successfully initialized WINUSDT trader
+2024-12-29 15:26:44,379 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FLMUSDT_model.pth
+2024-12-29 15:26:44,379 - INFO - ✅ Successfully initialized FLMUSDT trader
+2024-12-29 15:26:44,381 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DATAUSDT_model.pth
+2024-12-29 15:26:44,381 - INFO - ✅ Successfully initialized DATAUSDT trader
+2024-12-29 15:26:44,383 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AXSUSDT_model.pth
+2024-12-29 15:26:44,383 - INFO - ✅ Successfully initialized AXSUSDT trader
+2024-12-29 15:26:44,386 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONTUSDT_model.pth
+2024-12-29 15:26:44,386 - INFO - ✅ Successfully initialized ONTUSDT trader
+2024-12-29 15:26:44,388 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SOLUSDT_model.pth
+2024-12-29 15:26:44,388 - INFO - ✅ Successfully initialized SOLUSDT trader
+2024-12-29 15:26:44,388 - WARNING - No trained model found for TUSDUSDT
+2024-12-29 15:26:44,390 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KNCUSDT_model.pth
+2024-12-29 15:26:44,390 - INFO - ✅ Successfully initialized KNCUSDT trader
+2024-12-29 15:26:44,394 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTAUSDT_model.pth
+2024-12-29 15:26:44,394 - INFO - ✅ Successfully initialized IOTAUSDT trader
+2024-12-29 15:26:44,397 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BALUSDT_model.pth
+2024-12-29 15:26:44,397 - INFO - ✅ Successfully initialized BALUSDT trader
+2024-12-29 15:26:44,397 - WARNING - No trained model found for USDCUSDT
+2024-12-29 15:26:44,401 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FIOUSDT_model.pth
+2024-12-29 15:26:44,401 - INFO - ✅ Successfully initialized FIOUSDT trader
+2024-12-29 15:26:44,403 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOGEUSDT_model.pth
+2024-12-29 15:26:44,403 - INFO - ✅ Successfully initialized DOGEUSDT trader
+2024-12-29 15:26:44,405 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOSTUSDT_model.pth
+2024-12-29 15:26:44,405 - INFO - ✅ Successfully initialized IOSTUSDT trader
+2024-12-29 15:26:44,408 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MKRUSDT_model.pth
+2024-12-29 15:26:44,408 - INFO - ✅ Successfully initialized MKRUSDT trader
+2024-12-29 15:26:44,408 - WARNING - No trained model found for GRTUSDT
+2024-12-29 15:26:44,410 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UNIUSDT_model.pth
+2024-12-29 15:26:44,411 - INFO - ✅ Successfully initialized UNIUSDT trader
+2024-12-29 15:26:44,413 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TROYUSDT_model.pth
+2024-12-29 15:26:44,413 - INFO - ✅ Successfully initialized TROYUSDT trader
+2024-12-29 15:26:44,415 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SANDUSDT_model.pth
+2024-12-29 15:26:44,415 - INFO - ✅ Successfully initialized SANDUSDT trader
+2024-12-29 15:26:44,415 - WARNING - No trained model found for ACMUSDT
+2024-12-29 15:26:44,417 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ANKRUSDT_model.pth
+2024-12-29 15:26:44,417 - INFO - ✅ Successfully initialized ANKRUSDT trader
+2024-12-29 15:26:44,419 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NULSUSDT_model.pth
+2024-12-29 15:26:44,419 - INFO - ✅ Successfully initialized NULSUSDT trader
+2024-12-29 15:26:44,419 - WARNING - No trained model found for CAKEUSDT
+2024-12-29 15:26:44,420 - WARNING - No trained model found for PSGUSDT
+2024-12-29 15:26:44,422 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BANDUSDT_model.pth
+2024-12-29 15:26:44,422 - INFO - ✅ Successfully initialized BANDUSDT trader
+2024-12-29 15:26:44,424 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTOUSDT_model.pth
+2024-12-29 15:26:44,424 - INFO - ✅ Successfully initialized LTOUSDT trader
+2024-12-29 15:26:44,426 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DGBUSDT_model.pth
+2024-12-29 15:26:44,427 - INFO - ✅ Successfully initialized DGBUSDT trader
+2024-12-29 15:26:44,427 - WARNING - No trained model found for ATMUSDT
+2024-12-29 15:26:44,429 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HBARUSDT_model.pth
+2024-12-29 15:26:44,429 - INFO - ✅ Successfully initialized HBARUSDT trader
+2024-12-29 15:26:44,431 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTMUSDT_model.pth
+2024-12-29 15:26:44,432 - INFO - ✅ Successfully initialized FTMUSDT trader
+2024-12-29 15:26:44,434 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STPTUSDT_model.pth
+2024-12-29 15:26:44,434 - INFO - ✅ Successfully initialized STPTUSDT trader
+2024-12-29 15:26:44,436 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/INJUSDT_model.pth
+2024-12-29 15:26:44,436 - INFO - ✅ Successfully initialized INJUSDT trader
+2024-12-29 15:26:44,438 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DCRUSDT_model.pth
+2024-12-29 15:26:44,438 - INFO - ✅ Successfully initialized DCRUSDT trader
+2024-12-29 15:26:44,440 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BCHUSDT_model.pth
+2024-12-29 15:26:44,440 - INFO - ✅ Successfully initialized BCHUSDT trader
+2024-12-29 15:26:44,440 - WARNING - No trained model found for RIFUSDT
+2024-12-29 15:26:44,441 - WARNING - No trained model found for SFPUSDT
+2024-12-29 15:26:44,443 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAUSDT_model.pth
+2024-12-29 15:26:44,443 - INFO - ✅ Successfully initialized AVAUSDT trader
+2024-12-29 15:26:44,445 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AAVEUSDT_model.pth
+2024-12-29 15:26:44,445 - INFO - ✅ Successfully initialized AAVEUSDT trader
+2024-12-29 15:26:44,447 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRXUSDT_model.pth
+2024-12-29 15:26:44,447 - INFO - ✅ Successfully initialized TRXUSDT trader
+2024-12-29 15:26:44,450 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MANAUSDT_model.pth
+2024-12-29 15:26:44,450 - INFO - ✅ Successfully initialized MANAUSDT trader
+2024-12-29 15:26:44,452 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUSHIUSDT_model.pth
+2024-12-29 15:26:44,452 - INFO - ✅ Successfully initialized SUSHIUSDT trader
+2024-12-29 15:26:44,454 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HOTUSDT_model.pth
+2024-12-29 15:26:44,454 - INFO - ✅ Successfully initialized HOTUSDT trader
+2024-12-29 15:26:44,456 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ICXUSDT_model.pth
+2024-12-29 15:26:44,456 - INFO - ✅ Successfully initialized ICXUSDT trader
+2024-12-29 15:26:44,459 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTCUSDT_model.pth
+2024-12-29 15:26:44,459 - INFO - ✅ Successfully initialized LTCUSDT trader
+2024-12-29 15:26:44,461 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZILUSDT_model.pth
+2024-12-29 15:26:44,461 - INFO - ✅ Successfully initialized ZILUSDT trader
+2024-12-29 15:26:44,463 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/YFIUSDT_model.pth
+2024-12-29 15:26:44,463 - INFO - ✅ Successfully initialized YFIUSDT trader
+2024-12-29 15:26:44,463 - WARNING - No trained model found for CELOUSDT
+2024-12-29 15:26:44,465 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EOSUSDT_model.pth
+2024-12-29 15:26:44,465 - INFO - ✅ Successfully initialized EOSUSDT trader
+2024-12-29 15:26:44,467 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTSIUSDT_model.pth
+2024-12-29 15:26:44,467 - INFO - ✅ Successfully initialized CTSIUSDT trader
+2024-12-29 15:26:44,467 - WARNING - No trained model found for TRUUSDT
+2024-12-29 15:26:44,469 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AUDIOUSDT_model.pth
+2024-12-29 15:26:44,469 - INFO - ✅ Successfully initialized AUDIOUSDT trader
+2024-12-29 15:26:44,472 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KAVAUSDT_model.pth
+2024-12-29 15:26:44,472 - INFO - ✅ Successfully initialized KAVAUSDT trader
+2024-12-29 15:26:44,475 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RLCUSDT_model.pth
+2024-12-29 15:26:44,476 - INFO - ✅ Successfully initialized RLCUSDT trader
+2024-12-29 15:26:44,478 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETCUSDT_model.pth
+2024-12-29 15:26:44,478 - INFO - ✅ Successfully initialized ETCUSDT trader
+2024-12-29 15:26:44,480 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZRXUSDT_model.pth
+2024-12-29 15:26:44,480 - INFO - ✅ Successfully initialized ZRXUSDT trader
+2024-12-29 15:26:44,482 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VITEUSDT_model.pth
+2024-12-29 15:26:44,482 - INFO - ✅ Successfully initialized VITEUSDT trader
+2024-12-29 15:26:44,484 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZENUSDT_model.pth
+2024-12-29 15:26:44,484 - INFO - ✅ Successfully initialized ZENUSDT trader
+2024-12-29 15:26:44,486 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARPAUSDT_model.pth
+2024-12-29 15:26:44,486 - INFO - ✅ Successfully initialized ARPAUSDT trader
+2024-12-29 15:26:44,489 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTTUSDT_model.pth
+2024-12-29 15:26:44,489 - INFO - ✅ Successfully initialized FTTUSDT trader
+2024-12-29 15:26:44,491 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CVCUSDT_model.pth
+2024-12-29 15:26:44,491 - INFO - ✅ Successfully initialized CVCUSDT trader
+2024-12-29 15:26:44,493 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HARDUSDT_model.pth
+2024-12-29 15:26:44,493 - INFO - ✅ Successfully initialized HARDUSDT trader
+2024-12-29 15:26:44,495 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BTCUSDT_model.pth
+2024-12-29 15:26:44,495 - INFO - ✅ Successfully initialized BTCUSDT trader
+2024-12-29 15:26:44,497 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UTKUSDT_model.pth
+2024-12-29 15:26:44,497 - INFO - ✅ Successfully initialized UTKUSDT trader
+2024-12-29 15:26:44,499 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DIAUSDT_model.pth
+2024-12-29 15:26:44,499 - INFO - ✅ Successfully initialized DIAUSDT trader
+2024-12-29 15:26:44,499 - WARNING - No trained model found for BADGERUSDT
+2024-12-29 15:26:44,502 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RUNEUSDT_model.pth
+2024-12-29 15:26:44,502 - INFO - ✅ Successfully initialized RUNEUSDT trader
+2024-12-29 15:26:44,502 - WARNING - No trained model found for TWTUSDT
+2024-12-29 15:26:44,504 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ENJUSDT_model.pth
+2024-12-29 15:26:44,504 - INFO - ✅ Successfully initialized ENJUSDT trader
+2024-12-29 15:26:44,507 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TFUELUSDT_model.pth
+2024-12-29 15:26:44,507 - INFO - ✅ Successfully initialized TFUELUSDT trader
+2024-12-29 15:26:44,509 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STRAXUSDT_model.pth
+2024-12-29 15:26:44,509 - INFO - ✅ Successfully initialized STRAXUSDT trader
+2024-12-29 15:26:44,511 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BELUSDT_model.pth
+2024-12-29 15:26:44,511 - INFO - ✅ Successfully initialized BELUSDT trader
+2024-12-29 15:26:44,513 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LUNAUSDT_model.pth
+2024-12-29 15:26:44,513 - INFO - ✅ Successfully initialized LUNAUSDT trader
+2024-12-29 15:26:44,515 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DENTUSDT_model.pth
+2024-12-29 15:26:44,515 - INFO - ✅ Successfully initialized DENTUSDT trader
+2024-12-29 15:26:44,518 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHRUSDT_model.pth
+2024-12-29 15:26:44,518 - INFO - ✅ Successfully initialized CHRUSDT trader
+2024-12-29 15:26:44,520 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LINKUSDT_model.pth
+2024-12-29 15:26:44,520 - INFO - ✅ Successfully initialized LINKUSDT trader
+2024-12-29 15:26:44,522 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CELRUSDT_model.pth
+2024-12-29 15:26:44,522 - INFO - ✅ Successfully initialized CELRUSDT trader
+2024-12-29 15:26:44,525 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EGLDUSDT_model.pth
+2024-12-29 15:26:44,525 - INFO - ✅ Successfully initialized EGLDUSDT trader
+2024-12-29 15:26:44,528 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STORJUSDT_model.pth
+2024-12-29 15:26:44,528 - INFO - ✅ Successfully initialized STORJUSDT trader
+2024-12-29 15:26:44,530 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STMXUSDT_model.pth
+2024-12-29 15:26:44,530 - INFO - ✅ Successfully initialized STMXUSDT trader
+2024-12-29 15:26:44,532 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNBUSDT_model.pth
+2024-12-29 15:26:44,532 - INFO - ✅ Successfully initialized BNBUSDT trader
+2024-12-29 15:26:44,534 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NKNUSDT_model.pth
+2024-12-29 15:26:44,534 - INFO - ✅ Successfully initialized NKNUSDT trader
+2024-12-29 15:26:44,537 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINGUSDT_model.pth
+2024-12-29 15:26:44,537 - INFO - ✅ Successfully initialized WINGUSDT trader
+2024-12-29 15:26:44,539 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CRVUSDT_model.pth
+2024-12-29 15:26:44,539 - INFO - ✅ Successfully initialized CRVUSDT trader
+2024-12-29 15:26:44,541 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SKLUSDT_model.pth
+2024-12-29 15:26:44,541 - INFO - ✅ Successfully initialized SKLUSDT trader
+2024-12-29 15:26:44,543 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNTUSDT_model.pth
+2024-12-29 15:26:44,543 - INFO - ✅ Successfully initialized BNTUSDT trader
+2024-12-29 15:26:44,545 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NMRUSDT_model.pth
+2024-12-29 15:26:44,545 - INFO - ✅ Successfully initialized NMRUSDT trader
+2024-12-29 15:26:44,547 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTKUSDT_model.pth
+2024-12-29 15:26:44,547 - INFO - ✅ Successfully initialized CTKUSDT trader
+2024-12-29 15:26:44,549 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XLMUSDT_model.pth
+2024-12-29 15:26:44,549 - INFO - ✅ Successfully initialized XLMUSDT trader
+2024-12-29 15:26:44,551 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/QTUMUSDT_model.pth
+2024-12-29 15:26:44,552 - INFO - ✅ Successfully initialized QTUMUSDT trader
+2024-12-29 15:26:44,554 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAXUSDT_model.pth
+2024-12-29 15:26:44,554 - INFO - ✅ Successfully initialized AVAXUSDT trader
+2024-12-29 15:26:44,556 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/PAXGUSDT_model.pth
+2024-12-29 15:26:44,556 - INFO - ✅ Successfully initialized PAXGUSDT trader
+2024-12-29 15:26:44,558 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTXUSDT_model.pth
+2024-12-29 15:26:44,558 - INFO - ✅ Successfully initialized IOTXUSDT trader
+2024-12-29 15:26:44,560 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MTLUSDT_model.pth
+2024-12-29 15:26:44,560 - INFO - ✅ Successfully initialized MTLUSDT trader
+2024-12-29 15:26:44,560 - INFO - Total number of active traders: 152
+2024-12-29 15:28:23,387 - INFO - ✅ Generated signals for RVNUSDT
+2024-12-29 15:28:23,670 - INFO - ✅ Generated signals for ALGOUSDT
+2024-12-29 15:28:23,965 - INFO - ✅ Generated signals for STXUSDT
+2024-12-29 15:28:24,258 - INFO - ✅ Generated signals for SXPUSDT
+2024-12-29 15:28:24,563 - INFO - ✅ Generated signals for ROSEUSDT
+2024-12-29 15:28:24,833 - INFO - ✅ Generated signals for DOTUSDT
+2024-12-29 15:28:25,105 - INFO - ✅ Generated signals for XTZUSDT
+2024-12-29 15:28:25,398 - INFO - ✅ Generated signals for OGNUSDT
+2024-12-29 15:28:25,706 - INFO - ✅ Generated signals for ADAUSDT
+2024-12-29 15:28:25,997 - INFO - ✅ Generated signals for SUNUSDT
+2024-12-29 15:28:26,266 - INFO - ✅ Generated signals for FUNUSDT
+2024-12-29 15:28:26,771 - INFO - ✅ Generated signals for KMDUSDT
+2024-12-29 15:28:27,061 - INFO - ✅ Generated signals for MBLUSDT
+2024-12-29 15:28:27,369 - INFO - ✅ Generated signals for JSTUSDT
+2024-12-29 15:28:27,386 - WARNING - No model available for DODOUSDT
+2024-12-29 15:28:27,659 - INFO - ✅ Generated signals for ONEUSDT
+2024-12-29 15:28:27,962 - INFO - ✅ Generated signals for DASHUSDT
+2024-12-29 15:28:28,253 - INFO - ✅ Generated signals for MDTUSDT
+2024-12-29 15:28:28,269 - WARNING - No model available for OGUSDT
+2024-12-29 15:28:28,563 - INFO - ✅ Generated signals for FILUSDT
+2024-12-29 15:28:28,868 - INFO - ✅ Generated signals for XVSUSDT
+2024-12-29 15:28:29,170 - INFO - ✅ Generated signals for WANUSDT
+2024-12-29 15:28:29,188 - WARNING - No model available for ASRUSDT
+2024-12-29 15:28:29,192 - WARNING - No model available for JUVUSDT
+2024-12-29 15:28:29,477 - INFO - ✅ Generated signals for THETAUSDT
+2024-12-29 15:28:29,481 - WARNING - No model available for LITUSDT
+2024-12-29 15:28:29,785 - INFO - ✅ Generated signals for NEOUSDT
+2024-12-29 15:28:30,069 - INFO - ✅ Generated signals for HIVEUSDT
+2024-12-29 15:28:30,374 - INFO - ✅ Generated signals for ARDRUSDT
+2024-12-29 15:28:30,667 - INFO - ✅ Generated signals for CHZUSDT
+2024-12-29 15:28:30,964 - INFO - ✅ Generated signals for XRPUSDT
+2024-12-29 15:28:31,246 - INFO - ✅ Generated signals for LRCUSDT
+2024-12-29 15:28:31,527 - INFO - ✅ Generated signals for LSKUSDT
+2024-12-29 15:28:31,834 - INFO - ✅ Generated signals for SNXUSDT
+2024-12-29 15:28:32,118 - INFO - ✅ Generated signals for RSRUSDT
+2024-12-29 15:28:32,393 - INFO - ✅ Generated signals for ZECUSDT
+2024-12-29 15:28:32,673 - INFO - ✅ Generated signals for COMPUSDT
+2024-12-29 15:28:32,960 - INFO - ✅ Generated signals for BATUSDT
+2024-12-29 15:28:33,275 - INFO - ✅ Generated signals for EURUSDT
+2024-12-29 15:28:33,556 - INFO - ✅ Generated signals for OXTUSDT
+2024-12-29 15:28:33,842 - INFO - ✅ Generated signals for TRBUSDT
+2024-12-29 15:28:34,125 - INFO - ✅ Generated signals for KSMUSDT
+2024-12-29 15:28:34,394 - INFO - ✅ Generated signals for ALPHAUSDT
+2024-12-29 15:28:34,664 - INFO - ✅ Generated signals for ETHUSDT
+2024-12-29 15:28:34,675 - WARNING - No model available for 1INCHUSDT
+2024-12-29 15:28:34,683 - WARNING - No model available for CKBUSDT
+2024-12-29 15:28:34,953 - INFO - ✅ Generated signals for ATOMUSDT
+2024-12-29 15:28:35,235 - INFO - ✅ Generated signals for VETUSDT
+2024-12-29 15:28:35,518 - INFO - ✅ Generated signals for DUSKUSDT
+2024-12-29 15:28:35,831 - INFO - ✅ Generated signals for FETUSDT
+2024-12-29 15:28:36,111 - INFO - ✅ Generated signals for ONGUSDT
+2024-12-29 15:28:36,381 - INFO - ✅ Generated signals for CTXCUSDT
+2024-12-29 15:28:36,665 - INFO - ✅ Generated signals for SCUSDT
+2024-12-29 15:28:36,970 - INFO - ✅ Generated signals for COSUSDT
+2024-12-29 15:28:37,263 - INFO - ✅ Generated signals for COTIUSDT
+2024-12-29 15:28:37,565 - INFO - ✅ Generated signals for VTHOUSDT
+2024-12-29 15:28:37,862 - INFO - ✅ Generated signals for UMAUSDT
+2024-12-29 15:28:37,870 - WARNING - No model available for FIROUSDT
+2024-12-29 15:28:38,139 - INFO - ✅ Generated signals for NEARUSDT
+2024-12-29 15:28:38,427 - INFO - ✅ Generated signals for WINUSDT
+2024-12-29 15:28:38,716 - INFO - ✅ Generated signals for FLMUSDT
+2024-12-29 15:28:39,006 - INFO - ✅ Generated signals for DATAUSDT
+2024-12-29 15:28:39,312 - INFO - ✅ Generated signals for AXSUSDT
+2024-12-29 15:28:39,582 - INFO - ✅ Generated signals for ONTUSDT
+2024-12-29 15:28:39,850 - INFO - ✅ Generated signals for SOLUSDT
+2024-12-29 15:28:39,866 - WARNING - No model available for TUSDUSDT
+2024-12-29 15:28:40,143 - INFO - ✅ Generated signals for KNCUSDT
+2024-12-29 15:28:40,434 - INFO - ✅ Generated signals for IOTAUSDT
+2024-12-29 15:28:40,741 - INFO - ✅ Generated signals for BALUSDT
+2024-12-29 15:28:40,755 - WARNING - No model available for USDCUSDT
+2024-12-29 15:28:41,049 - INFO - ✅ Generated signals for FIOUSDT
+2024-12-29 15:28:41,317 - INFO - ✅ Generated signals for DOGEUSDT
+2024-12-29 15:28:41,605 - INFO - ✅ Generated signals for IOSTUSDT
+2024-12-29 15:28:41,901 - INFO - ✅ Generated signals for MKRUSDT
+2024-12-29 15:28:41,916 - WARNING - No model available for GRTUSDT
+2024-12-29 15:28:42,192 - INFO - ✅ Generated signals for UNIUSDT
+2024-12-29 15:28:42,482 - INFO - ✅ Generated signals for TROYUSDT
+2024-12-29 15:28:42,753 - INFO - ✅ Generated signals for SANDUSDT
+2024-12-29 15:28:42,758 - WARNING - No model available for ACMUSDT
+2024-12-29 15:28:43,026 - INFO - ✅ Generated signals for ANKRUSDT
+2024-12-29 15:28:43,301 - INFO - ✅ Generated signals for NULSUSDT
+2024-12-29 15:28:43,315 - WARNING - No model available for CAKEUSDT
+2024-12-29 15:28:43,323 - WARNING - No model available for PSGUSDT
+2024-12-29 15:28:43,608 - INFO - ✅ Generated signals for BANDUSDT
+2024-12-29 15:28:43,916 - INFO - ✅ Generated signals for LTOUSDT
+2024-12-29 15:28:44,222 - INFO - ✅ Generated signals for DGBUSDT
+2024-12-29 15:28:44,238 - WARNING - No model available for ATMUSDT
+2024-12-29 15:28:44,526 - INFO - ✅ Generated signals for HBARUSDT
+2024-12-29 15:28:44,796 - INFO - ✅ Generated signals for FTMUSDT
+2024-12-29 15:28:45,070 - INFO - ✅ Generated signals for STPTUSDT
+2024-12-29 15:28:45,366 - INFO - ✅ Generated signals for INJUSDT
+2024-12-29 15:28:45,661 - INFO - ✅ Generated signals for DCRUSDT
+2024-12-29 15:28:45,962 - INFO - ✅ Generated signals for BCHUSDT
+2024-12-29 15:28:45,966 - WARNING - No model available for RIFUSDT
+2024-12-29 15:28:45,970 - WARNING - No model available for SFPUSDT
+2024-12-29 15:28:46,426 - INFO - ✅ Generated signals for AVAUSDT
+2024-12-29 15:28:46,706 - INFO - ✅ Generated signals for AAVEUSDT
+2024-12-29 15:28:46,988 - INFO - ✅ Generated signals for TRXUSDT
+2024-12-29 15:28:47,293 - INFO - ✅ Generated signals for MANAUSDT
+2024-12-29 15:28:47,621 - INFO - ✅ Generated signals for SUSHIUSDT
+2024-12-29 15:28:47,901 - INFO - ✅ Generated signals for HOTUSDT
+2024-12-29 15:28:48,339 - INFO - ✅ Generated signals for ICXUSDT
+2024-12-29 15:28:48,887 - INFO - ✅ Generated signals for LTCUSDT
+2024-12-29 15:28:49,165 - INFO - ✅ Generated signals for ZILUSDT
+2024-12-29 15:28:49,445 - INFO - ✅ Generated signals for YFIUSDT
+2024-12-29 15:28:49,452 - WARNING - No model available for CELOUSDT
+2024-12-29 15:28:49,761 - INFO - ✅ Generated signals for EOSUSDT
+2024-12-29 15:28:50,083 - INFO - ✅ Generated signals for CTSIUSDT
+2024-12-29 15:28:50,099 - WARNING - No model available for TRUUSDT
+2024-12-29 15:28:50,385 - INFO - ✅ Generated signals for AUDIOUSDT
+2024-12-29 15:28:50,672 - INFO - ✅ Generated signals for KAVAUSDT
+2024-12-29 15:28:50,941 - INFO - ✅ Generated signals for RLCUSDT
+2024-12-29 15:28:51,213 - INFO - ✅ Generated signals for ETCUSDT
+2024-12-29 15:28:51,492 - INFO - ✅ Generated signals for ZRXUSDT
+2024-12-29 15:28:51,802 - INFO - ✅ Generated signals for VITEUSDT
+2024-12-29 15:28:52,081 - INFO - ✅ Generated signals for ZENUSDT
+2024-12-29 15:28:52,359 - INFO - ✅ Generated signals for ARPAUSDT
+2024-12-29 15:28:52,655 - INFO - ✅ Generated signals for FTTUSDT
+2024-12-29 15:28:52,944 - INFO - ✅ Generated signals for CVCUSDT
+2024-12-29 15:28:53,356 - INFO - ✅ Generated signals for HARDUSDT
+2024-12-29 15:28:53,697 - INFO - ✅ Generated signals for BTCUSDT
+2024-12-29 15:28:53,975 - INFO - ✅ Generated signals for UTKUSDT
+2024-12-29 15:28:54,259 - INFO - ✅ Generated signals for DIAUSDT
+2024-12-29 15:28:54,277 - WARNING - No model available for BADGERUSDT
+2024-12-29 15:28:54,565 - INFO - ✅ Generated signals for RUNEUSDT
+2024-12-29 15:28:54,576 - WARNING - No model available for TWTUSDT
+2024-12-29 15:28:54,874 - INFO - ✅ Generated signals for ENJUSDT
+2024-12-29 15:28:55,170 - INFO - ✅ Generated signals for TFUELUSDT
+2024-12-29 15:28:55,450 - INFO - ✅ Generated signals for STRAXUSDT
+2024-12-29 15:28:55,722 - INFO - ✅ Generated signals for BELUSDT
+2024-12-29 15:28:55,997 - INFO - ✅ Generated signals for LUNAUSDT
+2024-12-29 15:28:56,265 - INFO - ✅ Generated signals for DENTUSDT
+2024-12-29 15:28:56,546 - INFO - ✅ Generated signals for CHRUSDT
+2024-12-29 15:28:56,857 - INFO - ✅ Generated signals for LINKUSDT
+2024-12-29 15:28:57,165 - INFO - ✅ Generated signals for CELRUSDT
+2024-12-29 15:28:57,456 - INFO - ✅ Generated signals for EGLDUSDT
+2024-12-29 15:28:57,792 - INFO - ✅ Generated signals for STORJUSDT
+2024-12-29 15:28:58,075 - INFO - ✅ Generated signals for STMXUSDT
+2024-12-29 15:28:58,357 - INFO - ✅ Generated signals for BNBUSDT
+2024-12-29 15:28:58,664 - INFO - ✅ Generated signals for NKNUSDT
+2024-12-29 15:28:58,966 - INFO - ✅ Generated signals for WINGUSDT
+2024-12-29 15:28:59,280 - INFO - ✅ Generated signals for CRVUSDT
+2024-12-29 15:28:59,582 - INFO - ✅ Generated signals for SKLUSDT
+2024-12-29 15:28:59,859 - INFO - ✅ Generated signals for BNTUSDT
+2024-12-29 15:29:00,140 - INFO - ✅ Generated signals for NMRUSDT
+2024-12-29 15:29:00,415 - INFO - ✅ Generated signals for CTKUSDT
+2024-12-29 15:29:00,692 - INFO - ✅ Generated signals for XLMUSDT
+2024-12-29 15:29:00,971 - INFO - ✅ Generated signals for QTUMUSDT
+2024-12-29 15:29:01,246 - INFO - ✅ Generated signals for AVAXUSDT
+2024-12-29 15:29:01,527 - INFO - ✅ Generated signals for PAXGUSDT
+2024-12-29 15:29:01,836 - INFO - ✅ Generated signals for IOTXUSDT
+2024-12-29 15:29:02,140 - INFO - ✅ Generated signals for MTLUSDT
+2024-12-29 15:29:11,173 - ERROR - Binance API error for NEARUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:13,040 - ERROR - Binance API error for CHRUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:14,766 - ERROR - Binance API error for KSMUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:16,741 - ERROR - Binance API error for WANUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:18,494 - ERROR - Binance API error for LUNAUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:20,254 - ERROR - Binance API error for VITEUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:22,165 - ERROR - Binance API error for WINGUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:23,890 - ERROR - Binance API error for JSTUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:25,797 - ERROR - Binance API error for PAXGUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:27,844 - ERROR - Binance API error for FILUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:29:29,695 - ERROR - Binance API error for ETHUSDT: APIError(code=-1013): Filter failure: PRICE_FILTER
+2024-12-29 15:31:47,505 - INFO - Initializing traders...
+2024-12-29 15:31:47,534 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RVNUSDT_model.pth
+2024-12-29 15:31:47,535 - INFO - ✅ Successfully initialized RVNUSDT trader
+2024-12-29 15:31:47,537 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALGOUSDT_model.pth
+2024-12-29 15:31:47,537 - INFO - ✅ Successfully initialized ALGOUSDT trader
+2024-12-29 15:31:47,540 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STXUSDT_model.pth
+2024-12-29 15:31:47,540 - INFO - ✅ Successfully initialized STXUSDT trader
+2024-12-29 15:31:47,542 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SXPUSDT_model.pth
+2024-12-29 15:31:47,543 - INFO - ✅ Successfully initialized SXPUSDT trader
+2024-12-29 15:31:47,546 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ROSEUSDT_model.pth
+2024-12-29 15:31:47,546 - INFO - ✅ Successfully initialized ROSEUSDT trader
+2024-12-29 15:31:47,548 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOTUSDT_model.pth
+2024-12-29 15:31:47,548 - INFO - ✅ Successfully initialized DOTUSDT trader
+2024-12-29 15:31:47,553 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XTZUSDT_model.pth
+2024-12-29 15:31:47,553 - INFO - ✅ Successfully initialized XTZUSDT trader
+2024-12-29 15:31:47,555 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OGNUSDT_model.pth
+2024-12-29 15:31:47,555 - INFO - ✅ Successfully initialized OGNUSDT trader
+2024-12-29 15:31:47,558 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ADAUSDT_model.pth
+2024-12-29 15:31:47,558 - INFO - ✅ Successfully initialized ADAUSDT trader
+2024-12-29 15:31:47,560 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUNUSDT_model.pth
+2024-12-29 15:31:47,560 - INFO - ✅ Successfully initialized SUNUSDT trader
+2024-12-29 15:31:47,563 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FUNUSDT_model.pth
+2024-12-29 15:31:47,563 - INFO - ✅ Successfully initialized FUNUSDT trader
+2024-12-29 15:31:47,565 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KMDUSDT_model.pth
+2024-12-29 15:31:47,565 - INFO - ✅ Successfully initialized KMDUSDT trader
+2024-12-29 15:31:47,567 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MBLUSDT_model.pth
+2024-12-29 15:31:47,567 - INFO - ✅ Successfully initialized MBLUSDT trader
+2024-12-29 15:31:47,570 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/JSTUSDT_model.pth
+2024-12-29 15:31:47,570 - INFO - ✅ Successfully initialized JSTUSDT trader
+2024-12-29 15:31:47,571 - WARNING - No trained model found for DODOUSDT
+2024-12-29 15:31:47,578 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONEUSDT_model.pth
+2024-12-29 15:31:47,578 - INFO - ✅ Successfully initialized ONEUSDT trader
+2024-12-29 15:31:47,581 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DASHUSDT_model.pth
+2024-12-29 15:31:47,582 - INFO - ✅ Successfully initialized DASHUSDT trader
+2024-12-29 15:31:47,584 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MDTUSDT_model.pth
+2024-12-29 15:31:47,584 - INFO - ✅ Successfully initialized MDTUSDT trader
+2024-12-29 15:31:47,584 - WARNING - No trained model found for OGUSDT
+2024-12-29 15:31:47,587 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FILUSDT_model.pth
+2024-12-29 15:31:47,587 - INFO - ✅ Successfully initialized FILUSDT trader
+2024-12-29 15:31:47,590 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XVSUSDT_model.pth
+2024-12-29 15:31:47,590 - INFO - ✅ Successfully initialized XVSUSDT trader
+2024-12-29 15:31:47,593 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WANUSDT_model.pth
+2024-12-29 15:31:47,593 - INFO - ✅ Successfully initialized WANUSDT trader
+2024-12-29 15:31:47,593 - WARNING - No trained model found for ASRUSDT
+2024-12-29 15:31:47,593 - WARNING - No trained model found for JUVUSDT
+2024-12-29 15:31:47,595 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/THETAUSDT_model.pth
+2024-12-29 15:31:47,595 - INFO - ✅ Successfully initialized THETAUSDT trader
+2024-12-29 15:31:47,595 - WARNING - No trained model found for LITUSDT
+2024-12-29 15:31:47,598 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEOUSDT_model.pth
+2024-12-29 15:31:47,598 - INFO - ✅ Successfully initialized NEOUSDT trader
+2024-12-29 15:31:47,600 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HIVEUSDT_model.pth
+2024-12-29 15:31:47,600 - INFO - ✅ Successfully initialized HIVEUSDT trader
+2024-12-29 15:31:47,604 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARDRUSDT_model.pth
+2024-12-29 15:31:47,604 - INFO - ✅ Successfully initialized ARDRUSDT trader
+2024-12-29 15:31:47,604 - WARNING - No trained model found for FISUSDT
+2024-12-29 15:31:47,606 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHZUSDT_model.pth
+2024-12-29 15:31:47,606 - INFO - ✅ Successfully initialized CHZUSDT trader
+2024-12-29 15:31:47,609 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XRPUSDT_model.pth
+2024-12-29 15:31:47,609 - INFO - ✅ Successfully initialized XRPUSDT trader
+2024-12-29 15:31:47,611 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LRCUSDT_model.pth
+2024-12-29 15:31:47,611 - INFO - ✅ Successfully initialized LRCUSDT trader
+2024-12-29 15:31:47,614 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LSKUSDT_model.pth
+2024-12-29 15:31:47,614 - INFO - ✅ Successfully initialized LSKUSDT trader
+2024-12-29 15:31:47,616 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SNXUSDT_model.pth
+2024-12-29 15:31:47,616 - INFO - ✅ Successfully initialized SNXUSDT trader
+2024-12-29 15:31:47,619 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RSRUSDT_model.pth
+2024-12-29 15:31:47,619 - INFO - ✅ Successfully initialized RSRUSDT trader
+2024-12-29 15:31:47,621 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZECUSDT_model.pth
+2024-12-29 15:31:47,621 - INFO - ✅ Successfully initialized ZECUSDT trader
+2024-12-29 15:31:47,624 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COMPUSDT_model.pth
+2024-12-29 15:31:47,624 - INFO - ✅ Successfully initialized COMPUSDT trader
+2024-12-29 15:31:47,626 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BATUSDT_model.pth
+2024-12-29 15:31:47,626 - INFO - ✅ Successfully initialized BATUSDT trader
+2024-12-29 15:31:47,628 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EURUSDT_model.pth
+2024-12-29 15:31:47,628 - INFO - ✅ Successfully initialized EURUSDT trader
+2024-12-29 15:31:47,630 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OXTUSDT_model.pth
+2024-12-29 15:31:47,630 - INFO - ✅ Successfully initialized OXTUSDT trader
+2024-12-29 15:31:47,632 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRBUSDT_model.pth
+2024-12-29 15:31:47,632 - INFO - ✅ Successfully initialized TRBUSDT trader
+2024-12-29 15:31:47,635 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KSMUSDT_model.pth
+2024-12-29 15:31:47,635 - INFO - ✅ Successfully initialized KSMUSDT trader
+2024-12-29 15:31:47,637 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALPHAUSDT_model.pth
+2024-12-29 15:31:47,637 - INFO - ✅ Successfully initialized ALPHAUSDT trader
+2024-12-29 15:31:47,639 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETHUSDT_model.pth
+2024-12-29 15:31:47,639 - INFO - ✅ Successfully initialized ETHUSDT trader
+2024-12-29 15:31:47,639 - WARNING - No trained model found for 1INCHUSDT
+2024-12-29 15:31:47,639 - WARNING - No trained model found for CKBUSDT
+2024-12-29 15:31:47,642 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ATOMUSDT_model.pth
+2024-12-29 15:31:47,642 - INFO - ✅ Successfully initialized ATOMUSDT trader
+2024-12-29 15:31:47,644 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VETUSDT_model.pth
+2024-12-29 15:31:47,644 - INFO - ✅ Successfully initialized VETUSDT trader
+2024-12-29 15:31:47,646 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DUSKUSDT_model.pth
+2024-12-29 15:31:47,646 - INFO - ✅ Successfully initialized DUSKUSDT trader
+2024-12-29 15:31:47,649 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FETUSDT_model.pth
+2024-12-29 15:31:47,649 - INFO - ✅ Successfully initialized FETUSDT trader
+2024-12-29 15:31:47,651 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONGUSDT_model.pth
+2024-12-29 15:31:47,651 - INFO - ✅ Successfully initialized ONGUSDT trader
+2024-12-29 15:31:47,653 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTXCUSDT_model.pth
+2024-12-29 15:31:47,653 - INFO - ✅ Successfully initialized CTXCUSDT trader
+2024-12-29 15:31:47,655 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SCUSDT_model.pth
+2024-12-29 15:31:47,655 - INFO - ✅ Successfully initialized SCUSDT trader
+2024-12-29 15:31:47,658 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COSUSDT_model.pth
+2024-12-29 15:31:47,658 - INFO - ✅ Successfully initialized COSUSDT trader
+2024-12-29 15:31:47,660 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COTIUSDT_model.pth
+2024-12-29 15:31:47,660 - INFO - ✅ Successfully initialized COTIUSDT trader
+2024-12-29 15:31:47,663 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VTHOUSDT_model.pth
+2024-12-29 15:31:47,663 - INFO - ✅ Successfully initialized VTHOUSDT trader
+2024-12-29 15:31:47,735 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UMAUSDT_model.pth
+2024-12-29 15:31:47,735 - INFO - ✅ Successfully initialized UMAUSDT trader
+2024-12-29 15:31:47,735 - WARNING - No trained model found for FIROUSDT
+2024-12-29 15:31:47,738 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEARUSDT_model.pth
+2024-12-29 15:31:47,738 - INFO - ✅ Successfully initialized NEARUSDT trader
+2024-12-29 15:31:47,740 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINUSDT_model.pth
+2024-12-29 15:31:47,740 - INFO - ✅ Successfully initialized WINUSDT trader
+2024-12-29 15:31:47,743 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FLMUSDT_model.pth
+2024-12-29 15:31:47,743 - INFO - ✅ Successfully initialized FLMUSDT trader
+2024-12-29 15:31:47,745 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DATAUSDT_model.pth
+2024-12-29 15:31:47,745 - INFO - ✅ Successfully initialized DATAUSDT trader
+2024-12-29 15:31:47,747 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AXSUSDT_model.pth
+2024-12-29 15:31:47,747 - INFO - ✅ Successfully initialized AXSUSDT trader
+2024-12-29 15:31:47,750 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONTUSDT_model.pth
+2024-12-29 15:31:47,750 - INFO - ✅ Successfully initialized ONTUSDT trader
+2024-12-29 15:31:47,752 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SOLUSDT_model.pth
+2024-12-29 15:31:47,752 - INFO - ✅ Successfully initialized SOLUSDT trader
+2024-12-29 15:31:47,752 - WARNING - No trained model found for TUSDUSDT
+2024-12-29 15:31:47,754 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KNCUSDT_model.pth
+2024-12-29 15:31:47,754 - INFO - ✅ Successfully initialized KNCUSDT trader
+2024-12-29 15:31:47,757 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTAUSDT_model.pth
+2024-12-29 15:31:47,757 - INFO - ✅ Successfully initialized IOTAUSDT trader
+2024-12-29 15:31:47,759 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BALUSDT_model.pth
+2024-12-29 15:31:47,759 - INFO - ✅ Successfully initialized BALUSDT trader
+2024-12-29 15:31:47,759 - WARNING - No trained model found for USDCUSDT
+2024-12-29 15:31:47,761 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FIOUSDT_model.pth
+2024-12-29 15:31:47,761 - INFO - ✅ Successfully initialized FIOUSDT trader
+2024-12-29 15:31:47,763 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOGEUSDT_model.pth
+2024-12-29 15:31:47,763 - INFO - ✅ Successfully initialized DOGEUSDT trader
+2024-12-29 15:31:47,765 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOSTUSDT_model.pth
+2024-12-29 15:31:47,765 - INFO - ✅ Successfully initialized IOSTUSDT trader
+2024-12-29 15:31:47,768 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MKRUSDT_model.pth
+2024-12-29 15:31:47,768 - INFO - ✅ Successfully initialized MKRUSDT trader
+2024-12-29 15:31:47,768 - WARNING - No trained model found for GRTUSDT
+2024-12-29 15:31:47,771 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UNIUSDT_model.pth
+2024-12-29 15:31:47,771 - INFO - ✅ Successfully initialized UNIUSDT trader
+2024-12-29 15:31:47,772 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TROYUSDT_model.pth
+2024-12-29 15:31:47,772 - INFO - ✅ Successfully initialized TROYUSDT trader
+2024-12-29 15:31:47,775 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SANDUSDT_model.pth
+2024-12-29 15:31:47,775 - INFO - ✅ Successfully initialized SANDUSDT trader
+2024-12-29 15:31:47,775 - WARNING - No trained model found for ACMUSDT
+2024-12-29 15:31:47,777 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ANKRUSDT_model.pth
+2024-12-29 15:31:47,777 - INFO - ✅ Successfully initialized ANKRUSDT trader
+2024-12-29 15:31:47,779 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NULSUSDT_model.pth
+2024-12-29 15:31:47,779 - INFO - ✅ Successfully initialized NULSUSDT trader
+2024-12-29 15:31:47,779 - WARNING - No trained model found for CAKEUSDT
+2024-12-29 15:31:47,779 - WARNING - No trained model found for PSGUSDT
+2024-12-29 15:31:47,781 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BANDUSDT_model.pth
+2024-12-29 15:31:47,781 - INFO - ✅ Successfully initialized BANDUSDT trader
+2024-12-29 15:31:47,783 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTOUSDT_model.pth
+2024-12-29 15:31:47,784 - INFO - ✅ Successfully initialized LTOUSDT trader
+2024-12-29 15:31:47,786 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DGBUSDT_model.pth
+2024-12-29 15:31:47,786 - INFO - ✅ Successfully initialized DGBUSDT trader
+2024-12-29 15:31:47,786 - WARNING - No trained model found for ATMUSDT
+2024-12-29 15:31:47,788 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HBARUSDT_model.pth
+2024-12-29 15:31:47,788 - INFO - ✅ Successfully initialized HBARUSDT trader
+2024-12-29 15:31:47,791 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTMUSDT_model.pth
+2024-12-29 15:31:47,791 - INFO - ✅ Successfully initialized FTMUSDT trader
+2024-12-29 15:31:47,793 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STPTUSDT_model.pth
+2024-12-29 15:31:47,793 - INFO - ✅ Successfully initialized STPTUSDT trader
+2024-12-29 15:31:47,796 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/INJUSDT_model.pth
+2024-12-29 15:31:47,796 - INFO - ✅ Successfully initialized INJUSDT trader
+2024-12-29 15:31:47,798 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DCRUSDT_model.pth
+2024-12-29 15:31:47,798 - INFO - ✅ Successfully initialized DCRUSDT trader
+2024-12-29 15:31:47,800 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BCHUSDT_model.pth
+2024-12-29 15:31:47,801 - INFO - ✅ Successfully initialized BCHUSDT trader
+2024-12-29 15:31:47,801 - WARNING - No trained model found for RIFUSDT
+2024-12-29 15:31:47,801 - WARNING - No trained model found for SFPUSDT
+2024-12-29 15:31:47,803 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAUSDT_model.pth
+2024-12-29 15:31:47,803 - INFO - ✅ Successfully initialized AVAUSDT trader
+2024-12-29 15:31:47,805 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AAVEUSDT_model.pth
+2024-12-29 15:31:47,805 - INFO - ✅ Successfully initialized AAVEUSDT trader
+2024-12-29 15:31:47,808 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRXUSDT_model.pth
+2024-12-29 15:31:47,808 - INFO - ✅ Successfully initialized TRXUSDT trader
+2024-12-29 15:31:47,810 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MANAUSDT_model.pth
+2024-12-29 15:31:47,811 - INFO - ✅ Successfully initialized MANAUSDT trader
+2024-12-29 15:31:47,813 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUSHIUSDT_model.pth
+2024-12-29 15:31:47,813 - INFO - ✅ Successfully initialized SUSHIUSDT trader
+2024-12-29 15:31:47,815 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HOTUSDT_model.pth
+2024-12-29 15:31:47,815 - INFO - ✅ Successfully initialized HOTUSDT trader
+2024-12-29 15:31:47,817 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ICXUSDT_model.pth
+2024-12-29 15:31:47,817 - INFO - ✅ Successfully initialized ICXUSDT trader
+2024-12-29 15:31:47,819 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTCUSDT_model.pth
+2024-12-29 15:31:47,819 - INFO - ✅ Successfully initialized LTCUSDT trader
+2024-12-29 15:31:47,821 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZILUSDT_model.pth
+2024-12-29 15:31:47,822 - INFO - ✅ Successfully initialized ZILUSDT trader
+2024-12-29 15:31:47,824 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/YFIUSDT_model.pth
+2024-12-29 15:31:47,824 - INFO - ✅ Successfully initialized YFIUSDT trader
+2024-12-29 15:31:47,824 - WARNING - No trained model found for CELOUSDT
+2024-12-29 15:31:47,826 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EOSUSDT_model.pth
+2024-12-29 15:31:47,826 - INFO - ✅ Successfully initialized EOSUSDT trader
+2024-12-29 15:31:47,828 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTSIUSDT_model.pth
+2024-12-29 15:31:47,828 - INFO - ✅ Successfully initialized CTSIUSDT trader
+2024-12-29 15:31:47,829 - WARNING - No trained model found for TRUUSDT
+2024-12-29 15:31:47,831 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AUDIOUSDT_model.pth
+2024-12-29 15:31:47,831 - INFO - ✅ Successfully initialized AUDIOUSDT trader
+2024-12-29 15:31:47,835 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KAVAUSDT_model.pth
+2024-12-29 15:31:47,835 - INFO - ✅ Successfully initialized KAVAUSDT trader
+2024-12-29 15:31:47,837 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RLCUSDT_model.pth
+2024-12-29 15:31:47,837 - INFO - ✅ Successfully initialized RLCUSDT trader
+2024-12-29 15:31:47,839 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETCUSDT_model.pth
+2024-12-29 15:31:47,839 - INFO - ✅ Successfully initialized ETCUSDT trader
+2024-12-29 15:31:47,841 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZRXUSDT_model.pth
+2024-12-29 15:31:47,841 - INFO - ✅ Successfully initialized ZRXUSDT trader
+2024-12-29 15:31:47,843 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VITEUSDT_model.pth
+2024-12-29 15:31:47,843 - INFO - ✅ Successfully initialized VITEUSDT trader
+2024-12-29 15:31:47,845 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZENUSDT_model.pth
+2024-12-29 15:31:47,845 - INFO - ✅ Successfully initialized ZENUSDT trader
+2024-12-29 15:31:47,848 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARPAUSDT_model.pth
+2024-12-29 15:31:47,848 - INFO - ✅ Successfully initialized ARPAUSDT trader
+2024-12-29 15:31:47,850 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTTUSDT_model.pth
+2024-12-29 15:31:47,850 - INFO - ✅ Successfully initialized FTTUSDT trader
+2024-12-29 15:31:47,852 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CVCUSDT_model.pth
+2024-12-29 15:31:47,852 - INFO - ✅ Successfully initialized CVCUSDT trader
+2024-12-29 15:31:47,854 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HARDUSDT_model.pth
+2024-12-29 15:31:47,854 - INFO - ✅ Successfully initialized HARDUSDT trader
+2024-12-29 15:31:47,857 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BTCUSDT_model.pth
+2024-12-29 15:31:47,857 - INFO - ✅ Successfully initialized BTCUSDT trader
+2024-12-29 15:31:47,859 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UTKUSDT_model.pth
+2024-12-29 15:31:47,859 - INFO - ✅ Successfully initialized UTKUSDT trader
+2024-12-29 15:31:47,861 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DIAUSDT_model.pth
+2024-12-29 15:31:47,861 - INFO - ✅ Successfully initialized DIAUSDT trader
+2024-12-29 15:31:47,861 - WARNING - No trained model found for BADGERUSDT
+2024-12-29 15:31:47,864 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RUNEUSDT_model.pth
+2024-12-29 15:31:47,864 - INFO - ✅ Successfully initialized RUNEUSDT trader
+2024-12-29 15:31:47,864 - WARNING - No trained model found for TWTUSDT
+2024-12-29 15:31:47,866 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ENJUSDT_model.pth
+2024-12-29 15:31:47,866 - INFO - ✅ Successfully initialized ENJUSDT trader
+2024-12-29 15:31:47,869 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TFUELUSDT_model.pth
+2024-12-29 15:31:47,869 - INFO - ✅ Successfully initialized TFUELUSDT trader
+2024-12-29 15:31:47,871 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STRAXUSDT_model.pth
+2024-12-29 15:31:47,871 - INFO - ✅ Successfully initialized STRAXUSDT trader
+2024-12-29 15:31:47,874 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BELUSDT_model.pth
+2024-12-29 15:31:47,874 - INFO - ✅ Successfully initialized BELUSDT trader
+2024-12-29 15:31:47,876 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LUNAUSDT_model.pth
+2024-12-29 15:31:47,876 - INFO - ✅ Successfully initialized LUNAUSDT trader
+2024-12-29 15:31:47,878 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DENTUSDT_model.pth
+2024-12-29 15:31:47,878 - INFO - ✅ Successfully initialized DENTUSDT trader
+2024-12-29 15:31:47,882 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHRUSDT_model.pth
+2024-12-29 15:31:47,882 - INFO - ✅ Successfully initialized CHRUSDT trader
+2024-12-29 15:31:47,885 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LINKUSDT_model.pth
+2024-12-29 15:31:47,885 - INFO - ✅ Successfully initialized LINKUSDT trader
+2024-12-29 15:31:47,889 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CELRUSDT_model.pth
+2024-12-29 15:31:47,890 - INFO - ✅ Successfully initialized CELRUSDT trader
+2024-12-29 15:31:47,893 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EGLDUSDT_model.pth
+2024-12-29 15:31:47,893 - INFO - ✅ Successfully initialized EGLDUSDT trader
+2024-12-29 15:31:47,895 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STORJUSDT_model.pth
+2024-12-29 15:31:47,895 - INFO - ✅ Successfully initialized STORJUSDT trader
+2024-12-29 15:31:47,898 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STMXUSDT_model.pth
+2024-12-29 15:31:47,898 - INFO - ✅ Successfully initialized STMXUSDT trader
+2024-12-29 15:31:47,900 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNBUSDT_model.pth
+2024-12-29 15:31:47,900 - INFO - ✅ Successfully initialized BNBUSDT trader
+2024-12-29 15:31:47,902 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NKNUSDT_model.pth
+2024-12-29 15:31:47,902 - INFO - ✅ Successfully initialized NKNUSDT trader
+2024-12-29 15:31:47,905 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINGUSDT_model.pth
+2024-12-29 15:31:47,905 - INFO - ✅ Successfully initialized WINGUSDT trader
+2024-12-29 15:31:47,907 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CRVUSDT_model.pth
+2024-12-29 15:31:47,907 - INFO - ✅ Successfully initialized CRVUSDT trader
+2024-12-29 15:31:47,909 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SKLUSDT_model.pth
+2024-12-29 15:31:47,909 - INFO - ✅ Successfully initialized SKLUSDT trader
+2024-12-29 15:31:47,912 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNTUSDT_model.pth
+2024-12-29 15:31:47,912 - INFO - ✅ Successfully initialized BNTUSDT trader
+2024-12-29 15:31:47,914 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NMRUSDT_model.pth
+2024-12-29 15:31:47,914 - INFO - ✅ Successfully initialized NMRUSDT trader
+2024-12-29 15:31:47,916 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTKUSDT_model.pth
+2024-12-29 15:31:47,916 - INFO - ✅ Successfully initialized CTKUSDT trader
+2024-12-29 15:31:47,918 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XLMUSDT_model.pth
+2024-12-29 15:31:47,918 - INFO - ✅ Successfully initialized XLMUSDT trader
+2024-12-29 15:31:47,920 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/QTUMUSDT_model.pth
+2024-12-29 15:31:47,920 - INFO - ✅ Successfully initialized QTUMUSDT trader
+2024-12-29 15:31:47,922 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAXUSDT_model.pth
+2024-12-29 15:31:47,922 - INFO - ✅ Successfully initialized AVAXUSDT trader
+2024-12-29 15:31:47,924 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/PAXGUSDT_model.pth
+2024-12-29 15:31:47,925 - INFO - ✅ Successfully initialized PAXGUSDT trader
+2024-12-29 15:31:47,927 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTXUSDT_model.pth
+2024-12-29 15:31:47,927 - INFO - ✅ Successfully initialized IOTXUSDT trader
+2024-12-29 15:31:47,929 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MTLUSDT_model.pth
+2024-12-29 15:31:47,929 - INFO - ✅ Successfully initialized MTLUSDT trader
+2024-12-29 15:31:47,929 - INFO - Total number of active traders: 153
+2024-12-29 15:33:22,537 - INFO - ✅ Generated signals for RVNUSDT
+2024-12-29 15:33:22,839 - INFO - ✅ Generated signals for ALGOUSDT
+2024-12-29 15:33:23,146 - INFO - ✅ Generated signals for STXUSDT
+2024-12-29 15:33:23,454 - INFO - ✅ Generated signals for SXPUSDT
+2024-12-29 15:33:23,762 - INFO - ✅ Generated signals for ROSEUSDT
+2024-12-29 15:33:24,049 - INFO - ✅ Generated signals for DOTUSDT
+2024-12-29 15:33:24,336 - INFO - ✅ Generated signals for XTZUSDT
+2024-12-29 15:33:24,846 - INFO - ✅ Generated signals for OGNUSDT
+2024-12-29 15:33:25,137 - INFO - ✅ Generated signals for ADAUSDT
+2024-12-29 15:33:25,420 - INFO - ✅ Generated signals for SUNUSDT
+2024-12-29 15:33:25,706 - INFO - ✅ Generated signals for FUNUSDT
+2024-12-29 15:33:25,979 - INFO - ✅ Generated signals for KMDUSDT
+2024-12-29 15:33:26,270 - INFO - ✅ Generated signals for MBLUSDT
+2024-12-29 15:33:26,563 - INFO - ✅ Generated signals for JSTUSDT
+2024-12-29 15:33:26,574 - WARNING - No model available for DODOUSDT
+2024-12-29 15:33:26,875 - INFO - ✅ Generated signals for ONEUSDT
+2024-12-29 15:33:27,184 - INFO - ✅ Generated signals for DASHUSDT
+2024-12-29 15:33:27,468 - INFO - ✅ Generated signals for MDTUSDT
+2024-12-29 15:33:27,472 - WARNING - No model available for OGUSDT
+2024-12-29 15:33:27,771 - INFO - ✅ Generated signals for FILUSDT
+2024-12-29 15:33:28,077 - INFO - ✅ Generated signals for XVSUSDT
+2024-12-29 15:33:28,369 - INFO - ✅ Generated signals for WANUSDT
+2024-12-29 15:33:28,378 - WARNING - No model available for ASRUSDT
+2024-12-29 15:33:28,385 - WARNING - No model available for JUVUSDT
+2024-12-29 15:33:28,676 - INFO - ✅ Generated signals for THETAUSDT
+2024-12-29 15:33:28,684 - WARNING - No model available for LITUSDT
+2024-12-29 15:33:28,982 - INFO - ✅ Generated signals for NEOUSDT
+2024-12-29 15:33:29,290 - INFO - ✅ Generated signals for HIVEUSDT
+2024-12-29 15:33:29,716 - INFO - ✅ Generated signals for ARDRUSDT
+2024-12-29 15:33:29,731 - WARNING - No model available for FISUSDT
+2024-12-29 15:33:30,159 - INFO - ✅ Generated signals for CHZUSDT
+2024-12-29 15:33:30,469 - INFO - ✅ Generated signals for XRPUSDT
+2024-12-29 15:33:30,765 - INFO - ✅ Generated signals for LRCUSDT
+2024-12-29 15:33:31,038 - INFO - ✅ Generated signals for LSKUSDT
+2024-12-29 15:33:31,317 - INFO - ✅ Generated signals for SNXUSDT
+2024-12-29 15:33:31,604 - INFO - ✅ Generated signals for RSRUSDT
+2024-12-29 15:33:32,155 - INFO - ✅ Generated signals for ZECUSDT
+2024-12-29 15:33:32,433 - INFO - ✅ Generated signals for COMPUSDT
+2024-12-29 15:33:32,703 - INFO - ✅ Generated signals for BATUSDT
+2024-12-29 15:33:32,991 - INFO - ✅ Generated signals for EURUSDT
+2024-12-29 15:33:33,287 - INFO - ✅ Generated signals for OXTUSDT
+2024-12-29 15:33:33,596 - INFO - ✅ Generated signals for TRBUSDT
+2024-12-29 15:33:33,899 - INFO - ✅ Generated signals for KSMUSDT
+2024-12-29 15:33:34,204 - INFO - ✅ Generated signals for ALPHAUSDT
+2024-12-29 15:33:34,518 - INFO - ✅ Generated signals for ETHUSDT
+2024-12-29 15:33:34,533 - WARNING - No model available for 1INCHUSDT
+2024-12-29 15:33:34,544 - WARNING - No model available for CKBUSDT
+2024-12-29 15:33:34,825 - INFO - ✅ Generated signals for ATOMUSDT
+2024-12-29 15:33:35,125 - INFO - ✅ Generated signals for VETUSDT
+2024-12-29 15:33:35,434 - INFO - ✅ Generated signals for DUSKUSDT
+2024-12-29 15:33:35,742 - INFO - ✅ Generated signals for FETUSDT
+2024-12-29 15:33:36,029 - INFO - ✅ Generated signals for ONGUSDT
+2024-12-29 15:33:37,395 - INFO - ✅ Generated signals for CTXCUSDT
+2024-12-29 15:33:37,679 - INFO - ✅ Generated signals for SCUSDT
+2024-12-29 15:33:37,999 - INFO - ✅ Generated signals for COSUSDT
+2024-12-29 15:33:38,301 - INFO - ✅ Generated signals for COTIUSDT
+2024-12-29 15:33:38,604 - INFO - ✅ Generated signals for VTHOUSDT
+2024-12-29 15:33:38,879 - INFO - ✅ Generated signals for UMAUSDT
+2024-12-29 15:33:38,894 - WARNING - No model available for FIROUSDT
+2024-12-29 15:33:39,176 - INFO - ✅ Generated signals for NEARUSDT
+2024-12-29 15:33:39,461 - INFO - ✅ Generated signals for WINUSDT
+2024-12-29 15:33:39,748 - INFO - ✅ Generated signals for FLMUSDT
+2024-12-29 15:33:40,067 - INFO - ✅ Generated signals for DATAUSDT
+2024-12-29 15:33:40,539 - INFO - ✅ Generated signals for AXSUSDT
+2024-12-29 15:33:40,826 - INFO - ✅ Generated signals for ONTUSDT
+2024-12-29 15:33:41,116 - INFO - ✅ Generated signals for SOLUSDT
+2024-12-29 15:33:41,121 - WARNING - No model available for TUSDUSDT
+2024-12-29 15:33:41,396 - INFO - ✅ Generated signals for KNCUSDT
+2024-12-29 15:33:41,673 - INFO - ✅ Generated signals for IOTAUSDT
+2024-12-29 15:33:41,988 - INFO - ✅ Generated signals for BALUSDT
+2024-12-29 15:33:42,005 - WARNING - No model available for USDCUSDT
+2024-12-29 15:33:42,553 - INFO - ✅ Generated signals for FIOUSDT
+2024-12-29 15:33:42,830 - INFO - ✅ Generated signals for DOGEUSDT
+2024-12-29 15:33:43,129 - INFO - ✅ Generated signals for IOSTUSDT
+2024-12-29 15:33:43,401 - INFO - ✅ Generated signals for MKRUSDT
+2024-12-29 15:33:43,410 - WARNING - No model available for GRTUSDT
+2024-12-29 15:33:43,687 - INFO - ✅ Generated signals for UNIUSDT
+2024-12-29 15:33:43,963 - INFO - ✅ Generated signals for TROYUSDT
+2024-12-29 15:33:44,253 - INFO - ✅ Generated signals for SANDUSDT
+2024-12-29 15:33:44,258 - WARNING - No model available for ACMUSDT
+2024-12-29 15:33:44,529 - INFO - ✅ Generated signals for ANKRUSDT
+2024-12-29 15:33:44,818 - INFO - ✅ Generated signals for NULSUSDT
+2024-12-29 15:33:44,835 - WARNING - No model available for CAKEUSDT
+2024-12-29 15:33:44,845 - WARNING - No model available for PSGUSDT
+2024-12-29 15:33:45,125 - INFO - ✅ Generated signals for BANDUSDT
+2024-12-29 15:33:45,416 - INFO - ✅ Generated signals for LTOUSDT
+2024-12-29 15:33:45,703 - INFO - ✅ Generated signals for DGBUSDT
+2024-12-29 15:33:45,719 - WARNING - No model available for ATMUSDT
+2024-12-29 15:33:45,994 - INFO - ✅ Generated signals for HBARUSDT
+2024-12-29 15:33:46,293 - INFO - ✅ Generated signals for FTMUSDT
+2024-12-29 15:33:46,711 - INFO - ✅ Generated signals for STPTUSDT
+2024-12-29 15:33:47,011 - INFO - ✅ Generated signals for INJUSDT
+2024-12-29 15:33:47,317 - INFO - ✅ Generated signals for DCRUSDT
+2024-12-29 15:33:47,617 - INFO - ✅ Generated signals for BCHUSDT
+2024-12-29 15:33:47,622 - WARNING - No model available for RIFUSDT
+2024-12-29 15:33:47,627 - WARNING - No model available for SFPUSDT
+2024-12-29 15:33:47,932 - INFO - ✅ Generated signals for AVAUSDT
+2024-12-29 15:33:48,234 - INFO - ✅ Generated signals for AAVEUSDT
+2024-12-29 15:33:48,547 - INFO - ✅ Generated signals for TRXUSDT
+2024-12-29 15:33:48,854 - INFO - ✅ Generated signals for MANAUSDT
+2024-12-29 15:33:49,163 - INFO - ✅ Generated signals for SUSHIUSDT
+2024-12-29 15:33:49,462 - INFO - ✅ Generated signals for HOTUSDT
+2024-12-29 15:33:49,733 - INFO - ✅ Generated signals for ICXUSDT
+2024-12-29 15:33:50,012 - INFO - ✅ Generated signals for LTCUSDT
+2024-12-29 15:33:50,353 - INFO - ✅ Generated signals for ZILUSDT
+2024-12-29 15:33:50,639 - INFO - ✅ Generated signals for YFIUSDT
+2024-12-29 15:33:50,656 - WARNING - No model available for CELOUSDT
+2024-12-29 15:33:50,935 - INFO - ✅ Generated signals for EOSUSDT
+2024-12-29 15:33:51,209 - INFO - ✅ Generated signals for CTSIUSDT
+2024-12-29 15:33:51,214 - WARNING - No model available for TRUUSDT
+2024-12-29 15:33:51,510 - INFO - ✅ Generated signals for AUDIOUSDT
+2024-12-29 15:33:51,908 - INFO - ✅ Generated signals for KAVAUSDT
+2024-12-29 15:33:52,191 - INFO - ✅ Generated signals for RLCUSDT
+2024-12-29 15:33:52,478 - INFO - ✅ Generated signals for ETCUSDT
+2024-12-29 15:33:52,859 - INFO - ✅ Generated signals for ZRXUSDT
+2024-12-29 15:33:53,267 - INFO - ✅ Generated signals for VITEUSDT
+2024-12-29 15:33:53,545 - INFO - ✅ Generated signals for ZENUSDT
+2024-12-29 15:33:53,826 - INFO - ✅ Generated signals for ARPAUSDT
+2024-12-29 15:33:54,116 - INFO - ✅ Generated signals for FTTUSDT
+2024-12-29 15:33:54,403 - INFO - ✅ Generated signals for CVCUSDT
+2024-12-29 15:33:54,690 - INFO - ✅ Generated signals for HARDUSDT
+2024-12-29 15:33:54,999 - INFO - ✅ Generated signals for BTCUSDT
+2024-12-29 15:33:55,299 - INFO - ✅ Generated signals for UTKUSDT
+2024-12-29 15:33:55,605 - INFO - ✅ Generated signals for DIAUSDT
+2024-12-29 15:33:55,618 - WARNING - No model available for BADGERUSDT
+2024-12-29 15:33:55,964 - INFO - ✅ Generated signals for RUNEUSDT
+2024-12-29 15:33:55,980 - WARNING - No model available for TWTUSDT
+2024-12-29 15:33:56,260 - INFO - ✅ Generated signals for ENJUSDT
+2024-12-29 15:33:56,555 - INFO - ✅ Generated signals for TFUELUSDT
+2024-12-29 15:33:56,868 - INFO - ✅ Generated signals for STRAXUSDT
+2024-12-29 15:33:57,163 - INFO - ✅ Generated signals for BELUSDT
+2024-12-29 15:33:57,463 - INFO - ✅ Generated signals for LUNAUSDT
+2024-12-29 15:33:58,015 - INFO - ✅ Generated signals for DENTUSDT
+2024-12-29 15:33:58,300 - INFO - ✅ Generated signals for CHRUSDT
+2024-12-29 15:33:58,581 - INFO - ✅ Generated signals for LINKUSDT
+2024-12-29 15:33:59,091 - INFO - ✅ Generated signals for CELRUSDT
+2024-12-29 15:33:59,397 - INFO - ✅ Generated signals for EGLDUSDT
+2024-12-29 15:33:59,707 - INFO - ✅ Generated signals for STORJUSDT
+2024-12-29 15:34:00,007 - INFO - ✅ Generated signals for STMXUSDT
+2024-12-29 15:34:00,321 - INFO - ✅ Generated signals for BNBUSDT
+2024-12-29 15:34:00,630 - INFO - ✅ Generated signals for NKNUSDT
+2024-12-29 15:34:00,921 - INFO - ✅ Generated signals for WINGUSDT
+2024-12-29 15:34:01,206 - INFO - ✅ Generated signals for CRVUSDT
+2024-12-29 15:34:01,552 - INFO - ✅ Generated signals for SKLUSDT
+2024-12-29 15:34:01,839 - INFO - ✅ Generated signals for BNTUSDT
+2024-12-29 15:34:02,125 - INFO - ✅ Generated signals for NMRUSDT
+2024-12-29 15:34:02,572 - INFO - ✅ Generated signals for CTKUSDT
+2024-12-29 15:34:02,883 - INFO - ✅ Generated signals for XLMUSDT
+2024-12-29 15:34:03,191 - INFO - ✅ Generated signals for QTUMUSDT
+2024-12-29 15:34:03,497 - INFO - ✅ Generated signals for AVAXUSDT
+2024-12-29 15:34:03,803 - INFO - ✅ Generated signals for PAXGUSDT
+2024-12-29 15:34:04,226 - INFO - ✅ Generated signals for IOTXUSDT
+2024-12-29 15:34:04,510 - INFO - ✅ Generated signals for MTLUSDT
+2024-12-29 15:34:12,886 - INFO - Formatted prices for PAXGUSDT:
+2024-12-29 15:34:12,886 - INFO -   Entry: 2643
+2024-12-29 15:34:12,886 - INFO -   Target: 2682
+2024-12-29 15:34:12,886 - INFO -   Stop: 2616
+2024-12-29 15:34:13,216 - INFO - Placed entry order for PAXGUSDT:
+2024-12-29 15:34:13,216 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:13,217 - INFO -   Quantity: 0.0056
+2024-12-29 15:34:13,217 - INFO -   Entry Price: 2643
+2024-12-29 15:34:13,483 - ERROR - Binance API error for PAXGUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:13,483 - ERROR - Attempted values - Quantity: 0.0056, Entry: 2643, Target: 2682, Stop: 2616
+2024-12-29 15:34:15,769 - INFO - Formatted prices for JSTUSDT:
+2024-12-29 15:34:15,769 - INFO -   Entry: 0.03895
+2024-12-29 15:34:15,769 - INFO -   Target: 0.03954
+2024-12-29 15:34:15,769 - INFO -   Stop: 0.03856
+2024-12-29 15:34:16,092 - INFO - Placed entry order for JSTUSDT:
+2024-12-29 15:34:16,092 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:16,092 - INFO -   Quantity: 385.0
+2024-12-29 15:34:16,092 - INFO -   Entry Price: 0.03895
+2024-12-29 15:34:16,399 - ERROR - Binance API error for JSTUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:16,399 - ERROR - Attempted values - Quantity: 385.0, Entry: 0.03895, Target: 0.03954, Stop: 0.03856
+2024-12-29 15:34:18,586 - INFO - Formatted prices for TROYUSDT:
+2024-12-29 15:34:18,586 - INFO -   Entry: 0.00545
+2024-12-29 15:34:18,586 - INFO -   Target: 0.00553
+2024-12-29 15:34:18,586 - INFO -   Stop: 0.00540
+2024-12-29 15:34:18,858 - ERROR - Binance API error for TROYUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2024-12-29 15:34:18,859 - ERROR - Attempted values - Quantity: 2751.4, Entry: 0.00545, Target: 0.00553, Stop: 0.00540
+2024-12-29 15:34:21,329 - INFO - Formatted prices for LSKUSDT:
+2024-12-29 15:34:21,329 - INFO -   Entry: 0.956
+2024-12-29 15:34:21,329 - INFO -   Target: 0.971
+2024-12-29 15:34:21,329 - INFO -   Stop: 0.947
+2024-12-29 15:34:21,607 - INFO - Placed entry order for LSKUSDT:
+2024-12-29 15:34:21,607 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:21,607 - INFO -   Quantity: 15.6
+2024-12-29 15:34:21,607 - INFO -   Entry Price: 0.956
+2024-12-29 15:34:21,877 - ERROR - Binance API error for LSKUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:21,877 - ERROR - Attempted values - Quantity: 15.6, Entry: 0.956, Target: 0.971, Stop: 0.947
+2024-12-29 15:34:23,995 - INFO - Formatted prices for BNBUSDT:
+2024-12-29 15:34:23,995 - INFO -   Entry: 705.94
+2024-12-29 15:34:23,995 - INFO -   Target: 716.53
+2024-12-29 15:34:23,995 - INFO -   Stop: 698.88
+2024-12-29 15:34:24,283 - INFO - Placed entry order for BNBUSDT:
+2024-12-29 15:34:24,283 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:24,283 - INFO -   Quantity: 0.021
+2024-12-29 15:34:24,283 - INFO -   Entry Price: 705.94
+2024-12-29 15:34:24,547 - ERROR - Binance API error for BNBUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:24,548 - ERROR - Attempted values - Quantity: 0.021, Entry: 705.94, Target: 716.53, Stop: 698.88
+2024-12-29 15:34:26,789 - INFO - Formatted prices for FILUSDT:
+2024-12-29 15:34:26,789 - INFO -   Entry: 5.092
+2024-12-29 15:34:26,789 - INFO -   Target: 5.169
+2024-12-29 15:34:26,789 - INFO -   Stop: 5.041
+2024-12-29 15:34:27,058 - INFO - Placed entry order for FILUSDT:
+2024-12-29 15:34:27,059 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:27,059 - INFO -   Quantity: 2.94
+2024-12-29 15:34:27,059 - INFO -   Entry Price: 5.092
+2024-12-29 15:34:27,350 - ERROR - Binance API error for FILUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:27,350 - ERROR - Attempted values - Quantity: 2.94, Entry: 5.092, Target: 5.169, Stop: 5.041
+2024-12-29 15:34:29,576 - INFO - Formatted prices for XLMUSDT:
+2024-12-29 15:34:29,576 - INFO -   Entry: 0.3473
+2024-12-29 15:34:29,576 - INFO -   Target: 0.3525
+2024-12-29 15:34:29,576 - INFO -   Stop: 0.3438
+2024-12-29 15:34:29,919 - ERROR - Binance API error for XLMUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2024-12-29 15:34:29,919 - ERROR - Attempted values - Quantity: 43.1, Entry: 0.3473, Target: 0.3525, Stop: 0.3438
+2024-12-29 15:34:32,241 - INFO - Formatted prices for EOSUSDT:
+2024-12-29 15:34:32,241 - INFO -   Entry: 0.7945
+2024-12-29 15:34:32,241 - INFO -   Target: 0.8064
+2024-12-29 15:34:32,241 - INFO -   Stop: 0.7866
+2024-12-29 15:34:32,509 - INFO - Placed entry order for EOSUSDT:
+2024-12-29 15:34:32,509 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:32,509 - INFO -   Quantity: 18.8
+2024-12-29 15:34:32,509 - INFO -   Entry Price: 0.7945
+2024-12-29 15:34:32,786 - ERROR - Binance API error for EOSUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:32,786 - ERROR - Attempted values - Quantity: 18.8, Entry: 0.7945, Target: 0.8064, Stop: 0.7866
+2024-12-29 15:34:35,021 - INFO - Formatted prices for INJUSDT:
+2024-12-29 15:34:35,022 - INFO -   Entry: 20.55
+2024-12-29 15:34:35,022 - INFO -   Target: 20.85
+2024-12-29 15:34:35,022 - INFO -   Stop: 20.34
+2024-12-29 15:34:35,288 - INFO - Placed entry order for INJUSDT:
+2024-12-29 15:34:35,288 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:35,288 - INFO -   Quantity: 0.73
+2024-12-29 15:34:35,288 - INFO -   Entry Price: 20.55
+2024-12-29 15:34:35,565 - ERROR - Binance API error for INJUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:35,565 - ERROR - Attempted values - Quantity: 0.73, Entry: 20.55, Target: 20.85, Stop: 20.34
+2024-12-29 15:34:37,818 - INFO - Formatted prices for QTUMUSDT:
+2024-12-29 15:34:37,818 - INFO -   Entry: 3.185
+2024-12-29 15:34:37,819 - INFO -   Target: 3.233
+2024-12-29 15:34:37,819 - INFO -   Stop: 3.153
+2024-12-29 15:34:38,108 - INFO - Placed entry order for QTUMUSDT:
+2024-12-29 15:34:38,109 - INFO -   Amount: 15 USDT
+2024-12-29 15:34:38,109 - INFO -   Quantity: 4.7
+2024-12-29 15:34:38,109 - INFO -   Entry Price: 3.185
+2024-12-29 15:34:38,414 - ERROR - Binance API error for QTUMUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:34:38,414 - ERROR - Attempted values - Quantity: 4.7, Entry: 3.185, Target: 3.233, Stop: 3.153
+2024-12-29 15:36:04,848 - ERROR - Insufficient USDT balance. Available: 48.49447131
+2024-12-29 15:36:46,007 - INFO - Initializing traders...
+2024-12-29 15:36:46,040 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RVNUSDT_model.pth
+2024-12-29 15:36:46,041 - INFO - ✅ Successfully initialized RVNUSDT trader
+2024-12-29 15:36:46,044 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALGOUSDT_model.pth
+2024-12-29 15:36:46,044 - INFO - ✅ Successfully initialized ALGOUSDT trader
+2024-12-29 15:36:46,047 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STXUSDT_model.pth
+2024-12-29 15:36:46,047 - INFO - ✅ Successfully initialized STXUSDT trader
+2024-12-29 15:36:46,050 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SXPUSDT_model.pth
+2024-12-29 15:36:46,050 - INFO - ✅ Successfully initialized SXPUSDT trader
+2024-12-29 15:36:46,054 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ROSEUSDT_model.pth
+2024-12-29 15:36:46,054 - INFO - ✅ Successfully initialized ROSEUSDT trader
+2024-12-29 15:36:46,057 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOTUSDT_model.pth
+2024-12-29 15:36:46,057 - INFO - ✅ Successfully initialized DOTUSDT trader
+2024-12-29 15:36:46,061 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XTZUSDT_model.pth
+2024-12-29 15:36:46,061 - INFO - ✅ Successfully initialized XTZUSDT trader
+2024-12-29 15:36:46,063 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OGNUSDT_model.pth
+2024-12-29 15:36:46,063 - INFO - ✅ Successfully initialized OGNUSDT trader
+2024-12-29 15:36:46,066 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ADAUSDT_model.pth
+2024-12-29 15:36:46,066 - INFO - ✅ Successfully initialized ADAUSDT trader
+2024-12-29 15:36:46,069 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUNUSDT_model.pth
+2024-12-29 15:36:46,069 - INFO - ✅ Successfully initialized SUNUSDT trader
+2024-12-29 15:36:46,072 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FUNUSDT_model.pth
+2024-12-29 15:36:46,072 - INFO - ✅ Successfully initialized FUNUSDT trader
+2024-12-29 15:36:46,075 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KMDUSDT_model.pth
+2024-12-29 15:36:46,075 - INFO - ✅ Successfully initialized KMDUSDT trader
+2024-12-29 15:36:46,077 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MBLUSDT_model.pth
+2024-12-29 15:36:46,077 - INFO - ✅ Successfully initialized MBLUSDT trader
+2024-12-29 15:36:46,080 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/JSTUSDT_model.pth
+2024-12-29 15:36:46,080 - INFO - ✅ Successfully initialized JSTUSDT trader
+2024-12-29 15:36:46,080 - WARNING - No trained model found for DODOUSDT
+2024-12-29 15:36:46,082 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONEUSDT_model.pth
+2024-12-29 15:36:46,082 - INFO - ✅ Successfully initialized ONEUSDT trader
+2024-12-29 15:36:46,085 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DASHUSDT_model.pth
+2024-12-29 15:36:46,085 - INFO - ✅ Successfully initialized DASHUSDT trader
+2024-12-29 15:36:46,088 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MDTUSDT_model.pth
+2024-12-29 15:36:46,088 - INFO - ✅ Successfully initialized MDTUSDT trader
+2024-12-29 15:36:46,088 - WARNING - No trained model found for OGUSDT
+2024-12-29 15:36:46,090 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FILUSDT_model.pth
+2024-12-29 15:36:46,090 - INFO - ✅ Successfully initialized FILUSDT trader
+2024-12-29 15:36:46,093 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XVSUSDT_model.pth
+2024-12-29 15:36:46,093 - INFO - ✅ Successfully initialized XVSUSDT trader
+2024-12-29 15:36:46,095 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WANUSDT_model.pth
+2024-12-29 15:36:46,096 - INFO - ✅ Successfully initialized WANUSDT trader
+2024-12-29 15:36:46,096 - WARNING - No trained model found for ASRUSDT
+2024-12-29 15:36:46,096 - WARNING - No trained model found for JUVUSDT
+2024-12-29 15:36:46,099 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/THETAUSDT_model.pth
+2024-12-29 15:36:46,099 - INFO - ✅ Successfully initialized THETAUSDT trader
+2024-12-29 15:36:46,099 - WARNING - No trained model found for LITUSDT
+2024-12-29 15:36:46,102 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEOUSDT_model.pth
+2024-12-29 15:36:46,102 - INFO - ✅ Successfully initialized NEOUSDT trader
+2024-12-29 15:36:46,104 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HIVEUSDT_model.pth
+2024-12-29 15:36:46,104 - INFO - ✅ Successfully initialized HIVEUSDT trader
+2024-12-29 15:36:46,106 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARDRUSDT_model.pth
+2024-12-29 15:36:46,106 - INFO - ✅ Successfully initialized ARDRUSDT trader
+2024-12-29 15:36:46,106 - WARNING - No trained model found for FISUSDT
+2024-12-29 15:36:46,109 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHZUSDT_model.pth
+2024-12-29 15:36:46,109 - INFO - ✅ Successfully initialized CHZUSDT trader
+2024-12-29 15:36:46,112 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XRPUSDT_model.pth
+2024-12-29 15:36:46,112 - INFO - ✅ Successfully initialized XRPUSDT trader
+2024-12-29 15:36:46,114 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LRCUSDT_model.pth
+2024-12-29 15:36:46,114 - INFO - ✅ Successfully initialized LRCUSDT trader
+2024-12-29 15:36:46,117 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LSKUSDT_model.pth
+2024-12-29 15:36:46,117 - INFO - ✅ Successfully initialized LSKUSDT trader
+2024-12-29 15:36:46,119 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SNXUSDT_model.pth
+2024-12-29 15:36:46,119 - INFO - ✅ Successfully initialized SNXUSDT trader
+2024-12-29 15:36:46,121 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RSRUSDT_model.pth
+2024-12-29 15:36:46,121 - INFO - ✅ Successfully initialized RSRUSDT trader
+2024-12-29 15:36:46,123 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZECUSDT_model.pth
+2024-12-29 15:36:46,124 - INFO - ✅ Successfully initialized ZECUSDT trader
+2024-12-29 15:36:46,126 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COMPUSDT_model.pth
+2024-12-29 15:36:46,126 - INFO - ✅ Successfully initialized COMPUSDT trader
+2024-12-29 15:36:46,128 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BATUSDT_model.pth
+2024-12-29 15:36:46,128 - INFO - ✅ Successfully initialized BATUSDT trader
+2024-12-29 15:36:46,130 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EURUSDT_model.pth
+2024-12-29 15:36:46,130 - INFO - ✅ Successfully initialized EURUSDT trader
+2024-12-29 15:36:46,133 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OXTUSDT_model.pth
+2024-12-29 15:36:46,133 - INFO - ✅ Successfully initialized OXTUSDT trader
+2024-12-29 15:36:46,135 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRBUSDT_model.pth
+2024-12-29 15:36:46,135 - INFO - ✅ Successfully initialized TRBUSDT trader
+2024-12-29 15:36:46,137 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KSMUSDT_model.pth
+2024-12-29 15:36:46,137 - INFO - ✅ Successfully initialized KSMUSDT trader
+2024-12-29 15:36:46,139 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALPHAUSDT_model.pth
+2024-12-29 15:36:46,139 - INFO - ✅ Successfully initialized ALPHAUSDT trader
+2024-12-29 15:36:46,142 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETHUSDT_model.pth
+2024-12-29 15:36:46,142 - INFO - ✅ Successfully initialized ETHUSDT trader
+2024-12-29 15:36:46,142 - WARNING - No trained model found for 1INCHUSDT
+2024-12-29 15:36:46,142 - WARNING - No trained model found for CKBUSDT
+2024-12-29 15:36:46,144 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ATOMUSDT_model.pth
+2024-12-29 15:36:46,144 - INFO - ✅ Successfully initialized ATOMUSDT trader
+2024-12-29 15:36:46,146 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VETUSDT_model.pth
+2024-12-29 15:36:46,146 - INFO - ✅ Successfully initialized VETUSDT trader
+2024-12-29 15:36:46,149 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DUSKUSDT_model.pth
+2024-12-29 15:36:46,149 - INFO - ✅ Successfully initialized DUSKUSDT trader
+2024-12-29 15:36:46,151 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FETUSDT_model.pth
+2024-12-29 15:36:46,151 - INFO - ✅ Successfully initialized FETUSDT trader
+2024-12-29 15:36:46,153 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONGUSDT_model.pth
+2024-12-29 15:36:46,154 - INFO - ✅ Successfully initialized ONGUSDT trader
+2024-12-29 15:36:46,156 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTXCUSDT_model.pth
+2024-12-29 15:36:46,156 - INFO - ✅ Successfully initialized CTXCUSDT trader
+2024-12-29 15:36:46,158 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SCUSDT_model.pth
+2024-12-29 15:36:46,158 - INFO - ✅ Successfully initialized SCUSDT trader
+2024-12-29 15:36:46,160 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COSUSDT_model.pth
+2024-12-29 15:36:46,160 - INFO - ✅ Successfully initialized COSUSDT trader
+2024-12-29 15:36:46,162 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COTIUSDT_model.pth
+2024-12-29 15:36:46,163 - INFO - ✅ Successfully initialized COTIUSDT trader
+2024-12-29 15:36:46,165 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VTHOUSDT_model.pth
+2024-12-29 15:36:46,165 - INFO - ✅ Successfully initialized VTHOUSDT trader
+2024-12-29 15:36:46,222 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UMAUSDT_model.pth
+2024-12-29 15:36:46,222 - INFO - ✅ Successfully initialized UMAUSDT trader
+2024-12-29 15:36:46,222 - WARNING - No trained model found for FIROUSDT
+2024-12-29 15:36:46,225 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEARUSDT_model.pth
+2024-12-29 15:36:46,225 - INFO - ✅ Successfully initialized NEARUSDT trader
+2024-12-29 15:36:46,227 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINUSDT_model.pth
+2024-12-29 15:36:46,227 - INFO - ✅ Successfully initialized WINUSDT trader
+2024-12-29 15:36:46,230 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FLMUSDT_model.pth
+2024-12-29 15:36:46,230 - INFO - ✅ Successfully initialized FLMUSDT trader
+2024-12-29 15:36:46,232 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DATAUSDT_model.pth
+2024-12-29 15:36:46,232 - INFO - ✅ Successfully initialized DATAUSDT trader
+2024-12-29 15:36:46,234 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AXSUSDT_model.pth
+2024-12-29 15:36:46,234 - INFO - ✅ Successfully initialized AXSUSDT trader
+2024-12-29 15:36:46,237 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONTUSDT_model.pth
+2024-12-29 15:36:46,237 - INFO - ✅ Successfully initialized ONTUSDT trader
+2024-12-29 15:36:46,239 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SOLUSDT_model.pth
+2024-12-29 15:36:46,239 - INFO - ✅ Successfully initialized SOLUSDT trader
+2024-12-29 15:36:46,239 - WARNING - No trained model found for TUSDUSDT
+2024-12-29 15:36:46,241 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KNCUSDT_model.pth
+2024-12-29 15:36:46,241 - INFO - ✅ Successfully initialized KNCUSDT trader
+2024-12-29 15:36:46,244 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTAUSDT_model.pth
+2024-12-29 15:36:46,244 - INFO - ✅ Successfully initialized IOTAUSDT trader
+2024-12-29 15:36:46,247 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BALUSDT_model.pth
+2024-12-29 15:36:46,247 - INFO - ✅ Successfully initialized BALUSDT trader
+2024-12-29 15:36:46,247 - WARNING - No trained model found for USDCUSDT
+2024-12-29 15:36:46,249 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FIOUSDT_model.pth
+2024-12-29 15:36:46,249 - INFO - ✅ Successfully initialized FIOUSDT trader
+2024-12-29 15:36:46,251 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOGEUSDT_model.pth
+2024-12-29 15:36:46,251 - INFO - ✅ Successfully initialized DOGEUSDT trader
+2024-12-29 15:36:46,253 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOSTUSDT_model.pth
+2024-12-29 15:36:46,253 - INFO - ✅ Successfully initialized IOSTUSDT trader
+2024-12-29 15:36:46,256 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MKRUSDT_model.pth
+2024-12-29 15:36:46,256 - INFO - ✅ Successfully initialized MKRUSDT trader
+2024-12-29 15:36:46,256 - WARNING - No trained model found for GRTUSDT
+2024-12-29 15:36:46,258 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UNIUSDT_model.pth
+2024-12-29 15:36:46,258 - INFO - ✅ Successfully initialized UNIUSDT trader
+2024-12-29 15:36:46,261 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TROYUSDT_model.pth
+2024-12-29 15:36:46,261 - INFO - ✅ Successfully initialized TROYUSDT trader
+2024-12-29 15:36:46,263 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SANDUSDT_model.pth
+2024-12-29 15:36:46,264 - INFO - ✅ Successfully initialized SANDUSDT trader
+2024-12-29 15:36:46,264 - WARNING - No trained model found for ACMUSDT
+2024-12-29 15:36:46,266 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ANKRUSDT_model.pth
+2024-12-29 15:36:46,266 - INFO - ✅ Successfully initialized ANKRUSDT trader
+2024-12-29 15:36:46,268 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NULSUSDT_model.pth
+2024-12-29 15:36:46,268 - INFO - ✅ Successfully initialized NULSUSDT trader
+2024-12-29 15:36:46,268 - WARNING - No trained model found for CAKEUSDT
+2024-12-29 15:36:46,268 - WARNING - No trained model found for PSGUSDT
+2024-12-29 15:36:46,270 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BANDUSDT_model.pth
+2024-12-29 15:36:46,270 - INFO - ✅ Successfully initialized BANDUSDT trader
+2024-12-29 15:36:46,273 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTOUSDT_model.pth
+2024-12-29 15:36:46,273 - INFO - ✅ Successfully initialized LTOUSDT trader
+2024-12-29 15:36:46,275 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DGBUSDT_model.pth
+2024-12-29 15:36:46,275 - INFO - ✅ Successfully initialized DGBUSDT trader
+2024-12-29 15:36:46,276 - WARNING - No trained model found for ATMUSDT
+2024-12-29 15:36:46,278 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HBARUSDT_model.pth
+2024-12-29 15:36:46,278 - INFO - ✅ Successfully initialized HBARUSDT trader
+2024-12-29 15:36:46,281 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTMUSDT_model.pth
+2024-12-29 15:36:46,281 - INFO - ✅ Successfully initialized FTMUSDT trader
+2024-12-29 15:36:46,283 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STPTUSDT_model.pth
+2024-12-29 15:36:46,283 - INFO - ✅ Successfully initialized STPTUSDT trader
+2024-12-29 15:36:46,285 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/INJUSDT_model.pth
+2024-12-29 15:36:46,285 - INFO - ✅ Successfully initialized INJUSDT trader
+2024-12-29 15:36:46,288 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DCRUSDT_model.pth
+2024-12-29 15:36:46,288 - INFO - ✅ Successfully initialized DCRUSDT trader
+2024-12-29 15:36:46,290 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BCHUSDT_model.pth
+2024-12-29 15:36:46,290 - INFO - ✅ Successfully initialized BCHUSDT trader
+2024-12-29 15:36:46,290 - WARNING - No trained model found for RIFUSDT
+2024-12-29 15:36:46,290 - WARNING - No trained model found for SFPUSDT
+2024-12-29 15:36:46,292 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAUSDT_model.pth
+2024-12-29 15:36:46,292 - INFO - ✅ Successfully initialized AVAUSDT trader
+2024-12-29 15:36:46,295 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AAVEUSDT_model.pth
+2024-12-29 15:36:46,295 - INFO - ✅ Successfully initialized AAVEUSDT trader
+2024-12-29 15:36:46,298 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRXUSDT_model.pth
+2024-12-29 15:36:46,298 - INFO - ✅ Successfully initialized TRXUSDT trader
+2024-12-29 15:36:46,301 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MANAUSDT_model.pth
+2024-12-29 15:36:46,301 - INFO - ✅ Successfully initialized MANAUSDT trader
+2024-12-29 15:36:46,303 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUSHIUSDT_model.pth
+2024-12-29 15:36:46,303 - INFO - ✅ Successfully initialized SUSHIUSDT trader
+2024-12-29 15:36:46,305 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HOTUSDT_model.pth
+2024-12-29 15:36:46,305 - INFO - ✅ Successfully initialized HOTUSDT trader
+2024-12-29 15:36:46,307 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ICXUSDT_model.pth
+2024-12-29 15:36:46,307 - INFO - ✅ Successfully initialized ICXUSDT trader
+2024-12-29 15:36:46,310 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTCUSDT_model.pth
+2024-12-29 15:36:46,310 - INFO - ✅ Successfully initialized LTCUSDT trader
+2024-12-29 15:36:46,313 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZILUSDT_model.pth
+2024-12-29 15:36:46,313 - INFO - ✅ Successfully initialized ZILUSDT trader
+2024-12-29 15:36:46,315 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/YFIUSDT_model.pth
+2024-12-29 15:36:46,315 - INFO - ✅ Successfully initialized YFIUSDT trader
+2024-12-29 15:36:46,315 - WARNING - No trained model found for CELOUSDT
+2024-12-29 15:36:46,317 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EOSUSDT_model.pth
+2024-12-29 15:36:46,317 - INFO - ✅ Successfully initialized EOSUSDT trader
+2024-12-29 15:36:46,321 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTSIUSDT_model.pth
+2024-12-29 15:36:46,321 - INFO - ✅ Successfully initialized CTSIUSDT trader
+2024-12-29 15:36:46,321 - WARNING - No trained model found for TRUUSDT
+2024-12-29 15:36:46,323 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AUDIOUSDT_model.pth
+2024-12-29 15:36:46,323 - INFO - ✅ Successfully initialized AUDIOUSDT trader
+2024-12-29 15:36:46,326 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KAVAUSDT_model.pth
+2024-12-29 15:36:46,326 - INFO - ✅ Successfully initialized KAVAUSDT trader
+2024-12-29 15:36:46,329 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RLCUSDT_model.pth
+2024-12-29 15:36:46,329 - INFO - ✅ Successfully initialized RLCUSDT trader
+2024-12-29 15:36:46,332 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETCUSDT_model.pth
+2024-12-29 15:36:46,332 - INFO - ✅ Successfully initialized ETCUSDT trader
+2024-12-29 15:36:46,334 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZRXUSDT_model.pth
+2024-12-29 15:36:46,334 - INFO - ✅ Successfully initialized ZRXUSDT trader
+2024-12-29 15:36:46,336 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VITEUSDT_model.pth
+2024-12-29 15:36:46,336 - INFO - ✅ Successfully initialized VITEUSDT trader
+2024-12-29 15:36:46,339 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZENUSDT_model.pth
+2024-12-29 15:36:46,339 - INFO - ✅ Successfully initialized ZENUSDT trader
+2024-12-29 15:36:46,341 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARPAUSDT_model.pth
+2024-12-29 15:36:46,341 - INFO - ✅ Successfully initialized ARPAUSDT trader
+2024-12-29 15:36:46,347 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTTUSDT_model.pth
+2024-12-29 15:36:46,347 - INFO - ✅ Successfully initialized FTTUSDT trader
+2024-12-29 15:36:46,350 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CVCUSDT_model.pth
+2024-12-29 15:36:46,350 - INFO - ✅ Successfully initialized CVCUSDT trader
+2024-12-29 15:36:46,354 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HARDUSDT_model.pth
+2024-12-29 15:36:46,354 - INFO - ✅ Successfully initialized HARDUSDT trader
+2024-12-29 15:36:46,357 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BTCUSDT_model.pth
+2024-12-29 15:36:46,357 - INFO - ✅ Successfully initialized BTCUSDT trader
+2024-12-29 15:36:46,359 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UTKUSDT_model.pth
+2024-12-29 15:36:46,359 - INFO - ✅ Successfully initialized UTKUSDT trader
+2024-12-29 15:36:46,362 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DIAUSDT_model.pth
+2024-12-29 15:36:46,362 - INFO - ✅ Successfully initialized DIAUSDT trader
+2024-12-29 15:36:46,362 - WARNING - No trained model found for BADGERUSDT
+2024-12-29 15:36:46,365 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RUNEUSDT_model.pth
+2024-12-29 15:36:46,365 - INFO - ✅ Successfully initialized RUNEUSDT trader
+2024-12-29 15:36:46,365 - WARNING - No trained model found for TWTUSDT
+2024-12-29 15:36:46,367 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ENJUSDT_model.pth
+2024-12-29 15:36:46,367 - INFO - ✅ Successfully initialized ENJUSDT trader
+2024-12-29 15:36:46,370 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TFUELUSDT_model.pth
+2024-12-29 15:36:46,370 - INFO - ✅ Successfully initialized TFUELUSDT trader
+2024-12-29 15:36:46,372 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STRAXUSDT_model.pth
+2024-12-29 15:36:46,373 - INFO - ✅ Successfully initialized STRAXUSDT trader
+2024-12-29 15:36:46,375 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BELUSDT_model.pth
+2024-12-29 15:36:46,375 - INFO - ✅ Successfully initialized BELUSDT trader
+2024-12-29 15:36:46,378 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LUNAUSDT_model.pth
+2024-12-29 15:36:46,378 - INFO - ✅ Successfully initialized LUNAUSDT trader
+2024-12-29 15:36:46,380 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DENTUSDT_model.pth
+2024-12-29 15:36:46,380 - INFO - ✅ Successfully initialized DENTUSDT trader
+2024-12-29 15:36:46,383 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHRUSDT_model.pth
+2024-12-29 15:36:46,383 - INFO - ✅ Successfully initialized CHRUSDT trader
+2024-12-29 15:36:46,385 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LINKUSDT_model.pth
+2024-12-29 15:36:46,385 - INFO - ✅ Successfully initialized LINKUSDT trader
+2024-12-29 15:36:46,387 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CELRUSDT_model.pth
+2024-12-29 15:36:46,387 - INFO - ✅ Successfully initialized CELRUSDT trader
+2024-12-29 15:36:46,389 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EGLDUSDT_model.pth
+2024-12-29 15:36:46,389 - INFO - ✅ Successfully initialized EGLDUSDT trader
+2024-12-29 15:36:46,392 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STORJUSDT_model.pth
+2024-12-29 15:36:46,392 - INFO - ✅ Successfully initialized STORJUSDT trader
+2024-12-29 15:36:46,394 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STMXUSDT_model.pth
+2024-12-29 15:36:46,394 - INFO - ✅ Successfully initialized STMXUSDT trader
+2024-12-29 15:36:46,397 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNBUSDT_model.pth
+2024-12-29 15:36:46,397 - INFO - ✅ Successfully initialized BNBUSDT trader
+2024-12-29 15:36:46,399 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NKNUSDT_model.pth
+2024-12-29 15:36:46,399 - INFO - ✅ Successfully initialized NKNUSDT trader
+2024-12-29 15:36:46,401 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINGUSDT_model.pth
+2024-12-29 15:36:46,401 - INFO - ✅ Successfully initialized WINGUSDT trader
+2024-12-29 15:36:46,403 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CRVUSDT_model.pth
+2024-12-29 15:36:46,404 - INFO - ✅ Successfully initialized CRVUSDT trader
+2024-12-29 15:36:46,406 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SKLUSDT_model.pth
+2024-12-29 15:36:46,406 - INFO - ✅ Successfully initialized SKLUSDT trader
+2024-12-29 15:36:46,408 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNTUSDT_model.pth
+2024-12-29 15:36:46,408 - INFO - ✅ Successfully initialized BNTUSDT trader
+2024-12-29 15:36:46,410 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NMRUSDT_model.pth
+2024-12-29 15:36:46,410 - INFO - ✅ Successfully initialized NMRUSDT trader
+2024-12-29 15:36:46,413 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTKUSDT_model.pth
+2024-12-29 15:36:46,413 - INFO - ✅ Successfully initialized CTKUSDT trader
+2024-12-29 15:36:46,415 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XLMUSDT_model.pth
+2024-12-29 15:36:46,415 - INFO - ✅ Successfully initialized XLMUSDT trader
+2024-12-29 15:36:46,417 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/QTUMUSDT_model.pth
+2024-12-29 15:36:46,417 - INFO - ✅ Successfully initialized QTUMUSDT trader
+2024-12-29 15:36:46,420 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAXUSDT_model.pth
+2024-12-29 15:36:46,420 - INFO - ✅ Successfully initialized AVAXUSDT trader
+2024-12-29 15:36:46,422 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/PAXGUSDT_model.pth
+2024-12-29 15:36:46,422 - INFO - ✅ Successfully initialized PAXGUSDT trader
+2024-12-29 15:36:46,424 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTXUSDT_model.pth
+2024-12-29 15:36:46,424 - INFO - ✅ Successfully initialized IOTXUSDT trader
+2024-12-29 15:36:46,426 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MTLUSDT_model.pth
+2024-12-29 15:36:46,427 - INFO - ✅ Successfully initialized MTLUSDT trader
+2024-12-29 15:36:46,427 - INFO - Total number of active traders: 153
+2024-12-29 15:38:20,262 - INFO - ✅ Generated signals for RVNUSDT
+2024-12-29 15:38:20,529 - INFO - ✅ Generated signals for ALGOUSDT
+2024-12-29 15:38:20,820 - INFO - ✅ Generated signals for STXUSDT
+2024-12-29 15:38:21,133 - INFO - ✅ Generated signals for SXPUSDT
+2024-12-29 15:38:21,439 - INFO - ✅ Generated signals for ROSEUSDT
+2024-12-29 15:38:21,740 - INFO - ✅ Generated signals for DOTUSDT
+2024-12-29 15:38:22,007 - INFO - ✅ Generated signals for XTZUSDT
+2024-12-29 15:38:22,303 - INFO - ✅ Generated signals for OGNUSDT
+2024-12-29 15:38:22,582 - INFO - ✅ Generated signals for ADAUSDT
+2024-12-29 15:38:22,875 - INFO - ✅ Generated signals for SUNUSDT
+2024-12-29 15:38:23,181 - INFO - ✅ Generated signals for FUNUSDT
+2024-12-29 15:38:23,485 - INFO - ✅ Generated signals for KMDUSDT
+2024-12-29 15:38:23,754 - INFO - ✅ Generated signals for MBLUSDT
+2024-12-29 15:38:24,030 - INFO - ✅ Generated signals for JSTUSDT
+2024-12-29 15:38:24,040 - WARNING - No model available for DODOUSDT
+2024-12-29 15:38:24,309 - INFO - ✅ Generated signals for ONEUSDT
+2024-12-29 15:38:24,617 - INFO - ✅ Generated signals for DASHUSDT
+2024-12-29 15:38:24,914 - INFO - ✅ Generated signals for MDTUSDT
+2024-12-29 15:38:24,928 - WARNING - No model available for OGUSDT
+2024-12-29 15:38:25,345 - INFO - ✅ Generated signals for FILUSDT
+2024-12-29 15:38:25,617 - INFO - ✅ Generated signals for XVSUSDT
+2024-12-29 15:38:25,897 - INFO - ✅ Generated signals for WANUSDT
+2024-12-29 15:38:25,905 - WARNING - No model available for ASRUSDT
+2024-12-29 15:38:25,913 - WARNING - No model available for JUVUSDT
+2024-12-29 15:38:26,181 - INFO - ✅ Generated signals for THETAUSDT
+2024-12-29 15:38:26,186 - WARNING - No model available for LITUSDT
+2024-12-29 15:38:26,456 - INFO - ✅ Generated signals for NEOUSDT
+2024-12-29 15:38:26,736 - INFO - ✅ Generated signals for HIVEUSDT
+2024-12-29 15:38:27,008 - INFO - ✅ Generated signals for ARDRUSDT
+2024-12-29 15:38:27,015 - WARNING - No model available for FISUSDT
+2024-12-29 15:38:27,308 - INFO - ✅ Generated signals for CHZUSDT
+2024-12-29 15:38:27,596 - INFO - ✅ Generated signals for XRPUSDT
+2024-12-29 15:38:27,908 - INFO - ✅ Generated signals for LRCUSDT
+2024-12-29 15:38:28,210 - INFO - ✅ Generated signals for LSKUSDT
+2024-12-29 15:38:28,513 - INFO - ✅ Generated signals for SNXUSDT
+2024-12-29 15:38:28,791 - INFO - ✅ Generated signals for RSRUSDT
+2024-12-29 15:38:29,072 - INFO - ✅ Generated signals for ZECUSDT
+2024-12-29 15:38:29,355 - INFO - ✅ Generated signals for COMPUSDT
+2024-12-29 15:38:29,721 - INFO - ✅ Generated signals for BATUSDT
+2024-12-29 15:38:30,012 - INFO - ✅ Generated signals for EURUSDT
+2024-12-29 15:38:30,298 - INFO - ✅ Generated signals for OXTUSDT
+2024-12-29 15:38:30,808 - INFO - ✅ Generated signals for TRBUSDT
+2024-12-29 15:38:31,091 - INFO - ✅ Generated signals for KSMUSDT
+2024-12-29 15:38:31,370 - INFO - ✅ Generated signals for ALPHAUSDT
+2024-12-29 15:38:31,675 - INFO - ✅ Generated signals for ETHUSDT
+2024-12-29 15:38:31,698 - WARNING - No model available for 1INCHUSDT
+2024-12-29 15:38:31,708 - WARNING - No model available for CKBUSDT
+2024-12-29 15:38:31,998 - INFO - ✅ Generated signals for ATOMUSDT
+2024-12-29 15:38:32,285 - INFO - ✅ Generated signals for VETUSDT
+2024-12-29 15:38:32,617 - INFO - ✅ Generated signals for DUSKUSDT
+2024-12-29 15:38:32,907 - INFO - ✅ Generated signals for FETUSDT
+2024-12-29 15:38:33,323 - INFO - ✅ Generated signals for ONGUSDT
+2024-12-29 15:38:33,650 - INFO - ✅ Generated signals for CTXCUSDT
+2024-12-29 15:38:33,919 - INFO - ✅ Generated signals for SCUSDT
+2024-12-29 15:38:34,197 - INFO - ✅ Generated signals for COSUSDT
+2024-12-29 15:38:34,760 - INFO - ✅ Generated signals for COTIUSDT
+2024-12-29 15:38:35,054 - INFO - ✅ Generated signals for VTHOUSDT
+2024-12-29 15:38:35,359 - INFO - ✅ Generated signals for UMAUSDT
+2024-12-29 15:38:35,364 - WARNING - No model available for FIROUSDT
+2024-12-29 15:38:35,879 - INFO - ✅ Generated signals for NEARUSDT
+2024-12-29 15:38:36,185 - INFO - ✅ Generated signals for WINUSDT
+2024-12-29 15:38:36,487 - INFO - ✅ Generated signals for FLMUSDT
+2024-12-29 15:38:36,799 - INFO - ✅ Generated signals for DATAUSDT
+2024-12-29 15:38:37,105 - INFO - ✅ Generated signals for AXSUSDT
+2024-12-29 15:38:37,408 - INFO - ✅ Generated signals for ONTUSDT
+2024-12-29 15:38:37,724 - INFO - ✅ Generated signals for SOLUSDT
+2024-12-29 15:38:37,737 - WARNING - No model available for TUSDUSDT
+2024-12-29 15:38:38,027 - INFO - ✅ Generated signals for KNCUSDT
+2024-12-29 15:38:38,313 - INFO - ✅ Generated signals for IOTAUSDT
+2024-12-29 15:38:38,598 - INFO - ✅ Generated signals for BALUSDT
+2024-12-29 15:38:38,604 - WARNING - No model available for USDCUSDT
+2024-12-29 15:38:38,883 - INFO - ✅ Generated signals for FIOUSDT
+2024-12-29 15:38:39,160 - INFO - ✅ Generated signals for DOGEUSDT
+2024-12-29 15:38:39,460 - INFO - ✅ Generated signals for IOSTUSDT
+2024-12-29 15:38:39,762 - INFO - ✅ Generated signals for MKRUSDT
+2024-12-29 15:38:39,779 - WARNING - No model available for GRTUSDT
+2024-12-29 15:38:40,070 - INFO - ✅ Generated signals for UNIUSDT
+2024-12-29 15:38:40,377 - INFO - ✅ Generated signals for TROYUSDT
+2024-12-29 15:38:40,643 - INFO - ✅ Generated signals for SANDUSDT
+2024-12-29 15:38:40,652 - WARNING - No model available for ACMUSDT
+2024-12-29 15:38:40,933 - INFO - ✅ Generated signals for ANKRUSDT
+2024-12-29 15:38:41,217 - INFO - ✅ Generated signals for NULSUSDT
+2024-12-29 15:38:41,233 - WARNING - No model available for CAKEUSDT
+2024-12-29 15:38:41,243 - WARNING - No model available for PSGUSDT
+2024-12-29 15:38:41,515 - INFO - ✅ Generated signals for BANDUSDT
+2024-12-29 15:38:41,817 - INFO - ✅ Generated signals for LTOUSDT
+2024-12-29 15:38:42,122 - INFO - ✅ Generated signals for DGBUSDT
+2024-12-29 15:38:42,127 - WARNING - No model available for ATMUSDT
+2024-12-29 15:38:42,392 - INFO - ✅ Generated signals for HBARUSDT
+2024-12-29 15:38:42,685 - INFO - ✅ Generated signals for FTMUSDT
+2024-12-29 15:38:42,956 - INFO - ✅ Generated signals for STPTUSDT
+2024-12-29 15:38:43,250 - INFO - ✅ Generated signals for INJUSDT
+2024-12-29 15:38:43,552 - INFO - ✅ Generated signals for DCRUSDT
+2024-12-29 15:38:43,836 - INFO - ✅ Generated signals for BCHUSDT
+2024-12-29 15:38:43,842 - WARNING - No model available for RIFUSDT
+2024-12-29 15:38:43,847 - WARNING - No model available for SFPUSDT
+2024-12-29 15:38:44,117 - INFO - ✅ Generated signals for AVAUSDT
+2024-12-29 15:38:44,407 - INFO - ✅ Generated signals for AAVEUSDT
+2024-12-29 15:38:44,705 - INFO - ✅ Generated signals for TRXUSDT
+2024-12-29 15:38:45,013 - INFO - ✅ Generated signals for MANAUSDT
+2024-12-29 15:38:45,306 - INFO - ✅ Generated signals for SUSHIUSDT
+2024-12-29 15:38:45,606 - INFO - ✅ Generated signals for HOTUSDT
+2024-12-29 15:38:45,906 - INFO - ✅ Generated signals for ICXUSDT
+2024-12-29 15:38:46,221 - INFO - ✅ Generated signals for LTCUSDT
+2024-12-29 15:38:46,527 - INFO - ✅ Generated signals for ZILUSDT
+2024-12-29 15:38:46,847 - INFO - ✅ Generated signals for YFIUSDT
+2024-12-29 15:38:46,853 - WARNING - No model available for CELOUSDT
+2024-12-29 15:38:47,153 - INFO - ✅ Generated signals for EOSUSDT
+2024-12-29 15:38:47,448 - INFO - ✅ Generated signals for CTSIUSDT
+2024-12-29 15:38:47,468 - WARNING - No model available for TRUUSDT
+2024-12-29 15:38:47,757 - INFO - ✅ Generated signals for AUDIOUSDT
+2024-12-29 15:38:48,062 - INFO - ✅ Generated signals for KAVAUSDT
+2024-12-29 15:38:48,454 - INFO - ✅ Generated signals for RLCUSDT
+2024-12-29 15:38:48,731 - INFO - ✅ Generated signals for ETCUSDT
+2024-12-29 15:38:48,998 - INFO - ✅ Generated signals for ZRXUSDT
+2024-12-29 15:38:49,286 - INFO - ✅ Generated signals for VITEUSDT
+2024-12-29 15:38:49,556 - INFO - ✅ Generated signals for ZENUSDT
+2024-12-29 15:38:49,837 - INFO - ✅ Generated signals for ARPAUSDT
+2024-12-29 15:38:50,115 - INFO - ✅ Generated signals for FTTUSDT
+2024-12-29 15:38:50,412 - INFO - ✅ Generated signals for CVCUSDT
+2024-12-29 15:38:50,725 - INFO - ✅ Generated signals for HARDUSDT
+2024-12-29 15:38:51,027 - INFO - ✅ Generated signals for BTCUSDT
+2024-12-29 15:38:51,313 - INFO - ✅ Generated signals for UTKUSDT
+2024-12-29 15:38:51,647 - INFO - ✅ Generated signals for DIAUSDT
+2024-12-29 15:38:51,663 - WARNING - No model available for BADGERUSDT
+2024-12-29 15:38:51,947 - INFO - ✅ Generated signals for RUNEUSDT
+2024-12-29 15:38:51,953 - WARNING - No model available for TWTUSDT
+2024-12-29 15:38:52,261 - INFO - ✅ Generated signals for ENJUSDT
+2024-12-29 15:38:52,569 - INFO - ✅ Generated signals for TFUELUSDT
+2024-12-29 15:38:52,875 - INFO - ✅ Generated signals for STRAXUSDT
+2024-12-29 15:38:53,178 - INFO - ✅ Generated signals for BELUSDT
+2024-12-29 15:38:53,486 - INFO - ✅ Generated signals for LUNAUSDT
+2024-12-29 15:38:53,791 - INFO - ✅ Generated signals for DENTUSDT
+2024-12-29 15:38:54,118 - INFO - ✅ Generated signals for CHRUSDT
+2024-12-29 15:38:54,396 - INFO - ✅ Generated signals for LINKUSDT
+2024-12-29 15:38:54,684 - INFO - ✅ Generated signals for CELRUSDT
+2024-12-29 15:38:55,002 - INFO - ✅ Generated signals for EGLDUSDT
+2024-12-29 15:38:55,285 - INFO - ✅ Generated signals for STORJUSDT
+2024-12-29 15:38:55,560 - INFO - ✅ Generated signals for STMXUSDT
+2024-12-29 15:38:55,835 - INFO - ✅ Generated signals for BNBUSDT
+2024-12-29 15:38:56,118 - INFO - ✅ Generated signals for NKNUSDT
+2024-12-29 15:38:56,403 - INFO - ✅ Generated signals for WINGUSDT
+2024-12-29 15:38:56,674 - INFO - ✅ Generated signals for CRVUSDT
+2024-12-29 15:38:56,957 - INFO - ✅ Generated signals for SKLUSDT
+2024-12-29 15:38:57,239 - INFO - ✅ Generated signals for BNTUSDT
+2024-12-29 15:38:57,511 - INFO - ✅ Generated signals for NMRUSDT
+2024-12-29 15:38:57,790 - INFO - ✅ Generated signals for CTKUSDT
+2024-12-29 15:38:58,092 - INFO - ✅ Generated signals for XLMUSDT
+2024-12-29 15:38:58,400 - INFO - ✅ Generated signals for QTUMUSDT
+2024-12-29 15:38:58,712 - INFO - ✅ Generated signals for AVAXUSDT
+2024-12-29 15:38:59,019 - INFO - ✅ Generated signals for PAXGUSDT
+2024-12-29 15:38:59,321 - INFO - ✅ Generated signals for IOTXUSDT
+2024-12-29 15:38:59,591 - INFO - ✅ Generated signals for MTLUSDT
+2024-12-29 15:39:07,306 - INFO - Formatted prices for NEOUSDT:
+2024-12-29 15:39:07,309 - INFO -   Entry: 14.17
+2024-12-29 15:39:07,309 - INFO -   Target: 14.38
+2024-12-29 15:39:07,309 - INFO -   Stop: 14.03
+2024-12-29 15:39:07,571 - INFO - Placed entry order for NEOUSDT:
+2024-12-29 15:39:07,571 - INFO -   Amount: 15 USDT
+2024-12-29 15:39:07,571 - INFO -   Quantity: 1.05
+2024-12-29 15:39:07,571 - INFO -   Entry Price: 14.17
+2024-12-29 15:39:07,836 - ERROR - Binance API error for NEOUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:39:07,837 - ERROR - Attempted values - Quantity: 1.05, Entry: 14.17, Target: 14.38, Stop: 14.03
+2024-12-29 15:39:09,716 - INFO - Formatted prices for LUNAUSDT:
+2024-12-29 15:39:09,716 - INFO -   Entry: 0.4377
+2024-12-29 15:39:09,716 - INFO -   Target: 0.4443
+2024-12-29 15:39:09,716 - INFO -   Stop: 0.4333
+2024-12-29 15:39:09,982 - INFO - Placed entry order for LUNAUSDT:
+2024-12-29 15:39:09,982 - INFO -   Amount: 15 USDT
+2024-12-29 15:39:09,982 - INFO -   Quantity: 34.27
+2024-12-29 15:39:09,982 - INFO -   Entry Price: 0.4377
+2024-12-29 15:39:10,283 - ERROR - Binance API error for LUNAUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:39:10,284 - ERROR - Attempted values - Quantity: 34.27, Entry: 0.4377, Target: 0.4443, Stop: 0.4333
+2024-12-29 15:39:13,119 - INFO - Formatted prices for WINGUSDT:
+2024-12-29 15:39:13,119 - INFO -   Entry: 6.110
+2024-12-29 15:39:13,119 - INFO -   Target: 6.202
+2024-12-29 15:39:13,119 - INFO -   Stop: 6.049
+2024-12-29 15:39:13,384 - INFO - Placed entry order for WINGUSDT:
+2024-12-29 15:39:13,384 - INFO -   Amount: 15 USDT
+2024-12-29 15:39:13,384 - INFO -   Quantity: 2.45
+2024-12-29 15:39:13,384 - INFO -   Entry Price: 6.110
+2024-12-29 15:39:13,661 - ERROR - Binance API error for WINGUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:39:13,661 - ERROR - Attempted values - Quantity: 2.45, Entry: 6.110, Target: 6.202, Stop: 6.049
+2024-12-29 15:39:16,164 - INFO - Formatted prices for FILUSDT:
+2024-12-29 15:39:16,164 - INFO -   Entry: 5.104
+2024-12-29 15:39:16,164 - INFO -   Target: 5.181
+2024-12-29 15:39:16,164 - INFO -   Stop: 5.053
+2024-12-29 15:39:16,426 - INFO - Placed entry order for FILUSDT:
+2024-12-29 15:39:16,427 - INFO -   Amount: 15 USDT
+2024-12-29 15:39:16,427 - INFO -   Quantity: 2.93
+2024-12-29 15:39:16,427 - INFO -   Entry Price: 5.104
+2024-12-29 15:39:16,691 - ERROR - Binance API error for FILUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:39:16,691 - ERROR - Attempted values - Quantity: 2.93, Entry: 5.104, Target: 5.181, Stop: 5.053
+2024-12-29 15:39:19,567 - INFO - Formatted prices for PAXGUSDT:
+2024-12-29 15:39:19,567 - INFO -   Entry: 2642
+2024-12-29 15:39:19,567 - INFO -   Target: 2681
+2024-12-29 15:39:19,567 - INFO -   Stop: 2615
+2024-12-29 15:39:19,829 - INFO - Placed entry order for PAXGUSDT:
+2024-12-29 15:39:19,829 - INFO -   Amount: 15 USDT
+2024-12-29 15:39:19,829 - INFO -   Quantity: 0.0056
+2024-12-29 15:39:19,829 - INFO -   Entry Price: 2642
+2024-12-29 15:39:20,093 - ERROR - Binance API error for PAXGUSDT: APIError(code=-1102): Mandatory parameter 'aboveType' was not sent, was empty/null, or malformed.
+2024-12-29 15:39:20,093 - ERROR - Attempted values - Quantity: 0.0056, Entry: 2642, Target: 2681, Stop: 2615
+2024-12-29 15:39:22,164 - INFO - Formatted prices for CHZUSDT:
+2024-12-29 15:39:22,164 - INFO -   Entry: 0.0861
+2024-12-29 15:39:22,164 - INFO -   Target: 0.0874
+2024-12-29 15:39:22,164 - INFO -   Stop: 0.0852
+2024-12-29 15:40:58,123 - INFO - Initializing traders...
+2024-12-29 15:40:58,152 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RVNUSDT_model.pth
+2024-12-29 15:40:58,152 - INFO - ✅ Successfully initialized RVNUSDT trader
+2024-12-29 15:40:58,155 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALGOUSDT_model.pth
+2024-12-29 15:40:58,155 - INFO - ✅ Successfully initialized ALGOUSDT trader
+2024-12-29 15:40:58,157 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STXUSDT_model.pth
+2024-12-29 15:40:58,157 - INFO - ✅ Successfully initialized STXUSDT trader
+2024-12-29 15:40:58,159 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SXPUSDT_model.pth
+2024-12-29 15:40:58,160 - INFO - ✅ Successfully initialized SXPUSDT trader
+2024-12-29 15:40:58,162 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ROSEUSDT_model.pth
+2024-12-29 15:40:58,162 - INFO - ✅ Successfully initialized ROSEUSDT trader
+2024-12-29 15:40:58,165 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOTUSDT_model.pth
+2024-12-29 15:40:58,165 - INFO - ✅ Successfully initialized DOTUSDT trader
+2024-12-29 15:40:58,168 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XTZUSDT_model.pth
+2024-12-29 15:40:58,168 - INFO - ✅ Successfully initialized XTZUSDT trader
+2024-12-29 15:40:58,170 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OGNUSDT_model.pth
+2024-12-29 15:40:58,171 - INFO - ✅ Successfully initialized OGNUSDT trader
+2024-12-29 15:40:58,173 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ADAUSDT_model.pth
+2024-12-29 15:40:58,173 - INFO - ✅ Successfully initialized ADAUSDT trader
+2024-12-29 15:40:58,176 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUNUSDT_model.pth
+2024-12-29 15:40:58,176 - INFO - ✅ Successfully initialized SUNUSDT trader
+2024-12-29 15:40:58,179 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FUNUSDT_model.pth
+2024-12-29 15:40:58,179 - INFO - ✅ Successfully initialized FUNUSDT trader
+2024-12-29 15:40:58,181 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KMDUSDT_model.pth
+2024-12-29 15:40:58,181 - INFO - ✅ Successfully initialized KMDUSDT trader
+2024-12-29 15:40:58,183 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MBLUSDT_model.pth
+2024-12-29 15:40:58,183 - INFO - ✅ Successfully initialized MBLUSDT trader
+2024-12-29 15:40:58,185 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/JSTUSDT_model.pth
+2024-12-29 15:40:58,186 - INFO - ✅ Successfully initialized JSTUSDT trader
+2024-12-29 15:40:58,186 - WARNING - No trained model found for DODOUSDT
+2024-12-29 15:40:58,188 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONEUSDT_model.pth
+2024-12-29 15:40:58,188 - INFO - ✅ Successfully initialized ONEUSDT trader
+2024-12-29 15:40:58,190 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DASHUSDT_model.pth
+2024-12-29 15:40:58,190 - INFO - ✅ Successfully initialized DASHUSDT trader
+2024-12-29 15:40:58,193 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MDTUSDT_model.pth
+2024-12-29 15:40:58,193 - INFO - ✅ Successfully initialized MDTUSDT trader
+2024-12-29 15:40:58,193 - WARNING - No trained model found for OGUSDT
+2024-12-29 15:40:58,195 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FILUSDT_model.pth
+2024-12-29 15:40:58,195 - INFO - ✅ Successfully initialized FILUSDT trader
+2024-12-29 15:40:58,197 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XVSUSDT_model.pth
+2024-12-29 15:40:58,197 - INFO - ✅ Successfully initialized XVSUSDT trader
+2024-12-29 15:40:58,200 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WANUSDT_model.pth
+2024-12-29 15:40:58,200 - INFO - ✅ Successfully initialized WANUSDT trader
+2024-12-29 15:40:58,200 - WARNING - No trained model found for ASRUSDT
+2024-12-29 15:40:58,200 - WARNING - No trained model found for JUVUSDT
+2024-12-29 15:40:58,202 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/THETAUSDT_model.pth
+2024-12-29 15:40:58,202 - INFO - ✅ Successfully initialized THETAUSDT trader
+2024-12-29 15:40:58,202 - WARNING - No trained model found for LITUSDT
+2024-12-29 15:40:58,204 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEOUSDT_model.pth
+2024-12-29 15:40:58,204 - INFO - ✅ Successfully initialized NEOUSDT trader
+2024-12-29 15:40:58,207 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HIVEUSDT_model.pth
+2024-12-29 15:40:58,207 - INFO - ✅ Successfully initialized HIVEUSDT trader
+2024-12-29 15:40:58,209 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARDRUSDT_model.pth
+2024-12-29 15:40:58,210 - INFO - ✅ Successfully initialized ARDRUSDT trader
+2024-12-29 15:40:58,210 - WARNING - No trained model found for FISUSDT
+2024-12-29 15:40:58,212 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHZUSDT_model.pth
+2024-12-29 15:40:58,212 - INFO - ✅ Successfully initialized CHZUSDT trader
+2024-12-29 15:40:58,215 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XRPUSDT_model.pth
+2024-12-29 15:40:58,215 - INFO - ✅ Successfully initialized XRPUSDT trader
+2024-12-29 15:40:58,217 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LRCUSDT_model.pth
+2024-12-29 15:40:58,218 - INFO - ✅ Successfully initialized LRCUSDT trader
+2024-12-29 15:40:58,220 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LSKUSDT_model.pth
+2024-12-29 15:40:58,221 - INFO - ✅ Successfully initialized LSKUSDT trader
+2024-12-29 15:40:58,223 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SNXUSDT_model.pth
+2024-12-29 15:40:58,223 - INFO - ✅ Successfully initialized SNXUSDT trader
+2024-12-29 15:40:58,227 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RSRUSDT_model.pth
+2024-12-29 15:40:58,227 - INFO - ✅ Successfully initialized RSRUSDT trader
+2024-12-29 15:40:58,230 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZECUSDT_model.pth
+2024-12-29 15:40:58,230 - INFO - ✅ Successfully initialized ZECUSDT trader
+2024-12-29 15:40:58,235 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COMPUSDT_model.pth
+2024-12-29 15:40:58,235 - INFO - ✅ Successfully initialized COMPUSDT trader
+2024-12-29 15:40:58,239 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BATUSDT_model.pth
+2024-12-29 15:40:58,239 - INFO - ✅ Successfully initialized BATUSDT trader
+2024-12-29 15:40:58,246 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EURUSDT_model.pth
+2024-12-29 15:40:58,247 - INFO - ✅ Successfully initialized EURUSDT trader
+2024-12-29 15:40:58,250 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/OXTUSDT_model.pth
+2024-12-29 15:40:58,250 - INFO - ✅ Successfully initialized OXTUSDT trader
+2024-12-29 15:40:58,254 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRBUSDT_model.pth
+2024-12-29 15:40:58,254 - INFO - ✅ Successfully initialized TRBUSDT trader
+2024-12-29 15:40:58,258 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KSMUSDT_model.pth
+2024-12-29 15:40:58,258 - INFO - ✅ Successfully initialized KSMUSDT trader
+2024-12-29 15:40:58,261 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ALPHAUSDT_model.pth
+2024-12-29 15:40:58,261 - INFO - ✅ Successfully initialized ALPHAUSDT trader
+2024-12-29 15:40:58,263 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETHUSDT_model.pth
+2024-12-29 15:40:58,263 - INFO - ✅ Successfully initialized ETHUSDT trader
+2024-12-29 15:40:58,263 - WARNING - No trained model found for 1INCHUSDT
+2024-12-29 15:40:58,263 - WARNING - No trained model found for CKBUSDT
+2024-12-29 15:40:58,265 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ATOMUSDT_model.pth
+2024-12-29 15:40:58,265 - INFO - ✅ Successfully initialized ATOMUSDT trader
+2024-12-29 15:40:58,267 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VETUSDT_model.pth
+2024-12-29 15:40:58,268 - INFO - ✅ Successfully initialized VETUSDT trader
+2024-12-29 15:40:58,270 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DUSKUSDT_model.pth
+2024-12-29 15:40:58,270 - INFO - ✅ Successfully initialized DUSKUSDT trader
+2024-12-29 15:40:58,272 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FETUSDT_model.pth
+2024-12-29 15:40:58,273 - INFO - ✅ Successfully initialized FETUSDT trader
+2024-12-29 15:40:58,275 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONGUSDT_model.pth
+2024-12-29 15:40:58,275 - INFO - ✅ Successfully initialized ONGUSDT trader
+2024-12-29 15:40:58,277 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTXCUSDT_model.pth
+2024-12-29 15:40:58,277 - INFO - ✅ Successfully initialized CTXCUSDT trader
+2024-12-29 15:40:58,279 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SCUSDT_model.pth
+2024-12-29 15:40:58,279 - INFO - ✅ Successfully initialized SCUSDT trader
+2024-12-29 15:40:58,282 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COSUSDT_model.pth
+2024-12-29 15:40:58,282 - INFO - ✅ Successfully initialized COSUSDT trader
+2024-12-29 15:40:58,284 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/COTIUSDT_model.pth
+2024-12-29 15:40:58,284 - INFO - ✅ Successfully initialized COTIUSDT trader
+2024-12-29 15:40:58,287 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VTHOUSDT_model.pth
+2024-12-29 15:40:58,287 - INFO - ✅ Successfully initialized VTHOUSDT trader
+2024-12-29 15:40:58,339 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UMAUSDT_model.pth
+2024-12-29 15:40:58,339 - INFO - ✅ Successfully initialized UMAUSDT trader
+2024-12-29 15:40:58,339 - WARNING - No trained model found for FIROUSDT
+2024-12-29 15:40:58,344 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NEARUSDT_model.pth
+2024-12-29 15:40:58,344 - INFO - ✅ Successfully initialized NEARUSDT trader
+2024-12-29 15:40:58,347 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINUSDT_model.pth
+2024-12-29 15:40:58,347 - INFO - ✅ Successfully initialized WINUSDT trader
+2024-12-29 15:40:58,349 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FLMUSDT_model.pth
+2024-12-29 15:40:58,350 - INFO - ✅ Successfully initialized FLMUSDT trader
+2024-12-29 15:40:58,352 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DATAUSDT_model.pth
+2024-12-29 15:40:58,352 - INFO - ✅ Successfully initialized DATAUSDT trader
+2024-12-29 15:40:58,354 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AXSUSDT_model.pth
+2024-12-29 15:40:58,354 - INFO - ✅ Successfully initialized AXSUSDT trader
+2024-12-29 15:40:58,357 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ONTUSDT_model.pth
+2024-12-29 15:40:58,357 - INFO - ✅ Successfully initialized ONTUSDT trader
+2024-12-29 15:40:58,359 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SOLUSDT_model.pth
+2024-12-29 15:40:58,359 - INFO - ✅ Successfully initialized SOLUSDT trader
+2024-12-29 15:40:58,359 - WARNING - No trained model found for TUSDUSDT
+2024-12-29 15:40:58,362 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KNCUSDT_model.pth
+2024-12-29 15:40:58,362 - INFO - ✅ Successfully initialized KNCUSDT trader
+2024-12-29 15:40:58,364 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTAUSDT_model.pth
+2024-12-29 15:40:58,364 - INFO - ✅ Successfully initialized IOTAUSDT trader
+2024-12-29 15:40:58,367 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BALUSDT_model.pth
+2024-12-29 15:40:58,367 - INFO - ✅ Successfully initialized BALUSDT trader
+2024-12-29 15:40:58,367 - WARNING - No trained model found for USDCUSDT
+2024-12-29 15:40:58,369 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FIOUSDT_model.pth
+2024-12-29 15:40:58,369 - INFO - ✅ Successfully initialized FIOUSDT trader
+2024-12-29 15:40:58,371 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DOGEUSDT_model.pth
+2024-12-29 15:40:58,371 - INFO - ✅ Successfully initialized DOGEUSDT trader
+2024-12-29 15:40:58,373 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOSTUSDT_model.pth
+2024-12-29 15:40:58,373 - INFO - ✅ Successfully initialized IOSTUSDT trader
+2024-12-29 15:40:58,376 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MKRUSDT_model.pth
+2024-12-29 15:40:58,376 - INFO - ✅ Successfully initialized MKRUSDT trader
+2024-12-29 15:40:58,376 - WARNING - No trained model found for GRTUSDT
+2024-12-29 15:40:58,379 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UNIUSDT_model.pth
+2024-12-29 15:40:58,379 - INFO - ✅ Successfully initialized UNIUSDT trader
+2024-12-29 15:40:58,381 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TROYUSDT_model.pth
+2024-12-29 15:40:58,381 - INFO - ✅ Successfully initialized TROYUSDT trader
+2024-12-29 15:40:58,383 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SANDUSDT_model.pth
+2024-12-29 15:40:58,383 - INFO - ✅ Successfully initialized SANDUSDT trader
+2024-12-29 15:40:58,383 - WARNING - No trained model found for ACMUSDT
+2024-12-29 15:40:58,386 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ANKRUSDT_model.pth
+2024-12-29 15:40:58,386 - INFO - ✅ Successfully initialized ANKRUSDT trader
+2024-12-29 15:40:58,388 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NULSUSDT_model.pth
+2024-12-29 15:40:58,388 - INFO - ✅ Successfully initialized NULSUSDT trader
+2024-12-29 15:40:58,388 - WARNING - No trained model found for CAKEUSDT
+2024-12-29 15:40:58,388 - WARNING - No trained model found for PSGUSDT
+2024-12-29 15:40:58,390 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BANDUSDT_model.pth
+2024-12-29 15:40:58,390 - INFO - ✅ Successfully initialized BANDUSDT trader
+2024-12-29 15:40:58,393 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTOUSDT_model.pth
+2024-12-29 15:40:58,393 - INFO - ✅ Successfully initialized LTOUSDT trader
+2024-12-29 15:40:58,396 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DGBUSDT_model.pth
+2024-12-29 15:40:58,396 - INFO - ✅ Successfully initialized DGBUSDT trader
+2024-12-29 15:40:58,396 - WARNING - No trained model found for ATMUSDT
+2024-12-29 15:40:58,398 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HBARUSDT_model.pth
+2024-12-29 15:40:58,398 - INFO - ✅ Successfully initialized HBARUSDT trader
+2024-12-29 15:40:58,401 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTMUSDT_model.pth
+2024-12-29 15:40:58,401 - INFO - ✅ Successfully initialized FTMUSDT trader
+2024-12-29 15:40:58,403 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STPTUSDT_model.pth
+2024-12-29 15:40:58,403 - INFO - ✅ Successfully initialized STPTUSDT trader
+2024-12-29 15:40:58,406 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/INJUSDT_model.pth
+2024-12-29 15:40:58,406 - INFO - ✅ Successfully initialized INJUSDT trader
+2024-12-29 15:40:58,408 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DCRUSDT_model.pth
+2024-12-29 15:40:58,408 - INFO - ✅ Successfully initialized DCRUSDT trader
+2024-12-29 15:40:58,411 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BCHUSDT_model.pth
+2024-12-29 15:40:58,411 - INFO - ✅ Successfully initialized BCHUSDT trader
+2024-12-29 15:40:58,411 - WARNING - No trained model found for RIFUSDT
+2024-12-29 15:40:58,411 - WARNING - No trained model found for SFPUSDT
+2024-12-29 15:40:58,415 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAUSDT_model.pth
+2024-12-29 15:40:58,415 - INFO - ✅ Successfully initialized AVAUSDT trader
+2024-12-29 15:40:58,418 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AAVEUSDT_model.pth
+2024-12-29 15:40:58,418 - INFO - ✅ Successfully initialized AAVEUSDT trader
+2024-12-29 15:40:58,420 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TRXUSDT_model.pth
+2024-12-29 15:40:58,420 - INFO - ✅ Successfully initialized TRXUSDT trader
+2024-12-29 15:40:58,423 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MANAUSDT_model.pth
+2024-12-29 15:40:58,423 - INFO - ✅ Successfully initialized MANAUSDT trader
+2024-12-29 15:40:58,426 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SUSHIUSDT_model.pth
+2024-12-29 15:40:58,426 - INFO - ✅ Successfully initialized SUSHIUSDT trader
+2024-12-29 15:40:58,428 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HOTUSDT_model.pth
+2024-12-29 15:40:58,428 - INFO - ✅ Successfully initialized HOTUSDT trader
+2024-12-29 15:40:58,430 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ICXUSDT_model.pth
+2024-12-29 15:40:58,430 - INFO - ✅ Successfully initialized ICXUSDT trader
+2024-12-29 15:40:58,432 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LTCUSDT_model.pth
+2024-12-29 15:40:58,433 - INFO - ✅ Successfully initialized LTCUSDT trader
+2024-12-29 15:40:58,435 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZILUSDT_model.pth
+2024-12-29 15:40:58,435 - INFO - ✅ Successfully initialized ZILUSDT trader
+2024-12-29 15:40:58,437 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/YFIUSDT_model.pth
+2024-12-29 15:40:58,437 - INFO - ✅ Successfully initialized YFIUSDT trader
+2024-12-29 15:40:58,437 - WARNING - No trained model found for CELOUSDT
+2024-12-29 15:40:58,441 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EOSUSDT_model.pth
+2024-12-29 15:40:58,441 - INFO - ✅ Successfully initialized EOSUSDT trader
+2024-12-29 15:40:58,443 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTSIUSDT_model.pth
+2024-12-29 15:40:58,443 - INFO - ✅ Successfully initialized CTSIUSDT trader
+2024-12-29 15:40:58,443 - WARNING - No trained model found for TRUUSDT
+2024-12-29 15:40:58,446 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AUDIOUSDT_model.pth
+2024-12-29 15:40:58,446 - INFO - ✅ Successfully initialized AUDIOUSDT trader
+2024-12-29 15:40:58,448 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/KAVAUSDT_model.pth
+2024-12-29 15:40:58,449 - INFO - ✅ Successfully initialized KAVAUSDT trader
+2024-12-29 15:40:58,451 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RLCUSDT_model.pth
+2024-12-29 15:40:58,451 - INFO - ✅ Successfully initialized RLCUSDT trader
+2024-12-29 15:40:58,453 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ETCUSDT_model.pth
+2024-12-29 15:40:58,453 - INFO - ✅ Successfully initialized ETCUSDT trader
+2024-12-29 15:40:58,455 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZRXUSDT_model.pth
+2024-12-29 15:40:58,455 - INFO - ✅ Successfully initialized ZRXUSDT trader
+2024-12-29 15:40:58,457 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/VITEUSDT_model.pth
+2024-12-29 15:40:58,457 - INFO - ✅ Successfully initialized VITEUSDT trader
+2024-12-29 15:40:58,460 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ZENUSDT_model.pth
+2024-12-29 15:40:58,460 - INFO - ✅ Successfully initialized ZENUSDT trader
+2024-12-29 15:40:58,462 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ARPAUSDT_model.pth
+2024-12-29 15:40:58,462 - INFO - ✅ Successfully initialized ARPAUSDT trader
+2024-12-29 15:40:58,465 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/FTTUSDT_model.pth
+2024-12-29 15:40:58,465 - INFO - ✅ Successfully initialized FTTUSDT trader
+2024-12-29 15:40:58,467 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CVCUSDT_model.pth
+2024-12-29 15:40:58,467 - INFO - ✅ Successfully initialized CVCUSDT trader
+2024-12-29 15:40:58,469 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/HARDUSDT_model.pth
+2024-12-29 15:40:58,469 - INFO - ✅ Successfully initialized HARDUSDT trader
+2024-12-29 15:40:58,471 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BTCUSDT_model.pth
+2024-12-29 15:40:58,471 - INFO - ✅ Successfully initialized BTCUSDT trader
+2024-12-29 15:40:58,473 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/UTKUSDT_model.pth
+2024-12-29 15:40:58,473 - INFO - ✅ Successfully initialized UTKUSDT trader
+2024-12-29 15:40:58,476 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DIAUSDT_model.pth
+2024-12-29 15:40:58,476 - INFO - ✅ Successfully initialized DIAUSDT trader
+2024-12-29 15:40:58,476 - WARNING - No trained model found for BADGERUSDT
+2024-12-29 15:40:58,479 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/RUNEUSDT_model.pth
+2024-12-29 15:40:58,479 - INFO - ✅ Successfully initialized RUNEUSDT trader
+2024-12-29 15:40:58,479 - WARNING - No trained model found for TWTUSDT
+2024-12-29 15:40:58,481 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/ENJUSDT_model.pth
+2024-12-29 15:40:58,481 - INFO - ✅ Successfully initialized ENJUSDT trader
+2024-12-29 15:40:58,484 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/TFUELUSDT_model.pth
+2024-12-29 15:40:58,484 - INFO - ✅ Successfully initialized TFUELUSDT trader
+2024-12-29 15:40:58,487 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STRAXUSDT_model.pth
+2024-12-29 15:40:58,488 - INFO - ✅ Successfully initialized STRAXUSDT trader
+2024-12-29 15:40:58,490 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BELUSDT_model.pth
+2024-12-29 15:40:58,490 - INFO - ✅ Successfully initialized BELUSDT trader
+2024-12-29 15:40:58,492 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LUNAUSDT_model.pth
+2024-12-29 15:40:58,492 - INFO - ✅ Successfully initialized LUNAUSDT trader
+2024-12-29 15:40:58,494 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/DENTUSDT_model.pth
+2024-12-29 15:40:58,494 - INFO - ✅ Successfully initialized DENTUSDT trader
+2024-12-29 15:40:58,497 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CHRUSDT_model.pth
+2024-12-29 15:40:58,497 - INFO - ✅ Successfully initialized CHRUSDT trader
+2024-12-29 15:40:58,499 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/LINKUSDT_model.pth
+2024-12-29 15:40:58,499 - INFO - ✅ Successfully initialized LINKUSDT trader
+2024-12-29 15:40:58,501 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CELRUSDT_model.pth
+2024-12-29 15:40:58,501 - INFO - ✅ Successfully initialized CELRUSDT trader
+2024-12-29 15:40:58,503 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/EGLDUSDT_model.pth
+2024-12-29 15:40:58,503 - INFO - ✅ Successfully initialized EGLDUSDT trader
+2024-12-29 15:40:58,506 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STORJUSDT_model.pth
+2024-12-29 15:40:58,506 - INFO - ✅ Successfully initialized STORJUSDT trader
+2024-12-29 15:40:58,508 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/STMXUSDT_model.pth
+2024-12-29 15:40:58,508 - INFO - ✅ Successfully initialized STMXUSDT trader
+2024-12-29 15:40:58,510 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNBUSDT_model.pth
+2024-12-29 15:40:58,510 - INFO - ✅ Successfully initialized BNBUSDT trader
+2024-12-29 15:40:58,512 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NKNUSDT_model.pth
+2024-12-29 15:40:58,512 - INFO - ✅ Successfully initialized NKNUSDT trader
+2024-12-29 15:40:58,514 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/WINGUSDT_model.pth
+2024-12-29 15:40:58,514 - INFO - ✅ Successfully initialized WINGUSDT trader
+2024-12-29 15:40:58,516 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CRVUSDT_model.pth
+2024-12-29 15:40:58,516 - INFO - ✅ Successfully initialized CRVUSDT trader
+2024-12-29 15:40:58,518 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/SKLUSDT_model.pth
+2024-12-29 15:40:58,518 - INFO - ✅ Successfully initialized SKLUSDT trader
+2024-12-29 15:40:58,520 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/BNTUSDT_model.pth
+2024-12-29 15:40:58,520 - INFO - ✅ Successfully initialized BNTUSDT trader
+2024-12-29 15:40:58,523 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/NMRUSDT_model.pth
+2024-12-29 15:40:58,523 - INFO - ✅ Successfully initialized NMRUSDT trader
+2024-12-29 15:40:58,525 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/CTKUSDT_model.pth
+2024-12-29 15:40:58,525 - INFO - ✅ Successfully initialized CTKUSDT trader
+2024-12-29 15:40:58,527 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/XLMUSDT_model.pth
+2024-12-29 15:40:58,527 - INFO - ✅ Successfully initialized XLMUSDT trader
+2024-12-29 15:40:58,529 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/QTUMUSDT_model.pth
+2024-12-29 15:40:58,529 - INFO - ✅ Successfully initialized QTUMUSDT trader
+2024-12-29 15:40:58,531 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/AVAXUSDT_model.pth
+2024-12-29 15:40:58,531 - INFO - ✅ Successfully initialized AVAXUSDT trader
+2024-12-29 15:40:58,534 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/PAXGUSDT_model.pth
+2024-12-29 15:40:58,534 - INFO - ✅ Successfully initialized PAXGUSDT trader
+2024-12-29 15:40:58,536 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/IOTXUSDT_model.pth
+2024-12-29 15:40:58,536 - INFO - ✅ Successfully initialized IOTXUSDT trader
+2024-12-29 15:40:58,538 - INFO - Successfully loaded model from /Users/andi/Trader/Trader_Agent/models/MTLUSDT_model.pth
+2024-12-29 15:40:58,538 - INFO - ✅ Successfully initialized MTLUSDT trader
+2024-12-29 15:40:58,538 - INFO - Total number of active traders: 153
+2024-12-29 15:42:35,604 - INFO - ✅ Generated signals for RVNUSDT
+2024-12-29 15:42:35,905 - INFO - ✅ Generated signals for ALGOUSDT
+2024-12-29 15:42:36,209 - INFO - ✅ Generated signals for STXUSDT
+2024-12-29 15:42:36,515 - INFO - ✅ Generated signals for SXPUSDT
+2024-12-29 15:42:36,785 - INFO - ✅ Generated signals for ROSEUSDT
+2024-12-29 15:42:37,060 - INFO - ✅ Generated signals for DOTUSDT
+2024-12-29 15:42:37,485 - INFO - ✅ Generated signals for XTZUSDT
+2024-12-29 15:42:37,767 - INFO - ✅ Generated signals for OGNUSDT
+2024-12-29 15:42:38,053 - INFO - ✅ Generated signals for ADAUSDT
+2024-12-29 15:42:38,359 - INFO - ✅ Generated signals for SUNUSDT
+2024-12-29 15:42:38,668 - INFO - ✅ Generated signals for FUNUSDT
+2024-12-29 15:42:38,975 - INFO - ✅ Generated signals for KMDUSDT
+2024-12-29 15:42:39,270 - INFO - ✅ Generated signals for MBLUSDT
+2024-12-29 15:42:39,557 - INFO - ✅ Generated signals for JSTUSDT
+2024-12-29 15:42:39,568 - WARNING - No model available for DODOUSDT
+2024-12-29 15:42:39,929 - INFO - ✅ Generated signals for ONEUSDT
+2024-12-29 15:42:40,207 - INFO - ✅ Generated signals for DASHUSDT
+2024-12-29 15:42:40,511 - INFO - ✅ Generated signals for MDTUSDT
+2024-12-29 15:42:40,527 - WARNING - No model available for OGUSDT
+2024-12-29 15:42:40,820 - INFO - ✅ Generated signals for FILUSDT
+2024-12-29 15:42:41,113 - INFO - ✅ Generated signals for XVSUSDT
+2024-12-29 15:42:41,447 - INFO - ✅ Generated signals for WANUSDT
+2024-12-29 15:42:41,454 - WARNING - No model available for ASRUSDT
+2024-12-29 15:42:41,460 - WARNING - No model available for JUVUSDT
+2024-12-29 15:42:41,737 - INFO - ✅ Generated signals for THETAUSDT
+2024-12-29 15:42:41,746 - WARNING - No model available for LITUSDT
+2024-12-29 15:42:42,046 - INFO - ✅ Generated signals for NEOUSDT
+2024-12-29 15:42:42,357 - INFO - ✅ Generated signals for HIVEUSDT
+2024-12-29 15:42:42,671 - INFO - ✅ Generated signals for ARDRUSDT
+2024-12-29 15:42:42,696 - WARNING - No model available for FISUSDT
+2024-12-29 15:42:43,120 - INFO - ✅ Generated signals for CHZUSDT
+2024-12-29 15:42:43,453 - INFO - ✅ Generated signals for XRPUSDT
+2024-12-29 15:42:43,736 - INFO - ✅ Generated signals for LRCUSDT
+2024-12-29 15:42:44,019 - INFO - ✅ Generated signals for LSKUSDT
+2024-12-29 15:42:44,299 - INFO - ✅ Generated signals for SNXUSDT
+2024-12-29 15:42:44,606 - INFO - ✅ Generated signals for RSRUSDT
+2024-12-29 15:42:44,915 - INFO - ✅ Generated signals for ZECUSDT
+2024-12-29 15:42:45,222 - INFO - ✅ Generated signals for COMPUSDT
+2024-12-29 15:42:45,530 - INFO - ✅ Generated signals for BATUSDT
+2024-12-29 15:42:45,980 - INFO - ✅ Generated signals for EURUSDT
+2024-12-29 15:42:46,406 - INFO - ✅ Generated signals for OXTUSDT
+2024-12-29 15:42:46,701 - INFO - ✅ Generated signals for TRBUSDT
+2024-12-29 15:42:46,983 - INFO - ✅ Generated signals for KSMUSDT
+2024-12-29 15:42:47,288 - INFO - ✅ Generated signals for ALPHAUSDT
+2024-12-29 15:42:47,580 - INFO - ✅ Generated signals for ETHUSDT
+2024-12-29 15:42:47,586 - WARNING - No model available for 1INCHUSDT
+2024-12-29 15:42:47,591 - WARNING - No model available for CKBUSDT
+2024-12-29 15:42:47,882 - INFO - ✅ Generated signals for ATOMUSDT
+2024-12-29 15:42:48,191 - INFO - ✅ Generated signals for VETUSDT
+2024-12-29 15:42:48,498 - INFO - ✅ Generated signals for DUSKUSDT
+2024-12-29 15:42:48,806 - INFO - ✅ Generated signals for FETUSDT
+2024-12-29 15:42:49,352 - INFO - ✅ Generated signals for ONGUSDT
+2024-12-29 15:42:50,114 - INFO - ✅ Generated signals for CTXCUSDT
+2024-12-29 15:42:50,493 - INFO - ✅ Generated signals for SCUSDT
+2024-12-29 15:42:50,777 - INFO - ✅ Generated signals for COSUSDT
+2024-12-29 15:42:51,059 - INFO - ✅ Generated signals for COTIUSDT
+2024-12-29 15:42:51,332 - INFO - ✅ Generated signals for VTHOUSDT
+2024-12-29 15:42:51,611 - INFO - ✅ Generated signals for UMAUSDT
+2024-12-29 15:42:51,627 - WARNING - No model available for FIROUSDT
+2024-12-29 15:42:51,904 - INFO - ✅ Generated signals for NEARUSDT
+2024-12-29 15:42:52,187 - INFO - ✅ Generated signals for WINUSDT
+2024-12-29 15:42:52,492 - INFO - ✅ Generated signals for FLMUSDT
+2024-12-29 15:42:52,770 - INFO - ✅ Generated signals for DATAUSDT
+2024-12-29 15:42:53,055 - INFO - ✅ Generated signals for AXSUSDT
+2024-12-29 15:42:53,341 - INFO - ✅ Generated signals for ONTUSDT
+2024-12-29 15:42:53,627 - INFO - ✅ Generated signals for SOLUSDT
+2024-12-29 15:42:53,634 - WARNING - No model available for TUSDUSDT
+2024-12-29 15:42:53,925 - INFO - ✅ Generated signals for KNCUSDT
+2024-12-29 15:42:54,234 - INFO - ✅ Generated signals for IOTAUSDT
+2024-12-29 15:42:54,540 - INFO - ✅ Generated signals for BALUSDT
+2024-12-29 15:42:54,554 - WARNING - No model available for USDCUSDT
+2024-12-29 15:42:54,848 - INFO - ✅ Generated signals for FIOUSDT
+2024-12-29 15:42:55,212 - INFO - ✅ Generated signals for DOGEUSDT
+2024-12-29 15:42:55,508 - INFO - ✅ Generated signals for IOSTUSDT
+2024-12-29 15:42:55,792 - INFO - ✅ Generated signals for MKRUSDT
+2024-12-29 15:42:55,796 - WARNING - No model available for GRTUSDT
+2024-12-29 15:42:56,074 - INFO - ✅ Generated signals for UNIUSDT
+2024-12-29 15:42:56,384 - INFO - ✅ Generated signals for TROYUSDT
+2024-12-29 15:42:56,691 - INFO - ✅ Generated signals for SANDUSDT
+2024-12-29 15:42:56,697 - WARNING - No model available for ACMUSDT
+2024-12-29 15:42:56,998 - INFO - ✅ Generated signals for ANKRUSDT
+2024-12-29 15:42:57,305 - INFO - ✅ Generated signals for NULSUSDT
+2024-12-29 15:42:57,309 - WARNING - No model available for CAKEUSDT
+2024-12-29 15:42:57,314 - WARNING - No model available for PSGUSDT
+2024-12-29 15:42:57,611 - INFO - ✅ Generated signals for BANDUSDT
+2024-12-29 15:42:57,916 - INFO - ✅ Generated signals for LTOUSDT
+2024-12-29 15:42:58,196 - INFO - ✅ Generated signals for DGBUSDT
+2024-12-29 15:42:58,211 - WARNING - No model available for ATMUSDT
+2024-12-29 15:42:58,489 - INFO - ✅ Generated signals for HBARUSDT
+2024-12-29 15:42:58,770 - INFO - ✅ Generated signals for FTMUSDT
+2024-12-29 15:42:59,041 - INFO - ✅ Generated signals for STPTUSDT
+2024-12-29 15:42:59,315 - INFO - ✅ Generated signals for INJUSDT
+2024-12-29 15:42:59,602 - INFO - ✅ Generated signals for DCRUSDT
+2024-12-29 15:42:59,889 - INFO - ✅ Generated signals for BCHUSDT
+2024-12-29 15:42:59,905 - WARNING - No model available for RIFUSDT
+2024-12-29 15:42:59,915 - WARNING - No model available for SFPUSDT
+2024-12-29 15:43:00,439 - INFO - ✅ Generated signals for AVAUSDT
+2024-12-29 15:43:00,713 - INFO - ✅ Generated signals for AAVEUSDT
+2024-12-29 15:43:01,003 - INFO - ✅ Generated signals for TRXUSDT
+2024-12-29 15:43:01,298 - INFO - ✅ Generated signals for MANAUSDT
+2024-12-29 15:43:01,608 - INFO - ✅ Generated signals for SUSHIUSDT
+2024-12-29 15:43:01,912 - INFO - ✅ Generated signals for HOTUSDT
+2024-12-29 15:43:02,220 - INFO - ✅ Generated signals for ICXUSDT
+2024-12-29 15:43:02,554 - INFO - ✅ Generated signals for LTCUSDT
+2024-12-29 15:43:02,856 - INFO - ✅ Generated signals for ZILUSDT
+2024-12-29 15:43:03,260 - INFO - ✅ Generated signals for YFIUSDT
+2024-12-29 15:43:03,274 - WARNING - No model available for CELOUSDT
+2024-12-29 15:43:03,564 - INFO - ✅ Generated signals for EOSUSDT
+2024-12-29 15:43:03,848 - INFO - ✅ Generated signals for CTSIUSDT
+2024-12-29 15:43:03,863 - WARNING - No model available for TRUUSDT
+2024-12-29 15:43:04,180 - INFO - ✅ Generated signals for AUDIOUSDT
+2024-12-29 15:43:04,622 - INFO - ✅ Generated signals for KAVAUSDT
+2024-12-29 15:43:04,908 - INFO - ✅ Generated signals for RLCUSDT
+2024-12-29 15:43:05,185 - INFO - ✅ Generated signals for ETCUSDT
+2024-12-29 15:43:05,498 - INFO - ✅ Generated signals for ZRXUSDT
+2024-12-29 15:43:05,804 - INFO - ✅ Generated signals for VITEUSDT
+2024-12-29 15:43:06,112 - INFO - ✅ Generated signals for ZENUSDT
+2024-12-29 15:43:06,419 - INFO - ✅ Generated signals for ARPAUSDT
+2024-12-29 15:43:06,755 - INFO - ✅ Generated signals for FTTUSDT
+2024-12-29 15:43:07,056 - INFO - ✅ Generated signals for CVCUSDT
+2024-12-29 15:43:07,447 - INFO - ✅ Generated signals for HARDUSDT
+2024-12-29 15:43:07,750 - INFO - ✅ Generated signals for BTCUSDT
+2024-12-29 15:43:08,035 - INFO - ✅ Generated signals for UTKUSDT
+2024-12-29 15:43:08,315 - INFO - ✅ Generated signals for DIAUSDT
+2024-12-29 15:43:08,321 - WARNING - No model available for BADGERUSDT
+2024-12-29 15:43:08,594 - INFO - ✅ Generated signals for RUNEUSDT
+2024-12-29 15:43:08,610 - WARNING - No model available for TWTUSDT
+2024-12-29 15:43:08,886 - INFO - ✅ Generated signals for ENJUSDT
+2024-12-29 15:43:09,184 - INFO - ✅ Generated signals for TFUELUSDT
+2024-12-29 15:43:09,493 - INFO - ✅ Generated signals for STRAXUSDT
+2024-12-29 15:43:09,796 - INFO - ✅ Generated signals for BELUSDT
+2024-12-29 15:43:10,102 - INFO - ✅ Generated signals for LUNAUSDT
+2024-12-29 15:43:10,374 - INFO - ✅ Generated signals for DENTUSDT
+2024-12-29 15:43:10,653 - INFO - ✅ Generated signals for CHRUSDT
+2024-12-29 15:43:10,949 - INFO - ✅ Generated signals for LINKUSDT
+2024-12-29 15:43:11,258 - INFO - ✅ Generated signals for CELRUSDT
+2024-12-29 15:43:11,548 - INFO - ✅ Generated signals for EGLDUSDT
+2024-12-29 15:43:11,859 - INFO - ✅ Generated signals for STORJUSDT
+2024-12-29 15:43:12,156 - INFO - ✅ Generated signals for STMXUSDT
+2024-12-29 15:43:12,461 - INFO - ✅ Generated signals for BNBUSDT
+2024-12-29 15:43:12,767 - INFO - ✅ Generated signals for NKNUSDT
+2024-12-29 15:43:13,069 - INFO - ✅ Generated signals for WINGUSDT
+2024-12-29 15:43:13,380 - INFO - ✅ Generated signals for CRVUSDT
+2024-12-29 15:43:13,655 - INFO - ✅ Generated signals for SKLUSDT
+2024-12-29 15:43:13,950 - INFO - ✅ Generated signals for BNTUSDT
+2024-12-29 15:43:14,253 - INFO - ✅ Generated signals for NMRUSDT
+2024-12-29 15:43:14,552 - INFO - ✅ Generated signals for CTKUSDT
+2024-12-29 15:43:14,836 - INFO - ✅ Generated signals for XLMUSDT
+2024-12-29 15:43:15,156 - INFO - ✅ Generated signals for QTUMUSDT
+2024-12-29 15:43:15,457 - INFO - ✅ Generated signals for AVAXUSDT
+2024-12-29 15:43:15,756 - INFO - ✅ Generated signals for PAXGUSDT
+2024-12-29 15:43:16,060 - INFO - ✅ Generated signals for IOTXUSDT
+2024-12-29 15:43:16,355 - INFO - ✅ Generated signals for MTLUSDT
+2024-12-29 15:43:21,111 - INFO - Formatted prices for CHZUSDT:
+2024-12-29 15:43:21,111 - INFO -   Entry: 0.0861
+2024-12-29 15:43:21,111 - INFO -   Target: 0.0874
+2024-12-29 15:43:21,111 - INFO -   Stop: 0.0852
+2024-12-29 15:43:21,379 - ERROR - Binance API error for CHZUSDT: APIError(code=-1013): Filter failure: LOT_SIZE
+2024-12-29 15:43:21,379 - ERROR - Attempted values - Quantity: 174.2, Entry: 0.0861, Target: 0.0874, Stop: 0.0852
+2024-12-29 15:43:23,589 - INFO - Formatted prices for NEOUSDT:
+2024-12-29 15:43:23,589 - INFO -   Entry: 14.15
+2024-12-29 15:43:23,589 - INFO -   Target: 14.36
+2024-12-29 15:43:23,589 - INFO -   Stop: 14.01
+2024-12-29 15:43:23,857 - INFO - Placed entry order for NEOUSDT:
+2024-12-29 15:43:23,857 - INFO -   Amount: 15 USDT
+2024-12-29 15:43:23,857 - INFO -   Quantity: 1.06
+2024-12-29 15:43:23,857 - INFO -   Entry Price: 14.15

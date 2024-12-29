@@ -549,7 +549,7 @@ class MultiPairTrader:
         for symbol in self.symbols:
             # Try both date formats
             file_path = None
-            for date_suffix in ['20241226', '20241227','20241228']:
+            for date_suffix in ['20241226', '20241227','20241228', '20241229', '20241230', '20241231']:
                 temp_path = Path(f'./data/symbols/{symbol}_{date_suffix}.json')
                 if temp_path.exists():
                     file_path = temp_path
