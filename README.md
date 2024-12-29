@@ -5,10 +5,8 @@ A sophisticated trading agent that uses deep learning to generate short-term tra
 ## Project Structure
 
 ```
-├── binance_data_detailed.py  # Data collection and preprocessing
-├── models_components.py      # Model training and signal generation
-├── binance_trading_bot.py    # Trading UI and execution
-└── .env                      # Environment variables for API keys
+Currently under refactoring
+use model_componets.py
 ```
 
 ## Features and Strategy
