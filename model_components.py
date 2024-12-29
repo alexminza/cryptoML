@@ -209,7 +209,7 @@ class ETHNNTrader:
         if self.model is None:
             return
             
-        model_dir = Path('./models')
+        model_dir = Path('./train_models')
         model_dir.mkdir(exist_ok=True)
         
         torch.save({
@@ -219,7 +219,7 @@ class ETHNNTrader:
         }, model_dir / f'{symbol}_model.pth')
         
     def load_model(self, symbol):
-        model_path = Path(f'./models/{symbol}_model.pth')
+        model_path = Path(f'./train_models/{symbol}_model.pth')
         if not model_path.exists():
             return False
             

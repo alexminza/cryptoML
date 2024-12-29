@@ -18,3 +18,10 @@ logs/
 crypto*.json
 opportunities*.json
 .streamlit/
+
+# Ignore compiled python bytecode
+__pycache__/
+*.py[cod]
+
+#training
+train_models/
