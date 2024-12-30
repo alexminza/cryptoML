@@ -4,9 +4,11 @@ A sophisticated trading agent that uses deep learning to generate short-term tra
 
 ## Project Structure
 
-```
 Currently under refactoring
-use model_componets.py
+
+```
+- binance_data_detailed.py (downalod data)
+- model_componets.py (train models for each pair & select the trades as per parameters)
 ```
 
 ## Features and Strategy
