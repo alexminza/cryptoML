@@ -4,7 +4,7 @@ import numpy as np
 import torch
 from sklearn.preprocessing import RobustScaler
 from typing import Tuple, Dict
-from train_models.crypto_dataset import CryptoDataset
+from models.crypto_dataset import CryptoDataset
 
 class DataProcessor:
     """Utility class for processing and preparing trading data"""

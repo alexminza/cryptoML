@@ -794,7 +794,7 @@ def main():
                 
                 individual_confidence = individual_signal.get('prediction', 0)
                 
-                if individual_confidence > 0.6:
+                if individual_confidence > 0.85:
                     market_conditions = individual_signal.get('market_conditions', {})
                     
                     print(f"\n{symbol} - Trading Opportunity")

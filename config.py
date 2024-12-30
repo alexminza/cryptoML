@@ -8,7 +8,7 @@ class Config:
     
     # Paths
     DATA_DIR: Path = Path('./data/symbols/')
-    MODEL_DIR: Path = Path('./models')
+    MODEL_DIR: Path = Path('./train_models')
     
     # Dates
     START_DATE: str = '2024-01-01'
@@ -19,7 +19,7 @@ class Config:
     BATCH_SIZE: int = 256
     MIN_EPOCHS: int = 100
     PATIENCE: int = 50
-    CONFIDENCE_THRESHOLD: float = 0.6
+    CONFIDENCE_THRESHOLD: float = 0.8
     
     # Trading parameters
     ENTRY_PRICE_FACTOR: float = 0.995  # 0.5% below current price

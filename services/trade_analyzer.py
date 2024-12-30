@@ -9,7 +9,7 @@ import os
 
 from utils.data_processor import DataProcessor
 from utils.market_analysis import MarketAnalyzer
-from train_models.price_predictor import PricePredictor
+from models.price_predictor import PricePredictor
 
 @dataclass
 class TradeSignal:
