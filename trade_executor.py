@@ -5,6 +5,9 @@ from typing import Dict, Optional, List, Tuple
 import time
 import numpy as np
 from binance.client import Client
+import hmac
+import hashlib
+import requests
 from binance.exceptions import BinanceAPIException
 from config import Config
 from utils.logging_setup import setup_logging
@@ -134,29 +137,15 @@ class TradeExecutor:
         except Exception as e:
             self.logger.error(f"Error calculating quantity for {symbol}: {e}")
             return None
-            
-    def wait_for_order_fill(self, symbol: str, order_id: str, timeout: int = 60) -> bool:
-        """Wait for an order to be filled"""
-        start_time = time.time()
-        while time.time() - start_time < timeout:
-            order = self.client.get_order(symbol=symbol, orderId=order_id)
-            if order['status'] == 'FILLED':
-                return True
-            elif order['status'] in ['CANCELED', 'REJECTED', 'EXPIRED']:
-                self.logger.error(f"Order failed with status: {order['status']}")
-                return False
-            time.sleep(2)  # Wait 2 seconds before checking again
-        return False
 
     def execute_trade(self, symbol: str, signal: TradeSignal, usdt_amount: float) -> bool:
-        """Execute a trade with limit entry, TP, and SL"""
+        """Execute a trade using OTOCO order (One-Triggers-One-Cancels-Other)"""
         try:
-            # Get symbol info
+            # Get symbol info and calculate quantities/prices
             symbol_info = self.get_symbol_info(symbol)
             if not symbol_info:
                 return False
 
-            # Calculate quantity
             quantity = self.calculate_quantity(symbol, signal.entry_price, usdt_amount)
             if not quantity:
                 return False
@@ -166,61 +155,89 @@ class TradeExecutor:
             target_price = self.format_price(signal.target_price, symbol_info)
             stop_price = self.format_price(signal.stop_price, symbol_info)
 
-            # Print formatted prices for verification
-            self.logger.info(f"Formatted prices for {symbol}:")
+            # Log formatted prices
+            self.logger.info(f"Trade parameters for {symbol}:")
             self.logger.info(f"  Entry: {entry_price}")
             self.logger.info(f"  Target: {target_price}")
             self.logger.info(f"  Stop: {stop_price}")
-                
-            # Place limit entry order
-            entry_order = self.client.create_order(
-                symbol=symbol,
-                side=Client.SIDE_BUY,
-                type=Client.ORDER_TYPE_LIMIT,
-                timeInForce=Client.TIME_IN_FORCE_GTC,
-                quantity=quantity,
-                price=entry_price
-            )
-            
-            self.logger.info(f"Placed entry order for {symbol}:")
-            self.logger.info(f"  Amount: {usdt_amount} USDT")
             self.logger.info(f"  Quantity: {quantity}")
-            self.logger.info(f"  Entry Price: {entry_price}")
 
-            # Wait for entry order to be filled
-            if not self.wait_for_order_fill(symbol, entry_order['orderId']):
-                self.logger.error(f"Entry order for {symbol} was not filled within timeout")
-                return False
-
-            # Place OCO orders after entry is filled
-            params = {
+            # Prepare OTOCO order parameters
+            otoco_params = {
                 "symbol": symbol,
-                "side": "SELL",
-                "quantity": quantity,
-                "price": target_price,  # Take profit price
-                "stopPrice": stop_price,
-                "stopLimitPrice": stop_price,
-                "stopLimitTimeInForce": "GTC",
-                "listClientOrderId": f"oco_{symbol}_{int(time.time())}"
+                "timestamp": str(int(time.time() * 1000)),
+                
+                # Entry order (working order)
+                "workingType": "LIMIT",
+                "workingSide": "BUY",
+                "workingTimeInForce": "GTC",
+                "workingPrice": str(entry_price),
+                "workingQuantity": str(quantity),
+                
+                # Common parameters for pending orders
+                "pendingSide": "SELL",
+                "pendingQuantity": str(quantity),
+                
+                # Take Profit order (pending above)
+                "pendingAboveType": "TAKE_PROFIT_LIMIT",
+                "pendingAbovePrice": str(target_price),
+                "pendingAboveStopPrice": str(target_price),
+                "pendingAboveTimeInForce": "GTC",
+                
+                # Stop Loss order (pending below)
+                "pendingBelowType": "STOP_LOSS_LIMIT",
+                "pendingBelowPrice": str(stop_price),
+                "pendingBelowStopPrice": str(stop_price),
+                "pendingBelowTimeInForce": "GTC",
+                
+                # Additional parameters
+                "recvWindow": "5000",
+                "listClientOrderId": f"otoco_{symbol}_{int(time.time())}"
             }
 
-            # Create OCO order using low-level API call
-            oco_order = self.client._request_margin_api('post', 'order/oco', True, data=params)
+            # Generate signature
+            query_string = '&'.join([f"{key}={value}" for key, value in sorted(otoco_params.items())])
+            signature = hmac.new(
+                bytes(self.client.API_SECRET, 'utf-8'),
+                query_string.encode('utf-8'),
+                hashlib.sha256
+            ).hexdigest()
+            query_string = f"{query_string}&signature={signature}"
+
+            # Send OTOCO order request
+            endpoint = 'https://api.binance.com/api/v3/orderList/otoco'
+            headers = {
+                'X-MBX-APIKEY': self.client.API_KEY,
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+
+            self.logger.info(f"Sending OTOCO request for {symbol}")
+            response = requests.post(f"{endpoint}?{query_string}", headers=headers)
+
+            if response.status_code != 200:
+                error_message = f"API Error: {response.status_code} - {response.text}"
+                self.logger.error(error_message)
+                return False
+
+            response_data = response.json()
+            order_status = response_data.get('listOrderStatus')
             
-            self.logger.info(f"Placed OCO order for {symbol}:")
-            self.logger.info(f"  Take Profit: {target_price}")
-            self.logger.info(f"  Stop Loss: {stop_price}")
-            
+            # Log order details
+            self.logger.info(f"OTOCO order placed for {symbol}:")
+            self.logger.info(f"  Order List ID: {response_data.get('orderListId')}")
+            self.logger.info(f"  Status: {order_status}")
+
+            # Check if order was accepted
+            if order_status not in ['EXECUTING', 'ALL_DONE']:
+                self.logger.error(f"OTOCO order not accepted. Status: {order_status}")
+                return False
+
             return True
-            
-        except BinanceAPIException as e:
-            self.logger.error(f"Binance API error for {symbol}: {e}")
+
+        except Exception as e:
+            self.logger.error(f"Error executing OTOCO trade for {symbol}: {e}")
             if hasattr(e, 'response') and e.response:
                 self.logger.error(f"Response: {e.response.text}")
-            self.logger.error(f"Attempted values - Quantity: {quantity}, Entry: {entry_price}, Target: {target_price}, Stop: {stop_price}")
-            return False
-        except Exception as e:
-            self.logger.error(f"Error executing trade for {symbol}: {e}")
             return False
 
 def execute_trades():
