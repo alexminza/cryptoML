@@ -23,5 +23,8 @@ opportunities*.json
 __pycache__/
 *.py[cod]
 
+# Ignore logs
+*.log
+
 #training
 train_models/
