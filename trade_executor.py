@@ -141,70 +141,79 @@ class TradeExecutor:
     def execute_trade(self, symbol: str, signal: TradeSignal, usdt_amount: float) -> bool:
         """Execute a trade using OTOCO order (One-Triggers-One-Cancels-Other)"""
         try:
-            # Get symbol info and calculate quantities/prices
+            # Get current market conditions and symbol info
             symbol_info = self.get_symbol_info(symbol)
             if not symbol_info:
                 return False
 
+            # Get current market price
+            ticker = self.client.get_symbol_ticker(symbol=symbol)
+            market_price = float(ticker['price'])
+
+            # Calculate quantity
             quantity = self.calculate_quantity(symbol, signal.entry_price, usdt_amount)
             if not quantity:
                 return False
 
             # Format prices according to symbol's price filter
-            entry_price = self.format_price(signal.entry_price, symbol_info)
-            target_price = self.format_price(signal.target_price, symbol_info)
-            stop_price = self.format_price(signal.stop_price, symbol_info)
+            price_filter = next(f for f in symbol_info['filters'] if f['filterType'] == 'PRICE_FILTER')
+            decimals = len(str(float(price_filter['tickSize'])).rstrip('0').split('.')[-1])
 
-            # Log formatted prices
+            # Calculate prices
+            entry_price = round(market_price * 0.998, decimals)  # -0.2% entry
+            target_price = round(entry_price * 1.015, decimals)  # +1.5% from entry
+            stop_price = round(entry_price * 0.995, decimals)   # -0.5% from entry
+
+            # Log trade parameters
             self.logger.info(f"Trade parameters for {symbol}:")
+            self.logger.info(f"  Market price: {market_price}")
             self.logger.info(f"  Entry: {entry_price}")
             self.logger.info(f"  Target: {target_price}")
             self.logger.info(f"  Stop: {stop_price}")
             self.logger.info(f"  Quantity: {quantity}")
 
-            # Prepare OTOCO order parameters
+            # Build OTOCO order parameters
             otoco_params = {
                 "symbol": symbol,
                 "timestamp": str(int(time.time() * 1000)),
                 
-                # Entry order (working order)
+                # Order A: Limit Buy Entry
                 "workingType": "LIMIT",
                 "workingSide": "BUY",
                 "workingTimeInForce": "GTC",
                 "workingPrice": str(entry_price),
                 "workingQuantity": str(quantity),
                 
-                # Common parameters for pending orders
+                # Pending Orders Direction
                 "pendingSide": "SELL",
                 "pendingQuantity": str(quantity),
                 
-                # Take Profit order (pending above)
-                "pendingAboveType": "TAKE_PROFIT_LIMIT",
+                # Order B: Take Profit (Limit Maker)
+                "pendingAboveType": "LIMIT_MAKER",
                 "pendingAbovePrice": str(target_price),
-                "pendingAboveStopPrice": str(target_price),
-                "pendingAboveTimeInForce": "GTC",
                 
-                # Stop Loss order (pending below)
-                "pendingBelowType": "STOP_LOSS_LIMIT",
-                "pendingBelowPrice": str(stop_price),
+                # Order C: Stop Loss (Stop Loss Market)
+                "pendingBelowType": "STOP_LOSS",
                 "pendingBelowStopPrice": str(stop_price),
-                "pendingBelowTimeInForce": "GTC",
                 
-                # Additional parameters
-                "recvWindow": "5000",
-                "listClientOrderId": f"otoco_{symbol}_{int(time.time())}"
+                "recvWindow": "5000"
             }
 
-            # Generate signature
-            query_string = '&'.join([f"{key}={value}" for key, value in sorted(otoco_params.items())])
+            # Generate signature string
+            sorted_params = dict(sorted(otoco_params.items()))
+            query_string = '&'.join([f"{key}={value}" for key, value in sorted_params.items()])
+            
+            # Create signature
             signature = hmac.new(
                 bytes(self.client.API_SECRET, 'utf-8'),
                 query_string.encode('utf-8'),
                 hashlib.sha256
             ).hexdigest()
+
+            # Add signature to query string
             query_string = f"{query_string}&signature={signature}"
 
-            # Send OTOCO order request
+            # Send OTOCO request
             endpoint = 'https://api.binance.com/api/v3/orderList/otoco'
             headers = {
                 'X-MBX-APIKEY': self.client.API_KEY,
@@ -220,17 +229,21 @@ class TradeExecutor:
                 return False
 
             response_data = response.json()
-            order_status = response_data.get('listOrderStatus')
             
             # Log order details
             self.logger.info(f"OTOCO order placed for {symbol}:")
             self.logger.info(f"  Order List ID: {response_data.get('orderListId')}")
-            self.logger.info(f"  Status: {order_status}")
-
-            # Check if order was accepted
-            if order_status not in ['EXECUTING', 'ALL_DONE']:
-                self.logger.error(f"OTOCO order not accepted. Status: {order_status}")
-                return False
+            self.logger.info(f"  Status: {response_data.get('listStatusType')}")
+            
+            for report in response_data.get('orderReports', []):
+                order_type = report.get('type', '')
+                self.logger.info(f"\n  {order_type} Order:")
+                self.logger.info(f"    Order ID: {report.get('orderId')}")
+                self.logger.info(f"    Side: {report.get('side')}")
+                self.logger.info(f"    Price: {report.get('price')}")
+                if 'stopPrice' in report:
+                    self.logger.info(f"    Stop Price: {report.get('stopPrice')}")
+                self.logger.info(f"    Status: {report.get('status')}")
 
             return True
 
