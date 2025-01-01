@@ -25,6 +25,7 @@ __pycache__/
 
 # Ignore logs
 *.log
+*.csv
 
 #training
 train_models/
