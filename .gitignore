@@ -13,6 +13,7 @@ logs/
 
 # Ignore environment files
 .env
+.venv/
 
 # Ignore operational files
 crypto*.json
